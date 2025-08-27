@@ -1,0 +1,40 @@
+{
+  "extracted_invoice_values": {
+    "invoice_number": "310",
+    "patient_name": "Shivanya Paterkar",
+    "services": [
+      {
+        "service": "Consultation Fees",
+        "amount": 900,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 900,
+    "doctor_name": "Dr. DEVANG K. SHAH",
+    "facility": "MAHAVIR CLINIC, 101/B, Mrud Kishore Bldg., Dattapada Fatak Road, Borivali (W), Mumbai-400 092, Tel.: 6697 5272",
+    "invoice_date": "3.7.25",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  },
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName of the Patient:: Paterkar\nShivanya\nName of the Patient:: Paterkar\nShivanya\n\n=== SUPPLIER INFORMATION ===\nADDRESS: MAHAVIR CLINIC\n101/B, Mrud Kishore Bldg., Dattapada Fatak Road, Borivali (W).\nSTREET: 101/B, Mrud Kishore Bldg., Dattapada Fatak Road,\nCITY: Borivali\nNAME: MAHAVIR CLINIC\nADDRESS_BLOCK: 101/B, Mrud Kishore Bldg., Dattapada Fatak Road, Borivali\nADDRESS: MAHAVIR CLINIC\n101-B, Wing, Mrud KSignatureBldg.\nDattapada Fatak Road,\nBorivali (West), Mumbai-400 092.\nSTREET: 101-B, Wing, Mrud KSignatureBldg.\nDattapada Fatak Road,\nZIP_CODE: Mumbai-400 092.\nNAME: MAHAVIR CLINIC\nADDRESS_BLOCK: 101-B, Wing, Mrud KSignatureBldg.\nDattapada Fatak Road,\nBorivali (West), Mumbai-400 092.\nVENDOR_ADDRESS: MAHAVIR CLINIC\n101/B, Mrud Kishore Bldg., Dattapada Fatak Road, Borivali (W).\nVENDOR_ADDRESS: MAHAVIR CLINIC\n101-B, Wing, Mrud KSignatureBldg.\nDattapada Fatak Road,\nBorivali (West), Mumbai-400 092.\nVENDOR_NAME: MAHAVIR CLINIC\nVENDOR_NAME: MAHAVIR CLINIC\nTel. :: 6697 5272\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: 3.7.25 No.: 310 Reg. No.: 65875  | \n\nRaw Text Content:\nTel. : 6697 5272\nDr. DEVANG K. SHAH\nM. D. (Paed), D. C. H.\nConsulting Paediatrician & Neonatologist\nMAHAVIR CLINIC\n101/B, Mrud Kishore Bldg., Dattapada Fatak Road, Borivali (W).\nNo.\n310\nDate 3.7.25\nName of the Patient: Shivanya\nPaterkar\nReceived From Mrs. / Mr.\nHospital\nMahavir\nConsultation Fees\n...\n...\nFollow up\n...\n...\n900\nMiscellaneous\n...\n...\n(Visits / Vaccines I Procedure )\n3\nTotal\nDr. Devang K , Straft\n9\nM.D. (Paed), D.C.H.\nReg. No. 65875\nMAHAVIR CLINIC\n101-B, Wing, Mrud KSignatureBldg.\nDattapada Fatak Road,\nBorivali (West), Mumbai-400 092."
+}

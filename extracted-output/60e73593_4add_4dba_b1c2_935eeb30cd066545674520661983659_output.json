@@ -1,0 +1,40 @@
+{
+  "extracted_invoice_values": {
+    "invoice_number": "233",
+    "patient_name": "Kallikeyen",
+    "services": [
+      {
+        "service": "Consultation",
+        "amount": 400,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 400,
+    "doctor_name": "Dr. (Mrs.) E. GEETHA",
+    "facility": "Dr. (Mrs.) E. GEETHA, M.B.B.S., D.G.O., C-68, Hindu Colony, M.G.R. Road, NANGANALLUR, CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619",
+    "invoice_date": "5/0 24",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  },
+  "raw_text": "=== SUPPLIER INFORMATION ===\nNAME: Dr. (Mrs.) E. GEETHA,\nVENDOR_NAME: Dr. (Mrs.) E. GEETHA,\nPhone :: 98405 73487\nVENDOR_PHONE: 98403 06619\nVENDOR_PHONE: 2224 1195\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 24\n5/0 Receipt No. :: 233 Received a sum of Rs.: 400 from: Kallikeyen \n\nRaw Text Content:\nDr. (Mrs.) E. GEETHA, M.B.B.S.,\nD.G.O.\nC-68, Hindu Colony, M.G.R. Road, NANGANALLUR,\nCHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\n233\nRECEIPT\nReceipt No. :\nDate : 5/0 24\nReceived a sum of Rs.\n400\n/- (Rupees\nOnly)\nfrom\nKallikeyen\ntowards Consultation / Vaccination / Injection s/ Dressings /\nare\nRetd. CHIEF CIVIL SURGEON REG: No. 41626\nDr. (MRS)E.GEETHA, MBBS.,D.G.O.,\nCHEPAUK DISPENARY ATTACHED TO\nAUTHORISED MEDICAL ATTENDANT\nGOVT. GENERDR.HEAGGEE THANNAI"
+}
