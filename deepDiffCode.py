@@ -10,17 +10,29 @@ def validate_json(expected_json_str, predicted_json_str):
 
     diff = DeepDiff(expected, predicted, ignore_order=True)
 
-    return {
+    feedback = []
+    for category, changes in diff.items():
+        for path, change in (changes.items() if isinstance(changes, dict) else enumerate(changes)):
+            feedback.append(f"{category}: {path} → {change}")
+
+    result = {
         "valid": len(diff) == 0,
-        "differences": diff.to_dict()
+        "differences": diff.to_dict(),
     }
+
+    if result["valid"]:
+        result["feedback"] = "Both the JSONs match exactly"
+    else:
+        result["feedback"] = "The output JSON does not match the expected JSON.\n- " + "\n- ".join(feedback)
+
+    return result
 expected_json, extracted_json = r"""{
   "extracted_invoice_values": {
     "invoice_number": "41854 2024-2025",
     "patient_name": "mst. Jaksh Sandeep Adarkar",
     "services": [
       {
-        "service": "Regular Consultation by Dr. Shailesh R Barot",
+        "service": "Regular Consultation by. Shailesh R Barot",
         "amount": 500,
         "quantity": 1,
         "department": "consultation",
