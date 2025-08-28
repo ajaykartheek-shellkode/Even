@@ -1,0 +1,334 @@
+"""
+Direct MIPROv2 Test - Simpler approach
+Shows optimization process and optimized prompts
+"""
+
+import json
+import dspy
+from deepDiffCode import validate_json
+
+# Simple Bedrock wrapper
+class SimpleBedrock:
+    def __init__(self):
+        import boto3
+        import botocore
+        config = botocore.config.Config(read_timeout=1800, connect_timeout=1800, retries={'max_attempts': 10})
+        self.client = boto3.client('bedrock-runtime', region_name='ap-south-1', config=config)
+        self.calls = []
+    
+    def call_bedrock(self, prompt):
+        try:
+            response = self.client.converse(
+                modelId="apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+                messages=[{"role": "user", "content": [{"text": prompt}]}],
+                inferenceConfig={"temperature": 0.0, "maxTokens": 8000}
+            )
+            result = response['output']['message']['content'][0]['text']
+            self.calls.append({"prompt": prompt, "response": result})
+            return result
+        except Exception as e:
+            return f"Error: {e}"
+
+def create_invoice_prompt(raw_text):
+    """Create extraction prompt"""
+    return f"""Extract structured invoice data from the following raw text and return ONLY valid JSON:
+
+Raw text:
+{raw_text}
+
+Return JSON in this exact format:
+{{
+  "extracted_invoice_values": {{
+    "invoice_number": "",
+    "patient_name": "",
+    "services": [{{
+      "service": "",
+      "amount": 0,
+      "quantity": 0,
+      "department": "",
+      "unit": null,
+      "mrp": 0,
+      "cgst": 0,
+      "cgst_type": null,
+      "sgst": 0,
+      "sgst_type": null,
+      "gst": 0,
+      "gst_type": null
+    }}],
+    "total_amount": 0,
+    "doctor_name": "",
+    "facility": "",
+    "invoice_date": "",
+    "payment_mode": null,
+    "patient_age": "",
+    "patient_gender": "",
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }}
+}}
+
+Extract:
+- patient_age: Include units like "2.3 Years" if mentioned
+- patient_gender: Extract "Male" or "Female" correctly from text
+- All other fields as specified
+
+Return only the JSON, no other text."""
+
+def create_optimized_prompt(raw_text, differences):
+    """Create optimized prompt based on differences"""
+    return f"""Extract structured invoice data from the following raw text and return ONLY valid JSON.
+
+CRITICAL INSTRUCTIONS based on previous errors:
+- For patient_age: MUST include units like "Years" if mentioned in text (e.g., "2.3 Years" not just "2.3")  
+- For patient_gender: Look carefully for "Male" or "Female" in text - check "Gender / Age" sections
+- Pay attention to exact text formatting and units
+
+Raw text:
+{raw_text}
+
+Return JSON in this exact format:
+{{
+  "extracted_invoice_values": {{
+    "invoice_number": "",
+    "patient_name": "",
+    "services": [{{
+      "service": "",
+      "amount": 0,
+      "quantity": 0,
+      "department": "",
+      "unit": null,
+      "mrp": 0,
+      "cgst": 0,
+      "cgst_type": null,
+      "sgst": 0,
+      "sgst_type": null,
+      "gst": 0,
+      "gst_type": null
+    }}],
+    "total_amount": 0,
+    "doctor_name": "",
+    "facility": "",
+    "invoice_date": "",
+    "payment_mode": null,
+    "patient_age": "",
+    "patient_gender": "",
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }}
+}}
+
+REMEMBER:
+- Extract patient_age WITH units from "Gender / Age :: Male / 2.3 Years"
+- Extract patient_gender correctly from "Gender / Age :: Male / 2.3 Years"
+
+Return only the JSON, no other text."""
+
+def simulate_mipro_optimization():
+    """Simulate MIPROv2 optimization process"""
+    
+    # Test data
+    raw_text = """=== CUSTOMER INFORMATION ===
+Patient Name :: mst. Jaksh Sandeep
+Adarkar
+Patient Name :: mst. Jaksh Sandeep
+Adarkar
+
+=== SUPPLIER INFORMATION ===
+ADDRESS: MULTISPECIALITY
+PEDIATRIC
+ANKUR
+204, Thakur Tower, Raja C.S. Marg, Mirar (W) 401303
+STREET: 204, Thakur Tower, Raja C.S. Marg,
+CITY: Mirar (W)
+ZIP_CODE: 401303
+ADDRESS_BLOCK: 204, Thakur Tower, Raja C.S. Marg, Mirar (W) 401303
+NAME: HOSPITAL LLP
+MULTISPECIALITY
+NAME: ankur
+VENDOR_ADDRESS: MULTISPECIALITY
+PEDIATRIC
+ANKUR
+204, Thakur Tower, Raja C.S. Marg, Mirar (W) 401303
+VENDOR_NAME: HOSPITAL LLP
+MULTISPECIALITY
+VENDOR_NAME: ankur
+Mob:: 8975778866/
+VENDOR_PHONE: 9921487700
+
+=== ADDITIONAL DOCUMENT DETAILS ===
+
+Amount Paid
+:: 500.00 Bill Date :: 22/01/2025 Bill No. :: 41854 2024-2025 SUBTOTAL: Five Hundred Only Net Amount
+:: 500.00 Amount Receivable
+:: 500.00 Amount Receivable
+:: 500.00 TOTAL: Five Hundred Only No:: 41 Time: 9: 00 Reg No.:: WCMC/C-H-123/2013 Time: :09:29 PM UHID No. :: 42760 Gender / Age :: Male / 2.3 Years Dept. :: Paediatric Consulting Doc. :: Dr. Shailesh R Barot Referred By :: Self Bill Generated by :: Varsha Printed On Date & Time :: 22/01/2025 9: 29PM Activation Key:: 036900042760 SNo.: 1 Service: Regular Consultation by Dr.
+Shailesh R Barot Rate: 500.00 Qty: 1 Amount: 500.00  | 
+
+Raw Text Content:
+Cultivating a better Tomorrow
+No:41 Time 9:00
+ANKUR PEDIATRIC MULTISPECIALITY HOSPITAL LLP
+ankur
+204, Thakur Tower, Raja C.S. Marg, Mirar (W) 401303
+P0250-2503059/2506508 Mob: - 8975778866/ 9921487700
+Reg No.: WCMC/C-H-123/2013
+BILL CUM RECEIPT
+Bill No.
+: 41854 2024-2025
+Bill Date
+: 22/01/2025
+Time
+:09:29 PM
+Patient Name
+: mst. Jaksh Sandeep
+UHID No.
+: 42760
+Adarkar
+Gender / Age
+: Male / 2.3 Years
+Dept.
+: Paediatric
+Consulting Doc.
+: Dr. Shailesh R Barot
+Referred By
+: Self
+SNo. Service
+Rate
+Qty
+Amount
+1
+Regular Consultation by Dr.
+500.00
+1
+Shailesh R Barot
+500.00
+Five Hundred Only
+Net Amount
+:
+500.00
+Amount Receivable
+Five Hundred Only
+:
+500.00
+Amount Paid
+Bill Generated by : Varsha
+:
+500.00
+This bill was printed using Caresoft HIS www.caresoft.co.in by : Varsha
+Printed On Date & Time : 22/01/2025 9:29PM
+Appointment App Android:
+IOS:
+Authorized Signatory
+Activation Key: 036900042760
+0U2140//00"""
+
+    expected = {
+        "extracted_invoice_values": {
+            "invoice_number": "41854 2024-2025",
+            "patient_name": "mst. Jaksh Sandeep Adarkar",
+            "services": [{
+                "service": "Regular Consultation by Dr. Shailesh R Barot",
+                "amount": 500,
+                "quantity": 1,
+                "department": "consultation",
+                "unit": None,
+                "mrp": 0,
+                "cgst": 0,
+                "cgst_type": None,
+                "sgst": 0,
+                "sgst_type": None,
+                "gst": 0,
+                "gst_type": None
+            }],
+            "total_amount": 500,
+            "doctor_name": "Dr. Shailesh R Barot",
+            "facility": "ANKUR PEDIATRIC MULTISPECIALITY HOSPITAL LLP, 204, Thakur Tower, Raja C.S. Marg, Mirar (W) 401303, Mob: - 8975778866/ 9921487700, Reg No.: WCMC/C-H-123/2013",
+            "invoice_date": "22/01/2025",
+            "payment_mode": None,
+            "patient_age": "2.3 Years",
+            "patient_gender": "Male",
+            "patient_contact": None,
+            "cgst": 0,
+            "cgst_type": None,
+            "sgst": 0,
+            "sgst_type": None,
+            "gst": 0,
+            "gst_type": None,
+            "discount": 0,
+            "mrp": 0,
+            "round_off": 0
+        }
+    }
+
+    bedrock = SimpleBedrock()
+    
+    print("MIPRO OPTIMIZATION SIMULATION")
+    print("=" * 60)
+    
+    # Step 1: Test base prompt
+    print("Step 1: Testing base prompt...")
+    base_prompt = create_invoice_prompt(raw_text)
+    base_response = bedrock.call_bedrock(base_prompt)
+    
+    try:
+        base_extracted = json.loads(base_response)
+        base_validation = validate_json(expected, base_extracted)
+        print(f"Base score: {base_validation['score']:.3f}")
+        print("Base differences:")
+        print(base_validation['differences_pretty'])
+    except Exception as e:
+        print(f"Base extraction failed: {e}")
+        base_validation = {'score': 0.0, 'differences_pretty': 'JSON parse error'}
+    
+    # Step 2: Create optimized prompt based on feedback
+    print(f"\nStep 2: Creating optimized prompt based on feedback...")
+    optimized_prompt = create_optimized_prompt(raw_text, base_validation['differences_pretty'])
+    
+    # Step 3: Test optimized prompt  
+    print("Step 3: Testing optimized prompt...")
+    optimized_response = bedrock.call_bedrock(optimized_prompt)
+    
+    try:
+        optimized_extracted = json.loads(optimized_response)
+        optimized_validation = validate_json(expected, optimized_extracted)
+        print(f"Optimized score: {optimized_validation['score']:.3f}")
+        print("Optimized differences:")
+        print(optimized_validation['differences_pretty'])
+        
+        improvement = optimized_validation['score'] - base_validation['score']
+        print(f"\nImprovement: {improvement:.3f}")
+        
+    except Exception as e:
+        print(f"Optimized extraction failed: {e}")
+    
+    # Show prompts
+    print(f"\n{'='*60}")
+    print("BASE PROMPT:")
+    print("="*60)
+    print(base_prompt)
+    
+    print(f"\n{'='*60}")
+    print("OPTIMIZED PROMPT:")
+    print("="*60)
+    print(optimized_prompt)
+    
+    print(f"\nTotal API calls: {len(bedrock.calls)}")
+
+if __name__ == "__main__":
+    simulate_mipro_optimization()

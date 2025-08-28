@@ -784,6 +784,26 @@ def process_single_file(file_path, bucket_name, region_name, output_folder):
             'status': 'error',
             'error': str(e)
         }
+    
+def extract_invoice(file_path, bucket_name="even-ocr-poc", region_name="ap-south-1",
+                output_folder=r"C:\Users\sajay\OneDrive\Desktop\Shellkode\Even-V4\extracted_output"):
+    """
+    Extract invoice data from a single file.
+    - Saves the extracted JSON to the output folder
+    - Returns the extracted invoice data (dict) to the caller
+    """
+    result = process_single_file(
+        file_path=file_path,
+        bucket_name=bucket_name,
+        region_name=region_name,
+        output_folder=output_folder
+    )
+
+    if result["status"] == "success":
+        return result["invoice_data"] 
+    else:
+        raise Exception(f"Error processing {file_path}: {result['error']}")
+
 
 
 def main():
