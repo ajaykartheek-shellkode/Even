@@ -1,3 +1,0 @@
-{
-  "raw": "<<<JSON_START>>>\n{\"extracted_invoice_values\": {\"invoice_number\":\"41854 2024-2025\",\"patient_name\":\"mst. Jaksh Sandeep Adarkar\",\"services\":[{\"service\":\"Regular Consultation by Dr. Shailesh R Barot\",\"amount\":500.00,\"quantity\":1,\"department\":\"Paediatric\"}],\"total_amount\":500.00,\"doctor_name\":\"Dr. Shailesh R Barot\",\"facility\":\"ANKUR PEDIATRIC MULTISPECIALITY HOSPITAL LLP\",\"invoice_date\":\"22/01/2025\",\"payment_mode\":null,\"patient_age\":\"2.3 Years\",\"patient_gender\":\"Male\",\"patient_contact\":null,\"discount\":0}}\n<<<JSON_END>>>"
-}

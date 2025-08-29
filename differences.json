@@ -7,12 +7,6 @@
         "old_value": 0,
         "new_value": null
       },
-      "root['extracted_invoice_values']['payment_mode']": {
-        "old_type": "NoneType",
-        "new_type": "str",
-        "old_value": null,
-        "new_value": "Cash"
-      },
       "root['extracted_invoice_values']['mrp']": {
         "old_type": "int",
         "new_type": "NoneType",
@@ -22,9 +16,9 @@
     },
     "values_changed": {
       "root['extracted_invoice_values']['facility']": {
-        "new_value": "Dr. (Mrs.) E. GEETHA, M.B.B.S.,\nD.G.O.\nC-68, Hindu Colony, M.G.R. Road, NANGANALLUR,\nCHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\nRetd. CHIEF CIVIL SURGEON REG: No. 41626\nAUTHORISED MEDICAL ATTENDANT\nCHEPAUK DISPENARY ATTACHED TO\nGOVT. GENERDR.HEAGGEE THANNAI",
+        "new_value": "Dr. (Mrs.) E. GEETHA, M.B.B.S.,\nD.G.O.\nC-68, Hindu Colony, M.G.R. Road, NANGANALLUR,\nCHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\nRetd. CHIEF CIVIL SURGEON REG: No. 41626\nDr. (MRS)E.GEETHA, MBBS.,D.G.O.,\nCHEPAUK DISPENARY ATTACHED TO\nAUTHORISED MEDICAL ATTENDANT\nGOVT. GENERDR.HEAGGEE THANNAI",
         "old_value": "Dr. (Mrs.) E. GEETHA, M.B.B.S., D.G.O., C-68, Hindu Colony, M.G.R. Road, NANGANALLUR, CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619",
-        "diff": "--- \n+++ \n@@ -1 +1,8 @@\n-Dr. (Mrs.) E. GEETHA, M.B.B.S., D.G.O., C-68, Hindu Colony, M.G.R. Road, NANGANALLUR, CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\n+Dr. (Mrs.) E. GEETHA, M.B.B.S.,\n+D.G.O.\n+C-68, Hindu Colony, M.G.R. Road, NANGANALLUR,\n+CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\n+Retd. CHIEF CIVIL SURGEON REG: No. 41626\n+AUTHORISED MEDICAL ATTENDANT\n+CHEPAUK DISPENARY ATTACHED TO\n+GOVT. GENERDR.HEAGGEE THANNAI"
+        "diff": "--- \n+++ \n@@ -1 +1,9 @@\n-Dr. (Mrs.) E. GEETHA, M.B.B.S., D.G.O., C-68, Hindu Colony, M.G.R. Road, NANGANALLUR, CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\n+Dr. (Mrs.) E. GEETHA, M.B.B.S.,\n+D.G.O.\n+C-68, Hindu Colony, M.G.R. Road, NANGANALLUR,\n+CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\n+Retd. CHIEF CIVIL SURGEON REG: No. 41626\n+Dr. (MRS)E.GEETHA, MBBS.,D.G.O.,\n+CHEPAUK DISPENARY ATTACHED TO\n+AUTHORISED MEDICAL ATTENDANT\n+GOVT. GENERDR.HEAGGEE THANNAI"
       }
     }
   },

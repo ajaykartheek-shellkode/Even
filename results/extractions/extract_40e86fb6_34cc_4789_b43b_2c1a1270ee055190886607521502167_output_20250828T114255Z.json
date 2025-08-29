@@ -1,3 +1,0 @@
-{
-  "raw": "<<<JSON_START>>>\n{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"157\",\n    \"patient_name\": \"Haresh Chavan\",\n    \"services\": [\n      {\n        \"service\": \"Professional Services rendered\",\n        \"amount\": 800,\n        \"quantity\": 1,\n        \"department\": \"consultation\"\n      }\n    ],\n    \"total_amount\": 800,\n    \"doctor_name\": \"Dr. Pravin Jadhav\",\n    \"facility\": \"Dr. Pravin Jadhav, Consulting Orthopaedician (MMC MBBS, MS. No. 2006/03/1565) (Orthopedics), Mob.: 7718009762\",\n    \"invoice_date\": \"10 / 4 / 2024\",\n    \"payment_mode\": \"Cheque/Cash\",\n    \"patient_age\": null,\n    \"patient_gender\": null,\n    \"patient_contact\": null,\n    \"discount\": 0\n  }\n}\n<<<JSON_END>>>"
-}
