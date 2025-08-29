@@ -580,61 +580,18 @@ For each service/item in the invoice, extract:
 - service: Complete service name (e.g., "XRAY KNEE JT AP/LAT", "THYRONORM 75MCG TABLET")
 - amount: Final calculated amount after all adjustments (as number, not string)
 - quantity: Number of units/services provided
-- unit: Unit description for medications (e.g., "120 tablets", "15 capsules", "STP")
-- mrp: Maximum Retail Price for pharmacy items
-- cgst: Central GST amount ONLY if explicitly shown for this specific item (set to 0 if not found)
-- cgst_type: "PERCENT" if CGST is shown as %, "AMOUNT" if fixed amount, null if cgst is 0 or not found
-- sgst: State GST amount ONLY if explicitly shown for this specific item (set to 0 if not found)
-- sgst_type: "PERCENT" if SGST is shown as %, "AMOUNT" if fixed amount, null if sgst is 0 or not found
-- gst: GST amount or percentage for individual items - look for GST columns in product tables, or embedded in EXPENSE_ROW values
-- gst_type: "PERCENT" if GST is shown as %, "AMOUNT" if fixed amount, null if gst is 0 or not found
 
-**CRITICAL GST EXTRACTION RULES:**
-1. **For GST field**: Look for dedicated GST% columns or GST percentage indicators. Extract the PERCENTAGE value, not calculated amounts.
-   - If you see "GST%" column with "12.00", extract gst: 12 and gst_type: "PERCENT"
-   - If you see "GST" column with "₹47.16", extract gst: 47.16 and gst_type: "AMOUNT"
-   
-2. **For CGST/SGST fields**: Extract the exact values from CGST/SGST columns
-   - If CGST column shows "23.58", extract cgst: 23.58 and cgst_type: "AMOUNT"
-   - If CGST column shows "6%", extract cgst: 6 and cgst_type: "PERCENT"
-
-3. **Do NOT calculate or derive values**: Extract exactly what is shown in the respective columns
-
-4. When processing EXPENSE_ROW types, parse through the ENTIRE value string for embedded tax information
-
-5. **CRITICAL: Do NOT copy overall invoice CGST/SGST values to individual items**
-
-6. **CRITICAL: If tax value is 0 or not found, set the corresponding type to null**
 </SERVICES_EXTRACTION>
 
-**CRITICAL: For individual services, extract GST/CGST/SGST ONLY if they appear in the same row/line as the service OR in dedicated table columns for that specific product. Do NOT copy overall invoice GST/CGST/SGST values to individual items.**
-
 <FINANCIAL_TOTALS>
-CRITICAL - Look for tax breakdowns in invoice summary/footer sections/product tables:
 - total_amount: Final total amount payable
-- cgst: Central GST amount (look for "CGST", "CGST=XX.XX", tax breakdown sections at invoice summary/footer)
-- cgst_type: "PERCENT" or "AMOUNT"
-- sgst: State GST amount (look for "SGST", "SGST=XX.XX", tax breakdown sections at invoice summary/footer)
-- sgst_type: "PERCENT" or "AMOUNT"
-**CRITICAL: Extract CGST/SGST ONLY if explicitly present in the invoice summary/footer sections - do NOT assume or calculate these values.**
-- gst_type: "PERCENT" or "AMOUNT"
-- discount: Total discount amount
-- mrp: Total MRP amount across all items
-- round_off: Round off adjustment amount
-
-IMPORTANT: Total tax values often appear in summary sections at bottom of invoices with patterns like:
-- "GST (12.00% ON 1091.63 CGST=6.49 SGST=6.49)"
-- "CGST: 90.34" / "SGST: 90.34"
-- Check both tabular data AND summary/footer sections
+- discount: Total discount amount if mentioned
 </FINANCIAL_TOTALS>
 
 <DATA_PROCESSING_RULES>
 1. NUMERIC VALUES: Convert all amounts to numbers without currency symbols or commas
 2. NULL HANDLING: If field not found - String fields → null, Numeric fields → 0, Arrays → []
-3. **TAX TYPE HANDLING: If tax value is 0 or not found, set corresponding type field to null**
-4. TAX EXTRACTION: Extract individual item taxes from product rows/tables; extract overall taxes from summary sections
-5. DEPARTMENT IDENTIFICATION: "radiology", "pharmacy", "consultation", "laboratory", "emergency"
-6. UNIT EXTRACTION: For medications, extract unit information like "120 tablets", "15 capsules"
+3. DEPARTMENT IDENTIFICATION: "radiology", "pharmacy", "consultation", "laboratory", "emergency"
 </DATA_PROCESSING_RULES>
 
 <VALIDATION_CHECKS>
@@ -642,9 +599,6 @@ Before outputting, verify:
 - All numeric fields are actual numbers, not strings
 - Date formats are preserved as found in original text
 - Service names are complete and accurate
-- **Individual item GST values are extracted from product tables/rows, not from invoice totals**
-- **Tax type fields are null when corresponding tax values are 0**
-- Total amount matches sum of individual service amounts where applicable
 </VALIDATION_CHECKS>
 
 </EXTRACTION_GUIDELINES>
@@ -664,13 +618,9 @@ CRITICAL REQUIREMENTS:
 3. Do NOT use markdown formatting or code blocks
 4. Ensure all numeric values are numbers, not strings
 5. Use null for missing string fields, 0 for missing numeric fields
-6. **Use null for tax type fields when corresponding tax value is 0 or not found**
-7. Extract ALL available information from the invoice text
-8. Preserve original date and text formatting where specified
-9. Be thorough and accurate in extraction
-10. Each field must be populated if present in the invoice
-11. If a field is not present, set it to null or 0 as appropriate
-12. **Extract individual item GST from product tables/rows, not from invoice summary totals**
+6. Extract ALL available information from the invoice text
+7. Preserve original date and text formatting where specified
+8. Be thorough and accurate in extraction
 
 RESPOND WITH JSON ONLY:
 </OUTPUT_INSTRUCTIONS>

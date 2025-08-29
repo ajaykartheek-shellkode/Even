@@ -1,0 +1,14 @@
+{
+  "ops": [
+    {
+      "op": "insert_after",
+      "match": "ROLE: You are an expert medical and pharmacy invoice data extraction AI. Extract into JSON exactly matching schema.",
+      "text": "\n\nIMPORTANT EXTRACTION RULES:\n- For amounts, extract the numeric value only (no currency symbols or text).\n- For amounts written as text (e.g., \"Eight Hundred only\"), convert to numeric value (800).\n- For invoice numbers, extract the complete identifier (e.g., \"41854 2024-2025\").\n- For services without explicit department, categorize as follows:\n  * Consultations/Professional Services → \"consultation\"\n  * Medications/Medicines → \"pharmacy\"\n  * Tests/X-rays/Scans → \"radiology\" or \"laboratory\" as appropriate\n- For facility, combine relevant details like name, address, registration numbers.\n- Pay careful attention to decimal points in amounts."
+    },
+    {
+      "op": "replace",
+      "old": "- All amounts must be numeric (no commas/currency).",
+      "new": "- All amounts must be numeric (no commas/currency). Convert text amounts to numbers (e.g., \"Eight Hundred\" → 800)."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "raw": "<<<JSON_START>>>\n{\"extracted_invoice_values\": {\"invoice_number\":\"157\",\"patient_name\":\"Haresh Chavan\",\"services\":[{\"service\":\"Professional Services\",\"amount\":800,\"quantity\":1,\"department\":\"consultation\"}],\"total_amount\":800,\"doctor_name\":\"Dr. Pravin Jadhav\",\"facility\":\"Dr. Pravin Jadhav, MBBS, MS, Consulting Orthopaedician (MMC No. 2006/03/1565) (Orthopedics), Mob.: 7718009762\",\"invoice_date\":\"10/4/2024\",\"payment_mode\":\"Cheque/Cash\",\"patient_age\":null,\"patient_gender\":null,\"patient_contact\":null,\"discount\":0}}\n<<<JSON_END>>>",
+  "acc": 0.0
+}

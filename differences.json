@@ -1,0 +1,54 @@
+{
+  "60e73593_4add_4dba_b1c2_935eeb30cd066545674520661983659_rawtext.json": {
+    "type_changes": {
+      "root['extracted_invoice_values']['services'][0]['mrp']": {
+        "old_type": "int",
+        "new_type": "NoneType",
+        "old_value": 0,
+        "new_value": null
+      },
+      "root['extracted_invoice_values']['payment_mode']": {
+        "old_type": "NoneType",
+        "new_type": "str",
+        "old_value": null,
+        "new_value": "Cash"
+      },
+      "root['extracted_invoice_values']['mrp']": {
+        "old_type": "int",
+        "new_type": "NoneType",
+        "old_value": 0,
+        "new_value": null
+      }
+    },
+    "values_changed": {
+      "root['extracted_invoice_values']['facility']": {
+        "new_value": "Dr. (Mrs.) E. GEETHA, M.B.B.S.,\nD.G.O.\nC-68, Hindu Colony, M.G.R. Road, NANGANALLUR,\nCHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\nRetd. CHIEF CIVIL SURGEON REG: No. 41626\nAUTHORISED MEDICAL ATTENDANT\nCHEPAUK DISPENARY ATTACHED TO\nGOVT. GENERDR.HEAGGEE THANNAI",
+        "old_value": "Dr. (Mrs.) E. GEETHA, M.B.B.S., D.G.O., C-68, Hindu Colony, M.G.R. Road, NANGANALLUR, CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619",
+        "diff": "--- \n+++ \n@@ -1 +1,8 @@\n-Dr. (Mrs.) E. GEETHA, M.B.B.S., D.G.O., C-68, Hindu Colony, M.G.R. Road, NANGANALLUR, CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\n+Dr. (Mrs.) E. GEETHA, M.B.B.S.,\n+D.G.O.\n+C-68, Hindu Colony, M.G.R. Road, NANGANALLUR,\n+CHENNAI - 600 061. Phone : 98405 73487 / 2224 1195 / 98403 06619\n+Retd. CHIEF CIVIL SURGEON REG: No. 41626\n+AUTHORISED MEDICAL ATTENDANT\n+CHEPAUK DISPENARY ATTACHED TO\n+GOVT. GENERDR.HEAGGEE THANNAI"
+      }
+    }
+  },
+  "40e86fb6_34cc_4789_b43b_2c1a1270ee055190886607521502167_rawtext.json": {
+    "type_changes": {
+      "root['extracted_invoice_values']['services'][0]['mrp']": {
+        "old_type": "int",
+        "new_type": "NoneType",
+        "old_value": 0,
+        "new_value": null
+      },
+      "root['extracted_invoice_values']['mrp']": {
+        "old_type": "int",
+        "new_type": "NoneType",
+        "old_value": 0,
+        "new_value": null
+      }
+    },
+    "values_changed": {
+      "root['extracted_invoice_values']['facility']": {
+        "new_value": "Dr. Pravin Jadhav\nConsulting Orthopaedician (MMC MBBS, No. MS. 2006/03/1565) (Orthopedics)\nMob.: 7718009762",
+        "old_value": "Dr. Pravin Jadhav, Consulting Orthopaedician (MMC MBBS, MS. No. 2006/03/1565) (Orthopedics), Mob.: 7718009762",
+        "diff": "--- \n+++ \n@@ -1 +1,3 @@\n-Dr. Pravin Jadhav, Consulting Orthopaedician (MMC MBBS, MS. No. 2006/03/1565) (Orthopedics), Mob.: 7718009762\n+Dr. Pravin Jadhav\n+Consulting Orthopaedician (MMC MBBS, No. MS. 2006/03/1565) (Orthopedics)\n+Mob.: 7718009762"
+      }
+    }
+  }
+}

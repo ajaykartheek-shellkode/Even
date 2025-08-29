@@ -1,0 +1,3 @@
+{
+  "raw": "I'll extract the invoice data according to the specified schema.\n\n<<<JSON_START>>>\n{\"extracted_invoice_values\": {\"invoice_number\":\"41854\",\"patient_name\":\"mst. Jaksh Sandeep Adarkar\",\"services\":[{\"service\":\"Regular Consultation by Dr. Shailesh R Barot\",\"amount\":500,\"quantity\":1,\"department\":\"consultation\"}],\"total_amount\":500,\"doctor_name\":\"Dr. Shailesh R Barot\",\"facility\":\"ANKUR PEDIATRIC MULTISPECIALITY HOSPITAL LLP\",\"invoice_date\":\"22/01/2025\",\"payment_mode\":null,\"patient_age\":\"2.3 Years\",\"patient_gender\":\"Male\",\"patient_contact\":null,\"discount\":0}}\n<<<JSON_END>>>"
+}
