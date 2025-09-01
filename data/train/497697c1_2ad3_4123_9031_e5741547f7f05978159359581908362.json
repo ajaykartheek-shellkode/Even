@@ -1,0 +1,55 @@
+{
+  "file_id": "497697c1_2ad3_4123_9031_e5741547f7f05978159359581908362",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName of Patient -): Rushpak\nName of Patient -): Rushpak\n\n=== SUPPLIER INFORMATION ===\nADDRESS: SREE LAKSHMI MEDICAL\nK.No. 1765/350, Shop No. 02, 8th Main, 4th Cross, Yellukunte Village, I.T.I. Layout,\nNear Water Tank, Bengaluru 560 068. M : 9782 962671\n-\nSTREET: K.No. 1765/350, Shop No. 02, 8th Main, 4th Cross, Yellukunte Village, I.T.I. Layout,\nSTREET: Near Water Tank,\nCITY: Bengaluru\nZIP_CODE: 560 068.\nNAME: SREE LAKSHMI MEDICAL\nADDRESS_BLOCK: K.No. 1765/350, Shop No. 02, 8th Main, 4th Cross, Yellukunte Village, I.T.I. Layout,\nNear Water Tank, Bengaluru 560 068. M : 9782 962671\n-\nGSTIN :: 29JWOPS5915K1ZE\nVENDOR_ADDRESS: SREE LAKSHMI MEDICAL\nK.No. 1765/350, Shop No. 02, 8th Main, 4th Cross, Yellukunte Village, I.T.I. Layout,\nNear Water Tank, Bengaluru 560 068. M : 9782 962671\n-\nVENDOR_NAME: SREE LAKSHMI MEDICAL\nM :: 9782 962671\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: -): 114-8-24 No.: 1266 GSTIN :: 29JWOPS5915K1ZE TOTAL: 394.04 DL.No.:: KA/B62-168308 K.No.: 1765/350, Dr -): Pawan Signature: Silcop\nSignature Qty.: CT- Particulars: cipcal -d3 Batch No.: 0061 Expiry Date: 1-26 Amount Rs.: 137.83  | Qty.: 1.GT. Particulars: Romylin-D Batch No.: 3026 Expiry Date: 5-25 Amount Rs.: 256.15  | \n\nRaw Text Content:\nDL.No.: KA/B62-168308\nCASH BILL\nGSTIN : 29JWOPS5915K1ZE\nKA/B62-168309\nSREE LAKSHMI MEDICAL\nK.No. 1765/350, Shop No. 02, 8th Main, 4th Cross, Yellukunte Village, I.T.I. Layout,\nNear Water Tank, Bengaluru - 560 068. M : 9782 962671\nNo. 1266\nDate:-) 114-8-24\nName of Patient -) Rushpak\nDr -) Pawan\nQty.\nParticulars\nMfrs. Name\nBatch No.\nExpiry Date\nAmount Rs.\nCT- cipcal -d3\n0061\n1-26\n137.83\n1.GT. Romylin-D\n3026\n5-25\n256.15\nI\nTOTAL\n394.04\nE&O.E\nSilcop\nGoods once sold cannot be taken back or exchanged\nRate of Tax Suffered\nRP/QP\nSignature",
+  "gold": {
+    "invoice_number": "1266",
+    "patient_name": "Rushpak",
+    "services": [
+      {
+        "service": "cipcal -d3",
+        "amount": 137.83,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "CT",
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Romylin-D",
+        "amount": 256.15,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "GT",
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 394.04,
+    "doctor_name": "Dr Pawan",
+    "facility": "SREE LAKSHMI MEDICAL, K.No. 1765/350, Shop No. 02, 8th Main, 4th Cross, Yellukunte Village, I.T.I. Layout, Near Water Tank, Bengaluru - 560 068. M : 9782 962671",
+    "invoice_date": "114-8-24",
+    "payment_mode": "CASH",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

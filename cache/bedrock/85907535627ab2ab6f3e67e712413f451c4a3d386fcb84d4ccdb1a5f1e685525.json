@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"1306817259\",\n    \"patient_name\": \"Ketan mishra\",\n    \"services\": [\n      {\n        \"service\": \"Blue Black Full Rim Rectangle John Jacobs Supreme Steel JJ E 70037 Eyeglasses Normal Progressive BLU\",\n        \"amount\": 8500,\n        \"quantity\": 1,\n        \"department\": \"pharmacy\",\n        \"unit\": null,\n        \"mrp\": 8500,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      },\n      {\n        \"service\": \"Silver Black Blue Full Rim Square John Jacobs Pro Titanium JJ E14486-C3 Eyeglasses-Jeremy Normal Progressive BLU\",\n        \"amount\": 8500,\n        \"quantity\": 1,\n        \"department\": \"pharmacy\",\n        \"unit\": null,\n        \"mrp\": 8500,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      },\n      {\n        \"service\": \"Lenskart Gold MAX membership 2 years\",\n        \"amount\": 6000,\n        \"quantity\": 1,\n        \"department\": \"pharmacy\",\n        \"unit\": null,\n        \"mrp\": 6000,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 9350,\n    \"doctor_name\": null,\n    \"facility\": \"Varanasi_Sigra, 2 Ground Floor Gulab Bagh, Sigia Varanasi, Uttar Pradesh 221010 Varanasi, Contact: 7291811371\",\n    \"invoice_date\": \"31 Mar 2026 08 44 PM\",\n    \"payment_mode\": \"storephonepe\",\n    \"patient_age\": null,\n    \"patient_gender\": null,\n    \"patient_contact\": \"941XXXX249\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 13650,\n    \"mrp\": 23000,\n    \"round_off\": 0\n  },\n  \"validation_issues\": [\n    \"INVOICE_DATE: Date appears to be in the future (31 Mar 2026)\",\n    \"EXPECTED_DELIVERY: Date appears to be in the future (08 Apr 2025)\"\n  ]\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.05,
+    "max_tokens": 2000,
+    "call_duration": 47.19254493713379,
+    "timestamp": 1756702754.881682,
+    "cache_key": "85907535627ab2ab6f3e67e712413f451c4a3d386fcb84d4ccdb1a5f1e685525",
+    "prompt_length": 10011,
+    "output_length": 1972
+  }
+}

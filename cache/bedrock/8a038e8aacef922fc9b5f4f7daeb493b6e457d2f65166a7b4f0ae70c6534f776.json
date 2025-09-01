@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"DM105217\",\n    \"patient_name\": \"Arvind M\",\n    \"services\": [\n      {\n        \"service\": \"Rosuvas CV 20 Tablets\",\n        \"amount\": 469.3,\n        \"quantity\": 20,\n        \"department\": \"pharmacy\",\n        \"unit\": \"tablet\",\n        \"mrp\": 247.00,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 50.28,\n        \"gst_type\": \"12%\"\n      }\n    ],\n    \"total_amount\": 469,\n    \"doctor_name\": \"Dr.Sridhara N\",\n    \"facility\": \"DOORAVANI MEDICALS, No 07 Ground Floor, Dm Plaza, dooravani Medicals, Ramamurthy Nagar Main Road, Bangalore-560016, M:7338328286,08042103923\",\n    \"invoice_date\": \"12-12-24\",\n    \"payment_mode\": \"UPI\",\n    \"patient_age\": null,\n    \"patient_gender\": null,\n    \"patient_contact\": \"8123325887\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 50.28,\n    \"gst_type\": null,\n    \"discount\": 24.7,\n    \"mrp\": 494,\n    \"round_off\": -0.30\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "call_duration": 37.423728942871094,
+    "timestamp": 1756671118.8097029,
+    "cache_key": "8a038e8aacef922fc9b5f4f7daeb493b6e457d2f65166a7b4f0ae70c6534f776",
+    "prompt_length": 8590,
+    "output_length": 1009
+  }
+}

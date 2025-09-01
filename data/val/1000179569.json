@@ -1,0 +1,41 @@
+{
+  "file_id": "1000179569",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient: Arvind M\nPatient: Arvind M\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Doormeds\nSINCE 1985\nNo 07 Ground Floor, Dm Plaza ,dooravani\nMedicals, Ramamurthy Nagar Main Road\nBangalore=560016\nSTREET: No 07 Ground Floor, Dm Plaza ,dooravani\nSTREET: Medicals, Ramamurthy Nagar Main Road\nCITY: Bangalore=560016\nNAME: Doormeds\nADDRESS_BLOCK: No 07 Ground Floor, Dm Plaza ,dooravani\nMedicals, Ramamurthy Nagar Main Road\nBangalore=560016\nNAME: DOORAVANI MEDICALS\nNAME: Dooravani Medicals\nNAME: doormeds.eVital.in\nGSTIN: 29AAWFD1934E1Z6\nPAN: AAWFD1934E\nVENDOR_ADDRESS: Doormeds\nSINCE 1985\nNo 07 Ground Floor, Dm Plaza ,dooravani\nMedicals, Ramamurthy Nagar Main Road\nBangalore=560016\nVENDOR_NAME: DOORAVANI MEDICALS\nVENDOR_NAME: Dooravani Medicals\nVENDOR_NAME: Doormeds\nM:: M: 7338328286,08042103923\nVENDOR_URL: doormeds.eVital.in\nVENDOR_NAME: doormeds.eVital.in\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nTotal Saving: Rs. 24,7 INVOICE_RECEIPT_DATE: 12-12-24 08: Bill No.: DM105217 GSTIN: 29AAWFD1934E1Z6 PAN: AAWFD1934E Total MRP: 494 Total GST: 50.28 Net Payable: Rs. 469 Net Payable: Rs. 469 Name: 8123325887 Address: - Payment:: UPI Ref. by: Dr.Sridhara N Total Items: 1 Round Off: -0.30 Remaining Points: undefined Billed By: Am Tak Terms & Conditions: CHECK PROPERLY & BUY MEDICINES!! Unintentional\nhuman error is Possible 1, Goods once sold can't be\nEXCHANGE(t&c) 2. Fridge Items\ntaken back, ONLY\ncannot be taken back Qty: FHB0479(04/26) D.Price: 234.65 Amt.: 469.3 Qty: 20(2)  | \n\nRaw Text Content:\nDooravani Medicals\nDoormeds\nSINCE 1985\nNo 07 Ground Floor, Dm Plaza ,dooravani\nMedicals, Ramamurthy Nagar Main Road\nBangalore=560016\nM:7338328286,08042103923\nPatient\nArvind M\nDM\nName\n8123325887\nBill No. DM105217\nMobile\nAddress\nPayment:\nUPI\n-\nRef. by\nDr.Sridhara N\n12-12-24 08:20 PM\nItem (SCH)\nQty\nD.Price\nAmt.\nPack\nComp\nLoc.\nBatch(Exp)\nMRP\nGST\nRosuvas CV 20 Ta... (-)\n20(2)\n234.65\n469.3\n10\nSUN P\nH9\nFHB0479(04/26)\n247.00\n12%\nTotal Items\n1\nNet Payable Rs. 469\nTotal GST\n50.28\nTotal MRP\n494\nTotal Saving\nRs. 24,7\nRound Off\n-0.30\nRemaining Points\nundefined\nBilled By\nAm Tak\nGSTIN\n29AAWFD1934E1Z6\nPAN\nAAWFD1934E\nLICENSE 20\nRecords\nKA-B51-263197\nLICENSE 21\nto\nKA-B51-263200\nFSSAI\nSear\nTerms & Conditions\nCHECK PROPERLY & BUY MEDICINES!! Unintentional\nhuman error is Possible 1, Goods once sold can't be\ntaken back, ONLY EXCHANGE(t&c) 2. Fridge Items\ncannot be taken back\nDOORAVANI MEDICALS SINCE\n1985 Stay Healthy\ndoormeds.eVital.in",
+  "gold": {
+    "invoice_number": "DM105217",
+    "patient_name": "Arvind M",
+    "services": [
+      {
+        "service": "Rosuvas CV 20 Tablet",
+        "amount": 469.3,
+        "quantity": 20,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 247,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 12,
+        "gst_type": "PERCENT"
+      }
+    ],
+    "total_amount": 469,
+    "doctor_name": "Dr.Sridhara N",
+    "facility": "Dooravani Medicals Doormeds Since 1985, No 07 Ground Floor, Dm Plaza, dooravani Medicals, Ramamurthy Nagar Main Road, Bangalore=560016, M:7338328286,08042103923",
+    "invoice_date": "12-12-24 08:20 PM",
+    "payment_mode": "UPI",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": "8123325887",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 50.28,
+    "gst_type": "AMOUNT",
+    "discount": 24.7,
+    "mrp": 494,
+    "round_off": -0.3
+  }
+}

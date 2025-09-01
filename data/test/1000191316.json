@@ -1,0 +1,41 @@
+{
+  "file_id": "1000191316",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient:: JUDITHSELES\nPatient:: JUDITHSELES\nContact: 9611235628\n\n=== SUPPLIER INFORMATION ===\nADDRESS: #1583/1,\nVidyanagar,\nK.R. Road, non32-402281\nSTREET: #1583/1,\nVidyanagar,\nK.R. Road, non32-402281\nZIP_CODE: non32-402281\nADDRESS_BLOCK: #1583/1,\nVidyanagar,\nK.R. Road, non32-402281\nADDRESS: MEDICALS\nRAJINI\nK. R. ROAD, VIDYA NAGAR MANDYA 571401\nVAJRESHWARI.\n#1583/1.\nSTREET: K. R. ROAD, VIDYA NAGAR\nVAJRESHWARI.\n#1583/1.\nCITY: MANDYA\nZIP_CODE: 571401\nNAME: RAJINI MEDICALS\nADDRESS_BLOCK: K. R. ROAD, VIDYA NAGAR MANDYA 571401\nVAJRESHWARI.\n#1583/1.\nNAME: RAJIN MEDICALS, MANDYA\nGSTIN:: 29BJYPC3555N1ZC\nVENDOR_ADDRESS: #1583/1,\nVidyanagar,\nK.R. Road, non32-402281\nVENDOR_ADDRESS: MEDICALS\nRAJINI\nK. R. ROAD, VIDYA NAGAR MANDYA 571401\nVAJRESHWARI.\n#1583/1.\nVENDOR_NAME: RAJINI MEDICALS\nVENDOR_NAME: RAJIN MEDICALS, MANDYA\nVENDOR_PHONE: 9742504336\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: 25/2/25 INVOICE_RECEIPT_DATE: 25-Feb-2025 Bill:: RM04428 GSTIN:: 29BJYPC3555N1ZC Total MRP:: 646.00 CGST: 34.60 SGST: 34.60 T.GST: 69.21 Net Amount:: 646.00 DL.No:: KA-MD1-183081\nKA-MD1-183080, Payment Mode:: Cash Doctor: DR. AVINASH Add:: - Terms & Conditions: E & O.E Goods Once Sold Cannot Be Taken Back Or Exchanged\nWISH YOU SPEEDY RECOVERY BATCH: 16HAP4  | \n\nRaw Text Content:\nRAJINI MEDICALS\nTax Invoice\n#1583/1. VAJRESHWARI. K. R. ROAD, VIDYA NAGAR MANDYA 571401\nBill: RM04428\n25-Feb-2025\n9742504336\nDL.No: KA-MD1-183080, KA-MD1-183081 GSTIN: 29BJYPC3555N1ZC\nPayment Mode: Cash\nPatient: JUDITHSELES Contact 9611235628\nSean to Order Online\nDoctor DR. AVINASH Contact -\nAdd:\nAdd: -\n# ITEM\nBATCH\nEXP.\nQTY\nPRICE\nGST\nAMT.\n1\nSYSTANE HYDRATION EYE DROPS\n16HAP4\n11/25\n1\n646.00\n12%\n646.00\nRAJIN\nMEDICALS, MANDYA\nDate\n25/2/25\nISSUED\nTotal MRP: 646.00\nNet Amount: 646.00\nTerms & Conditions\nCGST\n34.60\nE & O.E Goods Once Sold Cannot Be Taken Back Or Exchanged\nRAJINI MEDICALS R/B\nSGST\n34.60\nT.GST\n69.21\nWISH YOU SPEEDY RECOVERY\n#1583/1, VAJRESHWARE\nK.R. Road, Vidyanagar, non32-402281",
+  "gold": {
+    "invoice_number": "RM04428",
+    "patient_name": "JUDITHSELES",
+    "services": [
+      {
+        "service": "SYSTANE HYDRATION EYE DROPS",
+        "amount": 646.0,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 646.0,
+        "cgst": 34.6,
+        "cgst_type": "AMOUNT",
+        "sgst": 34.6,
+        "sgst_type": "AMOUNT",
+        "gst": 12,
+        "gst_type": "PERCENT"
+      }
+    ],
+    "total_amount": 646.0,
+    "doctor_name": "DR. AVINASH",
+    "facility": "RAJINI MEDICALS #1583/1. VAJRESHWARI. K. R. ROAD, VIDYA NAGAR MANDYA 571401",
+    "invoice_date": "25-Feb-2025",
+    "payment_mode": "Cash",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": "9611235628",
+    "cgst": 34.6,
+    "cgst_type": "AMOUNT",
+    "sgst": 34.6,
+    "sgst_type": "AMOUNT",
+    "gst": 69.21,
+    "gst_type": "AMOUNT",
+    "discount": 0,
+    "mrp": 646.0,
+    "round_off": 0
+  }
+}

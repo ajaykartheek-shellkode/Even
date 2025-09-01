@@ -1,0 +1,69 @@
+{
+  "file_id": "image_picker_E13884C5_62C8_4D3B_93DC_4312760B0866_82379_0000327FED88D5DC",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nReceived from: Raju Smartava\nReceived from: Raju Smartava\nPh. :: à\n\n=== SUPPLIER INFORMATION ===\nADDRESS: DR.\nRAHUL\nKAPOOR\nM.D., (Medicine) Fellowship in Cardiology\n111A/402\"A\", ASHOK NAGAR, KANPUR-208 012\nSTREET: 111A/402\"A\", ASHOK NAGAR,\nCITY: KANPUR-208\nZIP_CODE: 012\nADDRESS_BLOCK: 111A/402\"A\", ASHOK NAGAR, KANPUR-208 012\nVENDOR_ADDRESS: DR.\nRAHUL\nKAPOOR\nM.D., (Medicine) Fellowship in Cardiology\n111A/402\"A\", ASHOK NAGAR, KANPUR-208 012\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: 20-4.24 S. No.: 620 Rupees: Raju Smartava\nReceived from\nPh. :\nSeven\nRupees hundred L Communitation\nonly By: Cash/Cheque / Draft Reg. No.: 039793 \n\nRaw Text Content:\n1100##11\n29\nDR. RAHUL KAPOOR\nM.D., (Medicine) Fellowship in Cardiology\n111A/402\"A\", ASHOK NAGAR, KANPUR-208 012\nS. No.\n620\nRECEIPT\nDate 20-4.24\nReceived from Raju Smartava\nPh. :\nà\nRupees Seven hundred only L Communitation +ECCH\nB. Sugar test)\nBy Cash/Cheque / Draft\nNo.\nDate\nDrawn on\nfrom\non\n₹\n700/\n)r. RAHUL KAPOOR\nA.B.B.S.M.D.Fellowyhip in Cardiology\nPhysician & Authorised cardoned Signatory\nReg. No. 039793",
+  "gold": {
+    "invoice_number": "620",
+    "patient_name": "Raju Smartava",
+    "services": [
+      {
+        "service": "Consultation",
+        "amount": 700,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "ECG",
+        "amount": 0,
+        "quantity": 1,
+        "department": "laboratory",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "B. Sugar test",
+        "amount": 0,
+        "quantity": 1,
+        "department": "laboratory",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 700,
+    "doctor_name": "Dr. Rahul Kapoor",
+    "facility": "DR. RAHUL KAPOOR, M.D., (Medicine) Fellowship in Cardiology, 111A/402\"A\", ASHOK NAGAR, KANPUR-208 012",
+    "invoice_date": "20-4.24",
+    "payment_mode": "Cash",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

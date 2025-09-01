@@ -1,0 +1,69 @@
+{
+  "file_id": "1000033130",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nCustomer:: Ketan mishra\nCustomer:: Ketan mishra\nContact: 941XXXX249\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Varanasi_Sigra\nC\nShoping 1 &\n2 Ground Floor Gulab Bagh, Sigia Varanasi,\nUttar Pradesh 221010 Varanasi\nSTREET: 2 Ground Floor Gulab Bagh, Sigia Varanasi,\nCITY: Varanasi\nSTATE: Uttar Pradesh\nZIP_CODE: 221010\nNAME: Varanasi_Sigra\nADDRESS_BLOCK: 2 Ground Floor Gulab Bagh, Sigia Varanasi,\nUttar Pradesh 221010 Varanasi\nVENDOR_ADDRESS: Varanasi_Sigra\nC\nShoping 1 &\n2 Ground Floor Gulab Bagh, Sigia Varanasi,\nUttar Pradesh 221010 Varanasi\nVENDOR_NAME: Varanasi_Sigra\nContact: 7291811371\nCustomer Caro:: +91-9999899998\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nExpected Delivery: lue OB Apr 2025 Discount: 13650.00 Order ID: 1306817259 Order Date: 31 Mar 2026 08 44 PM Shipping Charges: 20 Subtotal: 23000 Net Amount: 9350 Total (Include Taxos): 9350 Payment Mode: storephonepe Number of Items: 3 Item ID: 200188258 Price: 88500 Item ID: 200188260 Price:: 8500 Item ID: 200188262 Price:: ₹6000 \n\nRaw Text Content:\n10:26\nVo\n!\nLTE\nR\nNew Doc 03-31-20\n1\nORDER SUMMARY\nVaranasi_Sigra\nC Shoping 1 &\n2 Ground Floor Gulab Bagh, Sigia Varanasi,\nUttar Pradesh 221010 Varanasi\nContact 7291811371\nOrder Date 31 Mar 2026 08 44 PM\nExpected Delivery lue OB Apr 2025\nCustomer:Ketan mishra\nContact 941XXXX249\nPayment Mode storephonepe\nOrder ID 1306817259\nNumber of Items 3\nItem ID 200188258\nPrice 88500\nBlue Black Full Rim Rectangle John Jacobs\nSupreme Steel JJ E 70037 Eyeglasses\nNormal Progressive BLU\nLENS\nLEFT\nRIGHT\nSPH\n+1.00\n+0.50\nCYL\n-0.50\n0.00\nAXIS\n100\n0\nPD\n33\n33.5\nADD\n+2.50\n+2.50\nItem ID 200188260\nPrice: 8500\nSilver Black Blue Full Rim Square John Jacobs\nPro Titanium JJ E14486-C3 Eyeglasses-Jeremy\nNormal Progressive BLU\nLENS\nLEFT\nRIGHT\nSPH\n+1.00\n+0.50\nCYL\n-0.50\n0.00\nAXIS\n100\n0\nPD\n33\n33.5\nADD\n+2.50\n+2.50\nItem ID 200188262\nPrice: ₹6000\nLenskart Gold MAX membership 2 years\nSubtotal\n23000\nDiscount\n13650.00\nNet Amount\n9350\nShipping Charges\n20\nTotal (Include Taxos)\n9350\nPlease feel free to reach out to our customer\ncare learn team in case you need any\nassistance\nCustomer Caro: +91-9999899998\nThis is an order summary please ask for invoice\nupon receipt of order this will ensure price\nguarantee from Lenskart Offers & discounts are\nsubject to change Axis value IS the same as that\nan\nQUICE\n2/2\nScanne\nNS",
+  "gold": {
+    "invoice_number": "1306817259",
+    "patient_name": "Ketan mishra",
+    "services": [
+      {
+        "service": "Blue Black Full Rim Rectangle John Jacobs Supreme Steel JJ E 70037 Eyeglasses Normal Progressive BLU",
+        "amount": 8500,
+        "quantity": 1,
+        "department": null,
+        "unit": null,
+        "mrp": 8500,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Silver Black Blue Full Rim Square John Jacobs Pro Titanium JJ E14486-C3 Eyeglasses-Jeremy Normal Progressive BLU",
+        "amount": 8500,
+        "quantity": 1,
+        "department": null,
+        "unit": null,
+        "mrp": 8500,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Lenskart Gold MAX membership 2 years",
+        "amount": 6000,
+        "quantity": 1,
+        "department": null,
+        "unit": null,
+        "mrp": 6000,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 9350,
+    "doctor_name": null,
+    "facility": "Varanasi_Sigra,C-19/187-1A R1-187-1 Shop no 1 & 2 Ground Floor Gulab Bagh, Sigra Varanasi, Uttar Pradesh 221010 Varanasi",
+    "invoice_date": "31 Mar 2025 08 44 PM",
+    "payment_mode": "storephonepe",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": "941XXXX249",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 13650,
+    "mrp": 23000,
+    "round_off": 0
+  }
+}

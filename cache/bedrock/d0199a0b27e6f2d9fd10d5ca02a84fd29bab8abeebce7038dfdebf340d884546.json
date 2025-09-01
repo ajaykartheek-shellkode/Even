@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"SKAR-OCS-124091\",\n    \"patient_name\": \"Mr. Rahul Goel\",\n    \"services\": [\n      {\n        \"service\": \"PROCEDURE CHARGES\",\n        \"amount\": 6000.00,\n        \"quantity\": 1,\n        \"department\": \"consultation\",\n        \"unit\": null,\n        \"mrp\": 6000.00,\n        \"cgst\": 0.00,\n        \"cgst_type\": \"0.00\",\n        \"sgst\": 0.00,\n        \"sgst_type\": \"0.00\",\n        \"gst\": 0.00,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 6000.00,\n    \"doctor_name\": \"Dr. ANDLEEB SINGH SACHDEV\",\n    \"facility\": \"Apollo Spectra Hospitals Plot no-3,Block no-34, Pusa Road, WEA, Karol Bagh, New Delhi-110005, India phone number-011-49407700, 8448702877 www.apollospectra.com\",\n    \"invoice_date\": \"31.03.2025 19:20\",\n    \"payment_mode\": \"PhonePe\",\n    \"patient_age\": \"35 YM\",\n    \"patient_gender\": \"Male\",\n    \"patient_contact\": \"+918373939355\",\n    \"cgst\": 0.00,\n    \"cgst_type\": \"0.00\",\n    \"sgst\": 0.00,\n    \"sgst_type\": \"0.00\",\n    \"gst\": 0.00,\n    \"gst_type\": null,\n    \"discount\": 0.00,\n    \"mrp\": 6000.00,\n    \"round_off\": 0\n  },\n  \"validation_issues\": [\n    \"DATES: Invoice date 31.03.2025 appears to be in the future\"\n  ]\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "call_duration": 9.448659896850586,
+    "timestamp": 1756670457.1803799,
+    "cache_key": "d0199a0b27e6f2d9fd10d5ca02a84fd29bab8abeebce7038dfdebf340d884546",
+    "prompt_length": 10949,
+    "output_length": 1187
+  }
+}

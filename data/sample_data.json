@@ -1,0 +1,41 @@
+{
+  "file_id": "sample_001",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nDr.: Sample Doctor\nPatient Name: John Doe\n\n=== SUPPLIER INFORMATION ===\nSample Medical Center\n123 Main St, City - 12345\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: 1/1/24 Invoice No: 1001 Total: 150.00\nService: Sample Consultation Amount: 150.00",
+  "gold": {
+    "invoice_number": "1001",
+    "patient_name": "John Doe",
+    "services": [
+      {
+        "service": "Sample Consultation",
+        "amount": 150.0,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": "session",
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 150.0,
+    "doctor_name": "Dr. Sample Doctor",
+    "facility": "Sample Medical Center, 123 Main St, City - 12345",
+    "invoice_date": "1/1/24",
+    "payment_mode": "Cash",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"SWH24OPCS155547\",\n    \"patient_name\": \"Mr.Omkar Sardessai\",\n    \"services\": [\n      {\n        \"service\": \"FOLLOW UP VISIT Il Dr. VIJAYA GOWRI BANDARU (CON009)\",\n        \"amount\": 450.00,\n        \"quantity\": 1,\n        \"department\": \"consultation\",\n        \"unit\": \"visit\",\n        \"mrp\": 0,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 450.00,\n    \"doctor_name\": \"Dr. VIJAYA GOWRI BANDARU\",\n    \"facility\": \"SAKRA WORLD HOSPITAL, 52/2 & 52/3, Deverabeesanahalli, Opposite INTEL Outer Ring Road, Bengaluru, Karnataka, India\",\n    \"invoice_date\": \"21 Feb 2025\",\n    \"payment_mode\": \"Credit Card\",\n    \"patient_age\": \"35 Yrs\",\n    \"patient_gender\": \"M\",\n    \"patient_contact\": \"91-8197953558\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 0,\n    \"mrp\": 0,\n    \"round_off\": 0\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "call_duration": 6.633779048919678,
+    "timestamp": 1756702097.471102,
+    "cache_key": "e284e37996b70011551a50a75081c5c668a487f8efa603dd8d7dc84a52a1fbcb",
+    "prompt_length": 9204,
+    "output_length": 1042
+  }
+}

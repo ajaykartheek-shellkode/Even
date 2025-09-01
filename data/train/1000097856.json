@@ -1,0 +1,41 @@
+{
+  "file_id": "1000097856",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName :: SUMITHA\nName :: SUMITHA\n\n=== SUPPLIER INFORMATION ===\nRegistered Office:: No. 19 Bishop Gardens, Raja\nSTREET: No. 19 Bishop Gardens,\nCITY: Raja\nADDRESS_BLOCK: No. 19 Bishop Gardens, Raja\nAdmin Office:: (For all correspondence) Ali Towers, III rd Floor, No. 55, Greams Road, Chennai - 600006.\nSTREET: III rd Floor, No. 55, Greams Road,\nZIP_CODE: Chennai - 600006.\nADDRESS_BLOCK: III rd Floor, No. 55, Greams Road, Chennai - 600006.\nNAME: Apollo Pharmacy Pharmacist\nNAME: (Apollo Pharmacies Limited)\nNAME: Apollo Pharmacy\nNAME: Apollo\nPHARMACY\nGSTIN: 29AAPCA5954P1ZN\nRegistered Office:: No. 19 Bishop Gardens, Raja\nAdmin Office:: (For all correspondence) Ali Towers, III rd Floor, No. 55, Greams Road, Chennai - 600006.\nAddress: ND-2181/B77,GROUND FLOOR. BEML 4\nVENDOR_NAME: Apollo Pharmacy Pharmacist\nVENDOR_NAME: (Apollo Pharmacies Limited)\nVENDOR_NAME: Apollo Pharmacy\nVENDOR_NAME: Apollo\nPHARMACY\nTel. No: 080-22951510\nToll No:: 1860 500 0101\nWebsite:: www.apollopharmacy.in\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDiscount:: 234.00 Date / Time :: 2024-Jun-28 Bill No.: 15862WS0069424 GSTIN: 29AAPCA5954P1ZN SGST:: 12.54 Net Total:: 0.00 Branch: RER NAGAR 2 Terminal No. :: 002 Cont. No.: 7349203079 DL. No: KA-B22-20-128955, KA-B22-21-128956 Ref. No. :: 2034058985 Dr. :: PRAKASH HARISHACHANDRA FSSAI: 11221332001225 QTY.: 15 ITEM NAME: ARBITEL-AM TAB 15'S HSN CODE: 30049099 MFRS: MICR BATCH NO.: ARHS0056 EXPIRY: Dec-25 SCH: H MRP: 15.60 CGST%: 6.00 SGST%: 6.00 TAXABLE: 208.93 TOTAL AMOUNT: 234.00  | \n\nRaw Text Content:\nBill No.\n15862WS0069424 102-APOLLO ADVANTAGE\nCC\nDate / Time\nApollo Pharmacy\nBranch\nRER NAGAR 2\n:\n2024-Jun-28 09:42:00 PM\nAddress\nOrg\nTerminal No. :\nCont. No. 7349203079\nApollo\n(Apollo Pharmacies Limited)\nND-2181/B77,GROUND FLOOR. BEML 4\nPHARMACY\nTel. No\nBACK\n002\nToll No: 1860 500 0101\n080-22951510\nName\n:\nSUMITHA\nWebsite: www.apollopharmacy.in\nDL. No\nKA-B22-20-128955, KA-B22-21-128956\nRef. No.\n:\nOF\n2034058985\nC.GSTIN\nGSTIN\n29AAPCA5954P1ZN\nDr.\n:\nPRAKASH HARISHACHANDRA\nINVOICE\nFSSAI\nbede\n11221332001225\nQTY.\nITEM NAME\nHSN CODE\nMFRS\nBATCH NO.\nEXPIRY\nSCH\nMRP\nCGST%\nSGST%\nTAXABLE\nTOTAL AMOUNT\nVOTE\nbe\n15\nARBITEL-AM TAB 15'S\n30049099\nMICR\nARHS0056\nDec-25\nH\n15.60\n6.00\n6.00\n208.93\n234.00\nMILL\nsold\nando\nAND\n1096\nCooks\n..\nINSURED\nGAL.\nO\nTotal\nw\n:\nRegistered Office: No. 19 Bishop Gardens, Raja 5 600028 SGST:12.54\nDiscount:\n234.00\nCIN\nNet Total:\n0.00\nAdmin Office: (For all correspondence) Ali Towers, III rd Floor, No. 55, Greams Road, Chennai - 600006.\nFor Apollo Pharmacy Pharmacist\nDPCO Items\nNoTaxia Payable on réverse Charges basis\nAPL02097\nOR Code was digitally displayed to the Customer at the time of transaction",
+  "gold": {
+    "invoice_number": "15862WS0069424",
+    "patient_name": "SUMITHA",
+    "services": [
+      {
+        "service": "ARBITEL-AM TAB 15'S",
+        "amount": 234.0,
+        "quantity": 15,
+        "department": "pharmacy",
+        "unit": "TAB",
+        "mrp": 15.6,
+        "cgst": 6.0,
+        "cgst_type": "PERCENT",
+        "sgst": 6.0,
+        "sgst_type": "PERCENT",
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 234.0,
+    "doctor_name": "PRAKASH HARISHACHANDRA",
+    "facility": "Apollo Pharmacy (Apollo Pharmacies Limited), ND-2181/B77, GROUND FLOOR. BEML 4, Tel. No: 080-22951510, Toll No: 1860 500 0101, Website: www.apollopharmacy.in",
+    "invoice_date": "2024-Jun-28 09:42:00 PM",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": "7349203079",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 12.54,
+    "sgst_type": "AMOUNT",
+    "gst": 0,
+    "gst_type": null,
+    "discount": 234.0,
+    "mrp": 15.6,
+    "round_off": 0
+  }
+}

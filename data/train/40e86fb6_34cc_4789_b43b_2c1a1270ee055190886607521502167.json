@@ -1,0 +1,41 @@
+{
+  "file_id": "40e86fb6_34cc_4789_b43b_2c1a1270ee055190886607521502167",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nReceived with thanks from: Haresh\nChavan\nReceived with thanks from: Haresh\nChavan\n\n=== SUPPLIER INFORMATION ===\nNAME: Dr. Pravin\nJadhav\nMBBS, MS.\nVENDOR_NAME: Dr. Pravin\nJadhav\nMBBS, MS.\nMob.:: 7718009762\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 10 / 4 / 2024 Sr. No.: 157 The sum of Rupees: Hundred\nonly\nEight Rs.: 8001 Dr. Pravin Jadhav: A\nPravin Jadhav \n\nRaw Text Content:\nDr. Pravin Jadhav Mob.:\n7718009762\nConsulting Orthopaedician (MMC MBBS, No. MS. 2006/03/1565) (Orthopedics)\nSr.\nNo. 157\nDate : 10 / 4 / 2024\nReceived with thanks from Haresh Chavan\nThe sum of Rupees Eight Hundred only\nBy Cheque/Cash towards Professional Services rendered\nA\nRs. 8001\nDr. Pravin Jadhav",
+  "gold": {
+    "invoice_number": "157",
+    "patient_name": "Haresh Chavan",
+    "services": [
+      {
+        "service": "Professional Services rendered",
+        "amount": 800,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 800,
+    "doctor_name": "Dr. Pravin Jadhav",
+    "facility": "Dr. Pravin Jadhav, Consulting Orthopaedician (MMC MBBS, MS. No. 2006/03/1565) (Orthopedics), Mob.: 7718009762",
+    "invoice_date": "10 / 4 / 2024",
+    "payment_mode": "Cheque/Cash",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

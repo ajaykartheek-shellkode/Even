@@ -1,0 +1,41 @@
+{
+  "file_id": "1000210703",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName: Mr.Subhash Nath\nAddress: Haldwani\nName: Mr.Subhash Nath\nContact No: 8813845967\n\n=== SUPPLIER INFORMATION ===\nAdd:: CHANDAN DIAGNOSTIC CENTRE\n(Unit Of Chandan Healthcare Ltd.)\nAdd: Godavari Complex, Near KVM Public School, Heera\nNagar, Haldwani, Distt. Nainital\nSTREET: Godavari Complex, Near KVM Public School, Heera\nSTREET: Nagar,\nCITY: Haldwani,\nNAME: CHANDAN DIAGNOSTIC CENTRE\nADDRESS_BLOCK: Add: Godavari Complex, Near KVM Public School, Heera\nNagar, Haldwani, Distt. Nainital\nNAME: Chandan\nGSTIN: : 05AACCC1996N1ZA\nAdd:: CHANDAN DIAGNOSTIC CENTRE\n(Unit Of Chandan Healthcare Ltd.)\nAdd: Godavari Complex, Near KVM Public School, Heera\nNagar, Haldwani, Distt. Nainital\nVENDOR_NAME: CHANDAN DIAGNOSTIC CENTRE\nVENDOR_NAME: Chandan\nPh:: 7705023379,4\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nAmount: 750 Total Paid Amount :: 750 Received with thanks :: Seven Hundred And Fifty Only Visit/Reg Date: 21-May-2025 INVOICE_RECEIPT_DATE: 21-May-2025 Bill: CHL2B/25-26/00006752 Receipt No: CHL2R/25-\n26/00006072 CIN: : U85110UP2003PLC193493 GSTIN: : 05AACCC1996N1ZA Bill Amount :: 750 Net Bill Amount :: 750 ISO: 9001: 2015 Email:: care@chandandiagnostic.com Age/Gender: 25 YOMOI D /Male Refered By: Dr. Self /Corp Hald - Contract By: Self/Corp Ha[S4817] UHID: CHL2.0000202434 Reporting Time: 22-May-2025 05: 00PM Visit ID: CHL20066632526 Home Collection: NO Health Card No.: 8813845967 Settlement: Settlement Payment: 21-05-2025 Page: 1 of 1 Name: X-Ray Digital Cervical Spine Ap & Lat View Rate: 750 Rebate: 0 Card Disc. Manual Disc.: 0 0 Total: 750  | \n\nRaw Text Content:\nBILL OF SUPPLY (Original)\nISO 9001:2015\nChandan\nCHANDAN DIAGNOSTIC CENTRE\n(Unit Of Chandan Healthcare Ltd.)\nAdd: Godavari Complex, Near KVM Public School, Heera\nMVDA\nNagar, Haldwani, Distt. Nainital\nPh: 7705023379,4\nEmail: care@chandandiagnostic.com\nCIN :U85110UP2003PLC193493\nGSTIN :05AACCC1996N1ZA\nHSN :999316\nName\nMr.Subhash Nath\nBill\nCHL2B/25-26/00006752\nAge/Gender\n25 YOMOI D /Male\nVisit/Reg Date\n21-May-2025 03:42PM\nContact No\n8813845967\nRefered By\nDr. Self /Corp Hald -\nAddress\nHaldwani\nContract By\nSelf/Corp Ha[S4817]\nUHID\nCHL2.0000202434\nReporting Time\n22-May-2025 05:00PM\nVisit ID\nCHL20066632526\nHome Collection NO\nHealth Card No. 8813845967\nS.No. Test Name\nRate Rebate Card Disc. Manual Disc. Total\n1\nX-Ray Digital Cervical Spine Ap & Lat View\n750\n0\n0\n0 750\nBill Amount : 750\nSettlement\nPayment\nReceipt No\nMode\nAmount\nCHL2R/25-\nNet Bill Amount : 750\nSettlement\n21-05-2025\nDebit Card\n750\n26/00006072\nTotal Paid Amount : 750\nReceived with thanks : Seven Hundred And Fifty Only\nTanuja Bisht\nView Your Test Reports on Chandan 24*7 App.\nFor any query, kindly get in touch with us on\ncustomercare@chandandiagnostic.com\nFin ft FRETT the\nAttention Please!!\nI hereby give my consent to receive message and calls on my mobile no. Download\nChandan24x7 app to view your report and get discount coupons.\n21-May-2025 03:42 PM Page 1 of 1",
+  "gold": {
+    "invoice_number": "CHL2B/25-26/00006752",
+    "patient_name": "Mr.Subhash Nath",
+    "services": [
+      {
+        "service": "X-Ray Digital Cervical Spine Ap & Lat View",
+        "amount": 750,
+        "quantity": 1,
+        "department": "radiology",
+        "unit": null,
+        "mrp": 750,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 750,
+    "doctor_name": "Dr. Self",
+    "facility": "CHANDAN DIAGNOSTIC CENTRE (Unit Of Chandan Healthcare Ltd.) Add: Godavari Complex, Near KVM Public School, Heera Nagar, Haldwani, Distt. Nainital Ph: 7705023379,4 Email: care@chandandiagnostic.com",
+    "invoice_date": "21-May-2025 03:42PM",
+    "payment_mode": "Debit Card",
+    "patient_age": "25 Y",
+    "patient_gender": "Male",
+    "patient_contact": "8813845967",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 750,
+    "round_off": 0
+  }
+}

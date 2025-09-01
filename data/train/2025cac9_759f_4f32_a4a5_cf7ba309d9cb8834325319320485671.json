@@ -1,0 +1,41 @@
+{
+  "file_id": "2025cac9_759f_4f32_a4a5_cf7ba309d9cb8834325319320485671",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient Name :: Master. ABHINAV DARSH .P\nNAME: Master.ABHINAV DARSH .P\nAddress :: MADHINAGUDA\nPatient Name :: Master. ABHINAV DARSH .P\nRECEIVER_NAME: Master.ABHINAV DARSH .P\nPhone No :: 9849453699\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Paramitha Women & Childrens\nHospital\nPARAMITHA\nHOSPITALS\nPlot no. 83&103, Beside Pai International Electronics,\nFor Mother & Child\nMain Road Madinaguda, Hyderabad - 500049\nSTREET: Plot no. 83&103, Beside Pai International Electronics,\nSTREET: Main Road Madinaguda,\nCITY: Hyderabad\nZIP_CODE: 500049\nNAME: Paramitha Women & Childrens\nHospital\nADDRESS_BLOCK: Plot no. 83&103, Beside Pai International Electronics,\nMain Road Madinaguda, Hyderabad - 500049\nNAME: Paramitha Women & Childrens\nHospital\nNAME: PARAMITHA\nHOSPITALS\nVENDOR_ADDRESS: Paramitha Women & Childrens\nHospital\nPARAMITHA\nHOSPITALS\nPlot no. 83&103, Beside Pai International Electronics,\nFor Mother & Child\nMain Road Madinaguda, Hyderabad - 500049\nVENDOR_NAME: Paramitha Women & Childrens\nHospital\nVENDOR_NAME: Paramitha Women & Childrens\nHospital\nVENDOR_NAME: PARAMITHA\nHOSPITALS\nVENDOR_PHONE: 040 48900022,48900222\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nReceived with thanks from Master.ABHINAV DARSH .P: Rs. 500.00 /- Paid Amt :: 500.00 Bill No/Dt. :: 4523/19 Sep 2024 , Total Amt :: 500.00 In Words:: Five Hundred(s) Rupees Only Due Amt :: 0.00 Due Amt :: 0.00 UHID :: MDG20242797 OPD.NO :: OPD2409199 Cons.Dr :: DR.JAGAN MOHAN VARAKALA Dept :: CONSULTANT NEONATOLOGIST PRO :: Self Age/Gender :: 4 Year(s) 8 Month(s)/Male Visit No :: 1 Towards OP Consultation: 500.00 Validity :: 2 Consultation(s) before 25-Sep-2024 Mode of Payment :: CARD Card No :: 6005 Card Date :: 19-Sep-2024 Billed User :: PRAVEEN.G Print User :: PRAVEEN.G Billed Dt/ Time:: 19/Sep/24 11:31:29 Print Time :: 19/Sep/24 11:31:30  | \n\nRaw Text Content:\nParamitha Women & Childrens\nUHID\n: MDG20242797\nOPD.NO\n: OPD2409199\nHospital\nBill No/Dt.\n: 4523/19 Sep 2024 , 11:31:29 AM\nPARAMITHA\nHOSPITALS\nCons.Dr\n:\nDR.JAGAN MOHAN VARAKALA\nFor Mother & Child\nPlot no. 83&103, Beside Pai International Electronics,\nMain Road Madinaguda, Hyderabad - 500049\nDept\n: CONSULTANT NEONATOLOGIST\n040 48900022,48900222\nPRO\n: Self\nOP CONSULTATION RECEIPT\nPatient Name : Master. ABHINAV DARSH .P\nAge/Gender : 4 Year(s) 8 Month(s)/Male\nPhone No\n: 9849453699\nVisit No : 1\nAddress\n: MADHINAGUDA\nTowards OP Consultation\n500.00\nValidity : 2 Consultation(s) before 25-Sep-2024\nTotal Amt\n:\n500.00\nReceived with thanks from Master.ABHINAV DARSH .P sum of Rs. 500.00 /-\nPaid Amt\n:\n500.00\nIn Words:\nFive Hundred(s) Rupees Only\nDue Amt\n:\n0.00\nMode of Payment\n: CARD\nCard No\n: 6005\nCard Date\n: 19-Sep-2024\nBank Name\nBilled User\n: PRAVEEN.G\nPrint User : PRAVEEN.G\nFor\nParamitha Women & Childrens\nBilled Dt/ Time: 19/Sep/24 11:31:29\nPrint Time : 19/Sep/24 11:31:30\nHospital\nCashier\nP\nMDG2024279\nOPD2409199",
+  "gold": {
+    "invoice_number": "4523/19 Sep 2024",
+    "patient_name": "Master. ABHINAV DARSH .P",
+    "services": [
+      {
+        "service": "OP Consultation",
+        "amount": 500,
+        "quantity": 1,
+        "department": "CONSULTANT NEONATOLOGIST",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 500,
+    "doctor_name": "DR.JAGAN MOHAN VARAKALA",
+    "facility": "Paramitha Women & Childrens Hospital, PARAMITHA HOSPITALS, Plot no. 83&103, Beside Pai International Electronics, Main Road Madinaguda, Hyderabad - 500049, 040 48900022,48900222",
+    "invoice_date": "19 Sep 2024 , 11:31:29 AM",
+    "payment_mode": "CARD",
+    "patient_age": "4 Year(s) 8 Month(s)",
+    "patient_gender": "Male",
+    "patient_contact": "9849453699",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

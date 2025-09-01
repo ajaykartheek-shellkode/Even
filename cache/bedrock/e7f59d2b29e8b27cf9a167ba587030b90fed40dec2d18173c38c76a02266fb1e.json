@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"4380\",\n    \"patient_name\": \"RESHMA JI\",\n    \"services\": [\n      {\n        \"service\": \"CONSULTATION CHARGES\",\n        \"amount\": 200.00,\n        \"quantity\": 1,\n        \"department\": \"consultation\",\n        \"unit\": \"visit\",\n        \"mrp\": 0,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 200.00,\n    \"doctor_name\": \"DR. MS PARIHAR\",\n    \"facility\": \"SHREENATH HOSPITAL & RESEARCH CENTRE, 3, NAVRATNA COMPLEX, , Contact No: 9414162139\",\n    \"invoice_date\": \"26/05/2025\",\n    \"payment_mode\": \"Cash\",\n    \"patient_age\": \"50Yrs\",\n    \"patient_gender\": \"Female\",\n    \"patient_contact\": \"8209751397\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 0,\n    \"mrp\": 0,\n    \"round_off\": 0\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "call_duration": 35.49640893936157,
+    "timestamp": 1756702263.4471009,
+    "cache_key": "e7f59d2b29e8b27cf9a167ba587030b90fed40dec2d18173c38c76a02266fb1e",
+    "prompt_length": 7552,
+    "output_length": 942
+  }
+}

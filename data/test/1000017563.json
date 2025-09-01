@@ -1,0 +1,69 @@
+{
+  "file_id": "1000017563",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nDr.: Vasanth Kumar\nPatient Name &Address: Justine\nDr.: Vasanth Kumar\nPatient Name &Address: Justine\n\n=== SUPPLIER INFORMATION ===\nADDRESS: VIJAYALAKSHMI MEDICAL\n# 162, 4th Main, 1st Cross, Opp. Viveknagar Post Office, Bangalore - 47. Mob : 9611052865\nSTREET: # 162, 4th Main, 1st Cross, Opp. Viveknagar Post Office,\nCITY: Bangalore\nZIP_CODE: 47.\nNAME: VIJAYALAKSHMI MEDICAL\nADDRESS_BLOCK: # 162, 4th Main, 1st Cross, Opp. Viveknagar Post Office, Bangalore - 47.\nGSTIN.: 29ASJPS4219C1ZM\nVENDOR_ADDRESS: VIJAYALAKSHMI MEDICAL\n# 162, 4th Main, 1st Cross, Opp. Viveknagar Post Office, Bangalore - 47. Mob : 9611052865\nVENDOR_NAME: VIJAYALAKSHMI MEDICAL\nMob :: 9611052865\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate:: 7/5/24 No.: 1720 GSTIN.: 29ASJPS4219C1ZM TIN:: 29730721048 TOTAL: 236.00 Sign. of Q.P.: Wham Qty.: 15 Particulars: Pan-uu Mfg.: HYBIL Batch No.: 4391 Exp. Dat: 5h2 Amount\nRs.: 165  | Qty.: 6 Particulars: Isuges is play up Batch No.: 30796 Exp. Dat: 6/25 Amount\nRs.: 12. 3  | Qty.: 1 Particulars: is pladmeout cip Batch No.: 30069 Exp. Dat: 10/25 Amount\nRs.: 59.  | \n\nRaw Text Content:\nNo.\n1720\nCOMPOSITE BILL\nGSTIN. 29ASJPS4219C1ZM\nCASH BILL\nTIN: 29730721048\nDL.No.KA/BNG V 21 20 1030\nDate:\n7/5/24\nVIJAYALAKSHMI MEDICAL\n# 162, 4th Main, 1st Cross, Opp. Viveknagar Post Office, Bangalore - 47. Mob : 9611052865\nDr.\nVasanth Kumar\nPatient Name &Address Justine\nQty.\nParticulars\nMfg.\nBatch No.\nExp. Dat\nAmount\nRs.\nP.\n15\nPan-uu\nHYBIL\n4391\n5h2\n165\n6\nIsuges is play\nup\n30796\n6/25\n12.\n3\n1\nis pladmeout\ncip\n30069\n10/25\n59.\n236.00\nGoods once sold cannot be taken back or exchanged\nDrugs Price control order 1970 any excess collection by over sight\nwill be refunded. Inclusive of all txes\nWham\nSign. of Q.P.",
+  "gold": {
+    "invoice_number": "1720",
+    "patient_name": "Justine",
+    "services": [
+      {
+        "service": "Pan-uu",
+        "amount": 165,
+        "quantity": 15,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Isuges is play",
+        "amount": 12.3,
+        "quantity": 6,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "is pladmeout cip",
+        "amount": 59,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 236,
+    "doctor_name": "Dr. Vasanth Kumar",
+    "facility": "VIJAYALAKSHMI MEDICAL, # 162, 4th Main, 1st Cross, Opp. Viveknagar Post Office, Bangalore - 47. Mob : 9611052865",
+    "invoice_date": "7/5/24",
+    "payment_mode": "Cash",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

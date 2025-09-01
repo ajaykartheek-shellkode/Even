@@ -1,0 +1,55 @@
+{
+  "file_id": "image_picker_FBE12C4A_557F_4992_A0F7_59633FCB7CDD_47178_00002349C9A1C8A1",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nContact No :: 8861926807\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nAmount\nReceived: 628.00 Discount: 0.00 Invoice No :: 1002/CR/07272024/7315 Total : -: 628.15 Total Tax: 89.57 Amount Received :\nRupees: Amount Received : Six Hundred And Twenty-eight\nRupees Total Amount: 628.00 UHID No :: PHARM/65262 Name :: Bh0031760 /53 Yrs Pharmacist :: branchadmin Round\nOff(Paise): 15 SI.\nNo: 1 Name: LACRIMOS-\nG Qty: 1 HSN\nCode: 301 Batch: A24002PC Expiry: Mar/2026 Item\nPrice: 137.65 GST: 14.75 Discount: 0.00 Amount: 137.65  | SI.\nNo: 2 Name: oxyfort-4g Qty: 15 HSN\nCode: 2106 Batch: VFH-\n24028 Expiry: Feb/2026 Item\nPrice: 490.50 GST: 74.82 Discount: 0.00 Amount: 490.50  | \n\nRaw Text Content:\nPharmacy Invoice\nUHID No : PHARM/65262\nInvoice No :\nName : Bh0031760 /53 Yrs\n1002/CR/07272024/7315\nDate and Time : 27/07/2024 @\nAddress :\n03:03 PM\nBILL OF SUPPLY\nContact No : 8861926807\nSI.\nHSN\nItem\nName\nQty\nBatch\nExpiry\nGST\nDiscount\nAmount\nNo\nCode\nPrice\nLACRIMOS-\n1\n1\n301\nA24002PC\nMar/2026\n137.65\n14.75\n0.00\n137.65\nG\nVFH-\n2\noxyfort-4g\n15\n2106\nFeb/2026\n490.50\n74.82\n0.00\n490.50\n24028\nTotal :-\n628.15\n89.57\n0.00\n628.15\nAmount Received : Six Hundred And Twenty-eight\nTotal Tax\n89.57\nRupees\nTotal Amount\n628.00\nDiscount\n0.00\nAmount\nPharmacist : branchadmin\nRound\n15\nConsultant :\nOff(Paise)\nAmount\n628.00\nReceived",
+  "gold": {
+    "invoice_number": "1002/CR/07272024/7315",
+    "patient_name": "Bh0031760",
+    "services": [
+      {
+        "service": "LACRIMOS-G",
+        "amount": 137.65,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 137.65,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 14.75,
+        "gst_type": "AMOUNT"
+      },
+      {
+        "service": "oxyfort-4g",
+        "amount": 490.5,
+        "quantity": 15,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 490.5,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 74.82,
+        "gst_type": "AMOUNT"
+      }
+    ],
+    "total_amount": 628.0,
+    "doctor_name": null,
+    "facility": null,
+    "invoice_date": "27/07/2024 @ 03:03 PM",
+    "payment_mode": null,
+    "patient_age": "53 Yrs",
+    "patient_gender": null,
+    "patient_contact": "8861926807",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 89.57,
+    "gst_type": "AMOUNT",
+    "discount": 0,
+    "mrp": 628.15,
+    "round_off": 0.15
+  }
+}

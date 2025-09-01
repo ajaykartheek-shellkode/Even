@@ -1,0 +1,26 @@
+{
+  "file_id": "image_picker_AFE0E028_6CA1_4C2A_B46B_65EC13A63EC7_10533_000001CF5804F0DD",
+  "raw_text": "Raw Text Content:",
+  "gold": {
+    "invoice_number": null,
+    "patient_name": null,
+    "services": [],
+    "total_amount": 0,
+    "doctor_name": null,
+    "facility": null,
+    "invoice_date": null,
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

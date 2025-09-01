@@ -1,0 +1,83 @@
+{
+  "file_id": "e7bb554a_abd6_48d2_9ba2_a8bd38d64f176591787105588531401",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName :: 2024-Sep-14\nC.GSTIN: 9916532294\nName :: 2024-Sep-14\n\n=== SUPPLIER INFORMATION ===\nRegistered Office:: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennai - 600028\nSTREET: No. 19 Bishop Gardens, Raja Annamalaipuram,\nCITY: Chennai\nZIP_CODE: 600028\nADDRESS_BLOCK: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennai - 600028\nAdmin Office:: (For all correspondence) Ali Towers, III rd Floor, No. 55, Greams Road, Chennai - 600006.\nSTREET: Ali Towers, III rd Floor, No. 55, Greams Road,\nCITY: Chennai\nZIP_CODE: 600006.\nADDRESS_BLOCK: Ali Towers, III rd Floor, No. 55, Greams Road, Chennai - 600006.\nNAME: Apollo Pharmacy Pharmacist\nNAME: Apollo Pharmacy\nNAME: Apollo\nGSTIN: 080-41077631\nRegistered Office:: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennai - 600028\nAdmin Office:: (For all correspondence) Ali Towers, III rd Floor, No. 55, Greams Road, Chennai - 600006.\nVENDOR_NAME: Apollo Pharmacy Pharmacist\nVENDOR_NAME: Apollo Pharmacy\nVENDOR_NAME: Apollo\nToll No:: 1860 500 0101\nWebsite:: www.apollopharmacy.in\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nCARD:\nDPCO: 230.30 Date / Time :: 2024-Sep-14 GSTIN: 080-41077631 CIN :: U52500TN2016PLC111328 C.GSTIN: 9916532294 Net Total:: 230 CGST:: 12.82 SGST:: 12.82 GST: 12.00% TOTAL: 239.38 Terminal No. :: 17089CC0050505.102-APOL ADVANTAGE Tel. No: SINGASANDRA AECS LAYOUT-B DL. No: OLD PID/K.NO/SY NO.340/1218/1,W Ref. No. :: 003 9916532294 FSSAI: KA-B62-20-176837. KA-B62-21-176838 Donation: 0.00 QTY.: 1 ITEM NAME: MEFTAL - P SUSP 60ML HSN CODE: 30049066 MFRS: BLUE BATCH NO.: PZ2493 EXPIRY: Flay-26 SCH: H MRP: 37.00 CGST%: 6.00 SGST%: 6.00 TAXABLE: 33.04 TOTAL AMOUNT: 37.00  | QTY.: 1 ITEM NAME: EMESET SUSPENSION 30ML HSN CODE: 30049035 MFRS: CIPL BATCH NO.: AA60404 EXPIRY: May-26 SCH: H MRP: 42.33 CGST%: 6.00 SGST%: 6.00 TAXABLE: 37.79 TOTAL AMOUNT: 42.33  | QTY.: 1 ITEM NAME: * CROCIN SUSPENSION DOUBLE HSN CODE: 30049069 MFRS: GLAX BATCH NO.: ND240088 EXPIRY: Apr-26 SCH: Non MRP: 115.75 CGST%: 6.00 SGST%: 6.00 TAXABLE: 103.35 TOTAL AMOUNT: 115.75  | QTY.: 1 ITEM NAME: CETZINE SYP - 60ML HSN CODE: 30049031 MFRS: DR R BATCH NO.: CT40035 EXPIRY: Apr-26 SCH: H MRP: 44.30 CGST%: 6.00 SGST%: 6.00 TAXABLE: 39.55 TOTAL AMOUNT: 44.30  | \n\nRaw Text Content:\nBill No.\n8-23\nApollo Pharmacy\nBranch :\nDate / Time\nAddress\nGm\n:\nOrg\nTerminal No. :\n17089CC0050505.102-APOL ADVANTAGE CC\nApollo\n(Apollo Pharmacies Limited)\nTel. No SINGASANDRA AECS LAYOUT-B\nPHARMACY\nToll No: 1860 500 0101\nBACK\nName\n:\n2024-Sep-14 02:37:00 PM\nWebsite: www.apollopharmacy.in\nDL. No OLD PID/K.NO/SY NO.340/1218/1,W\nRef. No.\n:\n003\n9916532294\nC.GSTIN\nGSTIN 080-41077631\nTARKE\nDr.\nMR. NAV CHETHAN PRAKASH\nINVOICE\nFSSAI KA-B62-20-176837. KA-B62-21-176838\nback\nQTY.\nITEM NAME\nHSN CODE\nMFRS\nBATCH NO.\nEXPIRY\nSCH\nMRP\nCGST%\nSGST%\nTAXABLE\nTOTAL AMOUNT\nArba\n11221331501307\n1\nMEFTAL - P SUSP 60ML\n30049066\nBLUE\nPZ2493\nFlay-26\nH\n37.00\n6.00\n6.00\n33.04\n37.00\n1\nEMESET SUSPENSION 30ML\n30049035\nCIPL\nAA60404\nMay-26\nH\n42.33\n6.00\n6.00\n37.79\n42.33\nSold\n1\n* CROCIN SUSPENSION DOUBLE\n30049069\nGLAX\nND240088\nApr-26\nNon\n115.75\n6.00\n6.00\n103.35\n115.75\nDIDO\n1\nCETZINE SYP - 60ML\n30049031\nDR R\nCT40035\nApr-26\nH\n44.30\n6.00\n6.00\n39.55\n44.30\nAND\nCooks\n1996\n..\nOF\nGAL.\nTotal\n:\nCIN : U52500TN2016PLC111328\nRegistered Office: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennai - 600028\nDiscount:\nAdmin Office: (For all correspondence) Ali Towers, III rd Floor, No. 55, Greams Road, Chennai - 600006.\nNet Total:\nDPCO Items\nCARD: 230.30 Payable on reverse Charges basis\nGST 12.00% CGST:12.82 SGST:12.82\n230\nFor Apollo Pharmacy Pharmacist\n0.00\nDonation 0.00\nAPL31065\n239.38",
+  "gold": {
+    "invoice_number": "8-23",
+    "patient_name": "MR. NAV CHETHAN PRAKASH",
+    "services": [
+      {
+        "service": "MEFTAL - P SUSP 60ML",
+        "amount": 37.0,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "60ML",
+        "mrp": 37.0,
+        "cgst": 6.0,
+        "cgst_type": "PERCENT",
+        "sgst": 6.0,
+        "sgst_type": "PERCENT",
+        "gst": 12.0,
+        "gst_type": "PERCENT"
+      },
+      {
+        "service": "EMESET SUSPENSION 30ML",
+        "amount": 42.33,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "30ML",
+        "mrp": 42.33,
+        "cgst": 6.0,
+        "cgst_type": "PERCENT",
+        "sgst": 6.0,
+        "sgst_type": "PERCENT",
+        "gst": 12.0,
+        "gst_type": "PERCENT"
+      },
+      {
+        "service": "CROCIN SUSPENSION DOUBLE",
+        "amount": 115.75,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 115.75,
+        "cgst": 6.0,
+        "cgst_type": "PERCENT",
+        "sgst": 6.0,
+        "sgst_type": "PERCENT",
+        "gst": 12.0,
+        "gst_type": "PERCENT"
+      },
+      {
+        "service": "CETZINE SYP - 60ML",
+        "amount": 44.3,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "60ML",
+        "mrp": 44.3,
+        "cgst": 6.0,
+        "cgst_type": "PERCENT",
+        "sgst": 6.0,
+        "sgst_type": "PERCENT",
+        "gst": 12.0,
+        "gst_type": "PERCENT"
+      }
+    ],
+    "total_amount": 239.38,
+    "doctor_name": null,
+    "facility": "Apollo Pharmacy, SINGASANDRA AECS LAYOUT-B, Tel. No: 080-41077631, Toll No: 1860 500 0101, Website: www.apollopharmacy.in",
+    "invoice_date": "2024-Sep-14 02:37:00 PM",
+    "payment_mode": "CARD",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": "9916532294",
+    "cgst": 12.82,
+    "cgst_type": "AMOUNT",
+    "sgst": 12.82,
+    "sgst_type": "AMOUNT",
+    "gst": 12.0,
+    "gst_type": "PERCENT",
+    "discount": 0.0,
+    "mrp": 239.38,
+    "round_off": 0
+  }
+}

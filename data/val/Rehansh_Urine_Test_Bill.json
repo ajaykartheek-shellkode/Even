@@ -1,0 +1,41 @@
+{
+  "file_id": "Rehansh_Urine_Test_Bill",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nAddress: Perumbakkam,Chennai\nSTREET: Perumbakkam,Chennai\nADDRESS_BLOCK: Perumbakkam,Chennai\nCenter Address: 3/172 AG4, Perumbakkam, 1st main road\nCenter Address: 3/172 AG4, Perumbakkam, 1st main road\nADDRESS_BLOCK: 3/172 AG4, Perumbakkam, 1st main road\nName: Master.REHAMSH\nAddress: Perumbakkam,Chennai\nCenter Address: 3/172 AG4, Perumbakkam, 1st main road\nName: Master.REHAMSH\nContact No: 9786154632\nCenter Ph. No: 9445566654\n\n=== SUPPLIER INFORMATION ===\nRegd. Office:: 7-1-617/A, 615 and 616, 7th Floor, Imperial Towers, Opp: Ameerpet Metro Station, Ameerpet, Hyderabad 500038 Telangana\n-\nSTREET: 7-1-617/A, 615 and 616, 7th Floor, Imperial Towers, Opp: Ameerpet Metro Station, Ameerpet,\nCITY: Hyderabad\nSTATE: Telangana\nZIP_CODE: 500038\nADDRESS_BLOCK: 7-1-617/A, 615 and 616, 7th Floor, Imperial Towers, Opp: Ameerpet Metro Station, Ameerpet, Hyderabad 500038 Telangana\n-\nNAME: Apollo Health and Lifestyle Limited\nNAME: Apollo\nDIAGNOSTICS\nRegd. Office:: 7-1-617/A, 615 and 616, 7th Floor, Imperial Towers, Opp: Ameerpet Metro Station, Ameerpet, Hyderabad 500038 Telangana\n-\nVENDOR_NAME: Apollo Health and Lifestyle Limited\nVENDOR_NAME: Apollo\nDIAGNOSTICS\nPhone:: 040 4904 7777\nVENDOR_PHONE: 040 44442424\n-\nVENDOR_URL: \"WWW.APOLLODIAGNOSTICS.IN\"\nVENDOR_URL: www.apollohl.com\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nAmount: 290 Visit/Reg Date: 20-Nov-2024 INVOICE_RECEIPT_DATE: 20-Nov-2024 Bill: DPBKB/24-25/00003944 CIN:: U85110TG2000PLC115819 Bill Amount :: 290 Net Bill Amount :: 290 Received with thanks :: Two Hundred And Ninety Only Total Paid Amount :: 290 Age/Gender: 3 Y O M O D / Male Refered By: Dr.SELF Visit No: DPBKOPV42343 UHID: DPBK.0000012775 Center: PCC PERUMBAKKAM Home Collection: No Settlement: Settlement Payment: 20-11-2024 Receipt No: DPBKR/24-25/00003219 Mode: Cash Licensee: Saranya J Page: 1 of 1 Fax:: 040 4904 7744 Email id:: info@apollohl.com # Service: PR040 Name: PR040~COMPLETE URINE EXAMINATION (CUE) Reporting Date: 21-Nov-2024 01: 30PM SAC\nCode: 999316 Rate: 290 Total: 290  | \n\nRaw Text Content:\nApollo\nDIAGNOSTICS\nExpertise Empowering\nBill of Supply / Tax Invoice\nName\nMaster.REHAMSH\nBill\nDPBKB/24-25/00003944\nAge/Gender\n3 Y O M O D / Male\nVisit/Reg Date\n20-Nov-2024 05:47PM\nContact No\n9786154632\nRefered By\nDr.SELF\nAddress\nPerumbakkam,Chennai\nVisit No\nDPBKOPV42343\nUHID\nDPBK.0000012775\nCenter\nPCC PERUMBAKKAM\nHome Collection\nNo\nTRUST\nCenter Ph. No 9445566654\nCenter Address 3/172 AG4, Perumbakkam, 1st main road\n#\nService Code Service Name\nSAC\nReporting Date\nRate\nTotal\nCode\n1\nPR040\nPR040~COMPLETE URINE EXAMINATION (CUE)\n21-Nov-2024 01:30PM\n999316\n290\n290\nBill Amount :\n290\nSettlement\nPayment\nReceipt No\nMode\nAmount\nNet Bill Amount :\n290\nSettlement\n20-11-2024\nDPBKR/24-25/00003219\nCash\n290\nTotal Paid Amount :\n290\nAuthorized\nReceived with thanks : Two Hundred And Ninety Only\nSignature :\nYou can download your report from \"WWW.APOLLODIAGNOSTICS.IN\" Enter user name as ITPBKA42347 and password as 74F59D\nFor any query, kindly get in touch with us on customer.care@apollodiagnostics.in or call us on 040 - 44442424\nLicensee Saranya J\nPlease look for AAA+ logo on your report for Apollo assured quality\n20-Nov-2024 05:51 PM\nPage 1 of 1\nApollo Health and Lifestyle Limited\nCIN: U85110TG2000PLC115819\nRegd. Office: 7-1-617/A, 615 and 616, 7th Floor, Imperial Towers, Opp: Ameerpet Metro Station, Ameerpet, Hyderabad - 500038 Telangana\nPhone: 040 4904 7777 Fax: 040 4904 7744 | www.apollohl.com | Email id: info@apollohl.com",
+  "gold": {
+    "invoice_number": "DPBKB/24-25/00003944",
+    "patient_name": "Master.REHAMSH",
+    "services": [
+      {
+        "service": "PR040~COMPLETE URINE EXAMINATION (CUE)",
+        "amount": 290,
+        "quantity": 1,
+        "department": "laboratory",
+        "unit": null,
+        "mrp": 290,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 290,
+    "doctor_name": "Dr.SELF",
+    "facility": "Apollo Health and Lifestyle Limited, Apollo DIAGNOSTICS, 3/172 AG4, Perumbakkam, 1st main road, Phone: 040 4904 7777, Center Ph. No: 9445566654",
+    "invoice_date": "20-Nov-2024 05:47PM",
+    "payment_mode": "Cash",
+    "patient_age": "3 Y O M O D",
+    "patient_gender": "Male",
+    "patient_contact": "9786154632",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 290,
+    "round_off": 0
+  }
+}

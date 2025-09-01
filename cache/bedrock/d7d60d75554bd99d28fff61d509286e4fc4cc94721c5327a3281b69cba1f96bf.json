@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"41854\",\n    \"patient_name\": \"mst. Jaksh Sandeep Adarkar\",\n    \"services\": [\n      {\n        \"service\": \"Regular Consultation by Dr. Shailesh R Barot\",\n        \"amount\": 500.00,\n        \"quantity\": 1,\n        \"department\": \"consultation\",\n        \"unit\": \"visit\",\n        \"mrp\": 0,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 500.00,\n    \"doctor_name\": \"Dr. Shailesh R Barot\",\n    \"facility\": \"ANKUR PEDIATRIC MULTISPECIALITY HOSPITAL LLP 204, Thakur Tower, Raja C.S. Marg, Mirar (W) 401303 Mob: 8975778866/9921487700\",\n    \"invoice_date\": \"22/01/2025\",\n    \"payment_mode\": null,\n    \"patient_age\": \"2.3 Years\",\n    \"patient_gender\": \"Male\",\n    \"patient_contact\": null,\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 0,\n    \"mrp\": 0,\n    \"round_off\": 0\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "call_duration": 6.589625120162964,
+    "timestamp": 1756702104.130594,
+    "cache_key": "d7d60d75554bd99d28fff61d509286e4fc4cc94721c5327a3281b69cba1f96bf",
+    "prompt_length": 8391,
+    "output_length": 1022
+  }
+}

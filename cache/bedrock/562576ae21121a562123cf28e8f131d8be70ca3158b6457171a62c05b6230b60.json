@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"SWH24OPCS155547\",\n    \"patient_name\": \"Mr.Omkar Sardessai\",\n    \"services\": [\n      {\n        \"service\": \"FOLLOW UP VISIT\",\n        \"amount\": 450.00,\n        \"quantity\": 1,\n        \"department\": \"DERMATOLOGY\",\n        \"unit\": null,\n        \"mrp\": 450.00,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 450.00,\n    \"doctor_name\": \"Dr. VIJAYA GOWRI BANDARU\",\n    \"facility\": \"SAKRA WORLD HOSPITAL, 52/2 & 52/3, Deverabeesanahalli, Opposite INTEL Outer Ring Road, Bengaluru, Karnataka, India\",\n    \"invoice_date\": \"21 Feb 2025\",\n    \"payment_mode\": \"Credit Card\",\n    \"patient_age\": \"35 Yrs\",\n    \"patient_gender\": \"M\",\n    \"patient_contact\": \"91-8197953558\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 0,\n    \"mrp\": 450.00,\n    \"round_off\": 0\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.05,
+    "max_tokens": 2000,
+    "call_duration": 119.28703784942627,
+    "timestamp": 1756703099.279964,
+    "cache_key": "562576ae21121a562123cf28e8f131d8be70ca3158b6457171a62c05b6230b60",
+    "prompt_length": 7145,
+    "output_length": 1011
+  }
+}

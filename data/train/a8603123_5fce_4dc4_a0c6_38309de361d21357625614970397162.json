@@ -1,0 +1,41 @@
+{
+  "file_id": "a8603123_5fce_4dc4_a0c6_38309de361d21357625614970397162",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nAddress\n:: WESTBENAGI\nName\n:: MR AMARNATH\nAddress\n:: WESTBENAGI\nName\n:: MR AMARNATH\nPhone :: 9832292612\n\n=== SUPPLIER INFORMATION ===\nRegistered office: Registered office : Manipal Health Enterprises Road, Pvt. Bengaluru Ltd. 560 017 | P +91 80 4936 0300\nCITY: Bengaluru\nZIP_CODE: 560 017\nADDRESS_BLOCK: Bengaluru 560 017\nADDRESS: LIFE'S ON\nMANIPAL\nHOSPITAL\n#98 HAL BANGALORE\nAirport\nRoad,\nMANIPAL Bangalore\nHOSPITAL 560017\nBANGALORE\nCITY: BANGALORE\nCITY: Bangalore\nZIP_CODE: 560017\nNAME: LIFE'S ON\nADDRESS_BLOCK: Road,\nBangalore\n560017\nBANGALORE\nNAME: palhospitals\nGSTIN :: 29AAGCM5933R2ZK\nRegistered office: Registered office : Manipal Health Enterprises Road, Pvt. Bengaluru Ltd. 560 017 | P +91 80 4936 0300\nVENDOR_ADDRESS: LIFE'S ON\nMANIPAL\nHOSPITAL\n#98 HAL BANGALORE\nAirport\nRoad,\nMANIPAL Bangalore\nHOSPITAL 560017\nBANGALORE\nVENDOR_NAME: LIFE'S ON\nVENDOR_NAME: palhospitals\nP: +91 80 4936 0300\nVENDOR_URL: www.manipalhospitals.com\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nAmount Paid :: 900.00 Receipt Amt.: 900.00 Amt. Adjusted: 900.00 Bill Date :: 13/12/2024 Bill No. :: MHB24OCS0837814 Invoice :: 8024864 GSTIN :: 29AAGCM5933R2ZK CIN :: U85110KA2010PTC052540 Total :: 900.00 Total: 900.00 TOTAL: Rupees Nine Hundred only) Reg No.\n:: MH002799375 Episode No :: 000010689259 Age/Sex\n:: AMARNATH\nJAISWAL Episode Date:: 13/12/2024 Department:: ORTHOPAEDICS\nMHB Doctor\n:: SAMARTH\nARYA Mode: 1 dated: 13/12/2024. NOTE:: WITH THE SAME. DOCTOR WITHIN 3 DAYS WILL NOT BE CHARGED Bank :: HDFC BANK TID :: 27141663 Batch :: 982027 CType :: VISA ApprCode :: 000382 #\nParticulars: CONSULTATION\nORTHOPAEDICS Unit: 1 Price: 900.00 SAC: 999311 Amount: 900.00  | \n\nRaw Text Content:\nLIFE'S ON\nSVRE\npalhospitals\nLIFE'S ON\nMANIPAL HOSPITAL BANGALORE\nMANIPAL #98 HAL HOSPITAL Airport Road, BANGALORE Bangalore 560017\nBILL OF SUPPLY\nReg No.\nName\n: MH002799375\n: MR AMARNATH\nEpisode No : 000010689259\nAge/Sex : 65 Y / Male\nJAISWAL\nEpisode Date: 13/12/2024\nAddress : WESTBENAGI\nBill No. : MHB24OCS0837814\nBill Date : 13/12/2024 12:44PM\nDepartment: ORTHOPAEDICS MHB\nPhone : 9832292612\nDoctor : SAMARTH ARYA\nGSTIN : 29AAGCM5933R2ZK\n#\nParticulars\nUnit\nSAC\nAmount\nPrice\n1\nCONSULTATION ORTHOPAEDICS\n1\n900.00\n999311\n900.00\nTotal : 900.00\nAmount Paid : 900.00\n(Received with thanks a sum of Rupees Nine Hundred only)\nPayment Details\n#\nMode\nParticulars\nReceipt Amt.\nAmt. Adjusted\n1\nOnline\nPayment No.\n900.00\n900.00\ndated 13/12/2024.\nTotal\n900.00\nGenerated/PrAecA By\n(ShireshaA)\nNOTE: ONE FOLLOW UP VISIT WITH THE SAME. DOCTOR WITHIN 3 DAYS WILL NOT BE CHARGED\nBank : HDFC BANK\nTID : 27141663\nBatch\n: 982027\nCType : VISA\nApprCode : 000382\nInvoice : 8024864\nThe Registered Annexe office #98/2 : Rustom Manipal Bagh,HAL Health Airport Enterprises Road, Pvt. Bengaluru Ltd. 560 017 | P +91 80 4936 0300 | www.manipalhospitals.com\nCIN : U85110KA2010PTC052540",
+  "gold": {
+    "invoice_number": "MHB24OCS0837814",
+    "patient_name": "MR AMARNATH JAISWAL",
+    "services": [
+      {
+        "service": "CONSULTATION ORTHOPAEDICS",
+        "amount": 900,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 900,
+    "doctor_name": "SAMARTH ARYA",
+    "facility": "MANIPAL HOSPITAL BANGALORE #98 HAL Airport Road, Bangalore 560017",
+    "invoice_date": "13/12/2024 12:44PM",
+    "payment_mode": "Online",
+    "patient_age": "65 Y ",
+    "patient_gender": "Male",
+    "patient_contact": "9832292612",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

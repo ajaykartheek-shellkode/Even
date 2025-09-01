@@ -1,0 +1,41 @@
+{
+  "file_id": "Adobe_Scan_Jun_21__2025__5_",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient:: GEETHU\nPatient:: GEETHU\n\n=== SUPPLIER INFORMATION ===\nADDRESS: PULS SPECIALITY CLINIC\nPallimukku Jn., Odanavattam\nKottarakkara, Kollam, Pin No: 691512\nSTREET: Pallimukku Jn., Odanavattam\nCITY: Kollam,\nPin No:: 691512\nNAME: PULS SPECIALITY CLINIC\nADDRESS_BLOCK: Pallimukku Jn., Odanavattam\nKottarakkara, Kollam, Pin No: 691512\nNAME: ULSE\nM\nWe care for you\nVENDOR_ADDRESS: PULS SPECIALITY CLINIC\nPallimukku Jn., Odanavattam\nKottarakkara, Kollam, Pin No: 691512\nVENDOR_NAME: PULS SPECIALITY CLINIC\nVENDOR_NAME: ULSE\nM\nWe care for you\nPh No:: 0474 29621502\nFOR OP BOOKING: CALL-04651-123456789\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 20/06/2025 Bill No :: 241/Cash Net Total :: 20.00 TOTAL: Rupees Twenty Only MR/OP#:: 25-265/330088 Age/Sex :: 31 Years/ Female Doctor:: DR. AJIN T Prepared by: -pharmacy SI#: 1 Description: INJECTION CHARGE Qty: 1 Rate: 20.00 Amount: 20.00  | \n\nRaw Text Content:\nPULS SPECIALITY CLINIC\nM\nULSE\nSPECIALITY\nPallimukku Jn., Odanavattam\nCLINIC\nKottarakkara, Kollam, Pin No: 691512\nWe care for you\nPh No: 0474 29621502\nMR/OP#: 25-265/330088\nGeneral Bill\nDate\n:20/06/2025 20:03:46\nPatient:\nGEETHU\nAge/Sex\n:31 Years/ Female\nDoctor:\nDR. AJIN T\nBill No\n:241/Cash\nSI#\nDescription\nQty\nRate\nAmount\n1\nINJECTION CHARGE\n1\n20.00\n20.00\nTHIS SPECIALITY GUATE\n*\nHOMELAND\nSECURITY\na SYUBLI\nPH:\n0474\nRupees Twenty Only\nNet Total :\n20.00\nSPECIALITY CONSULTATION, CASUALITY, PHARMACY, LABORATORY, ECG\nFOR OP BOOKING CALL-04651-123456789\nPrepared by -pharmacy",
+  "gold": {
+    "invoice_number": "241/Cash",
+    "patient_name": "GEETHU",
+    "services": [
+      {
+        "service": "INJECTION CHARGE",
+        "amount": 20,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 20,
+    "doctor_name": "DR. AJIN T",
+    "facility": "PULS SPECIALITY CLINIC Pallimukku Jn., Odanavattam Kottarakkara, Kollam, Pin No: 691512 Ph No: 0474 29621502",
+    "invoice_date": "20/06/2025 20:03:46",
+    "payment_mode": "Cash",
+    "patient_age": "31 Years",
+    "patient_gender": "Female",
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

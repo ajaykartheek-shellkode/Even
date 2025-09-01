@@ -1,0 +1,69 @@
+{
+  "file_id": "1000639428",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nSold CO:: KARUNAKARAN\nSold CO:: KARUNAKARAN\n\n=== SUPPLIER INFORMATION ===\nADDRESS: RAMSON MEDICALS\nCENTRAL BAZAR, KAEIVELLUR\nSTREET: CENTRAL BAZAR,\nCITY: KAEIVELLUR\nNAME: RAMSON MEDICALS\nADDRESS_BLOCK: CENTRAL BAZAR, KAEIVELLUR\nADDRESS: 031201 SCHNE VOCCALIES\nZIP_CODE: 031201\nADDRESS_BLOCK: 031201\nVENDOR_ADDRESS: RAMSON MEDICALS\nCENTRAL BAZAR, KAEIVELLUR\nVENDOR_ADDRESS: 031201 SCHNE VOCCALIES\nVENDOR_NAME: RAMSON MEDICALS\nPhone:: 04985-261034\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 14-10-2024 5111 No:: 33667 Total :: 253.00 GST:: 30.36 CGST:: 15.18 SGST:: 15.18 Br Total :: 253.00 Pres Dr:: JANAPSANAN St.: 1 11E: STALDGESIC PORTE MFR: ADU BATCH: 3016823 EXP: 12-25 GST'S: 12 MAP: 7.00  | St.: 2 11E: RASINOS 20 MFR: ZEYR BATCH: HBP84326 EXP: 03-26 QTY: 10 GST'S: in MAP: 6.48  | St.: 3 11E: UNDOOR o TAB MFR: ILACH BATCH: KHT1070 EXP: 0E-26 QTY: 10 GST'S: 18 MAP: 11.98  | \n\nRaw Text Content:\n031201 SCHNE VOCCALIES\nCASH BILL\nRAMSON MEDICALS\nCENTRAL BAZAR, KAEIVELLUR\nPhone: 04985-261034\nSold CO: KARUNAKARAN\n5111 No: 33667\nPres Dr: JANAPSANAN\nDate : 14-10-2024\nSt.\n11E\nHSN MFR\nBATCH\nEXP QTY GST'S\nMAP\n1\nSTALDGESIC PORTE\nADU\n3016823\n12-25\n12\n7.00\n78.00\n2\nRASINOS 20\nZEYR\nHBP84326\n03-26\n10\nin\n6.48\n64.00\n3\nUNDOOR o TAB\nILACH KHT1070\n0E-26\n10\n18\n11.98\n119.00\nTotal : 253.00\nGST: 30.36 CGST:15.18 SGST:15.18 Br Total :253.00\nE I DE\nPharmecist\nGoods once sold will not be taken back without bill.\nthe",
+  "gold": {
+    "invoice_number": "33667",
+    "patient_name": "KARUNAKARAN",
+    "services": [
+      {
+        "service": "STALDGESIC PORTE",
+        "amount": 78,
+        "quantity": 10,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 7,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 12,
+        "gst_type": "PERCENT"
+      },
+      {
+        "service": "RASINOS 20",
+        "amount": 64,
+        "quantity": 10,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 6.48,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 5,
+        "gst_type": "PERCENT"
+      },
+      {
+        "service": "UNDOOR o TAB",
+        "amount": 119,
+        "quantity": 10,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 11.98,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 18,
+        "gst_type": "PERCENT"
+      }
+    ],
+    "total_amount": 253,
+    "doctor_name": "JANAPSANAN",
+    "facility": "RAMSON MEDICALS, CENTRAL BAZAR, KAEIVELLUR, Phone: 04985-261034",
+    "invoice_date": "14-10-2024",
+    "payment_mode": "CASH",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 15.18,
+    "cgst_type": "AMOUNT",
+    "sgst": 15.18,
+    "sgst_type": "AMOUNT",
+    "gst": 30.36,
+    "gst_type": "AMOUNT",
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

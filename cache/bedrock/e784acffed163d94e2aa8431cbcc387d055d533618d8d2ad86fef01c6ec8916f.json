@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"1002/CR/07272024/7315\",\n    \"patient_name\": \"Bh0031760\",\n    \"services\": [\n      {\n        \"service\": \"LACRIMOS-G\",\n        \"amount\": 137.65,\n        \"quantity\": 1,\n        \"department\": \"pharmacy\",\n        \"unit\": null,\n        \"mrp\": 137.65,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 14.75,\n        \"gst_type\": \"AMOUNT\"\n      },\n      {\n        \"service\": \"oxyfort-4g\",\n        \"amount\": 490.50,\n        \"quantity\": 15,\n        \"department\": \"pharmacy\",\n        \"unit\": null,\n        \"mrp\": 490.50,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 74.82,\n        \"gst_type\": \"AMOUNT\"\n      }\n    ],\n    \"total_amount\": 628.00,\n    \"doctor_name\": null,\n    \"facility\": null,\n    \"invoice_date\": \"27/07/2024 @ 03:03 PM\",\n    \"payment_mode\": null,\n    \"patient_age\": 53,\n    \"patient_gender\": null,\n    \"patient_contact\": \"8861926807\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 89.57,\n    \"gst_type\": \"AMOUNT\",\n    \"discount\": 0,\n    \"mrp\": 628.15,\n    \"round_off\": -0.15\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "call_duration": 7.135501861572266,
+    "timestamp": 1756701629.2795908,
+    "cache_key": "e784acffed163d94e2aa8431cbcc387d055d533618d8d2ad86fef01c6ec8916f",
+    "prompt_length": 9199,
+    "output_length": 1201
+  }
+}

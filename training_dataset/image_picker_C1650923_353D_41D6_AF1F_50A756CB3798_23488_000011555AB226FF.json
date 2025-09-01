@@ -1,0 +1,41 @@
+{
+  "file_id": "image_picker_C1650923_353D_41D6_AF1F_50A756CB3798_23488_000011555AB226FF",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nMr./Mrs.: vivek. Kadam.\nMr./Mrs.: vivek. Kadam.\n\n=== SUPPLIER INFORMATION ===\nADDRESS: POLYCLINIC\nDr. INDULKAR'S\nCare for life as always\nShop No. 4, Ganesh Krupa, Near Tilak College, M.I.D.C. Dombivli (E)\nSTREET: Shop No. 4, Ganesh Krupa, Near Tilak College, M.I.D.C.\nNAME: Dr. INDULKAR'S POLYCLINIC\nADDRESS_BLOCK: Shop No. 4, Ganesh Krupa, Near Tilak College, M.I.D.C.\nVENDOR_ADDRESS: POLYCLINIC\nDr. INDULKAR'S\nCare for life as always\nShop No. 4, Ganesh Krupa, Near Tilak College, M.I.D.C. Dombivli (E)\nVENDOR_NAME: Dr. INDULKAR'S POLYCLINIC\nMob.: 91-9324342730,\nVENDOR_PHONE: 91-9773153069\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 09/12/24 No.: 402 300).\nThe sum of ₹ (in Word): ₹ 300). \n\nRaw Text Content:\nDr. INDULKAR'S POLYCLINIC\nCare for life as always\nShop No. 4, Ganesh Krupa, Near Tilak College, M.I.D.C. Dombivli (E)\nMob. 91-9324342730, 91-9773153069\nNo.\n402\nRECEIPT\nDate : 09/12/24\nRECEIVED with thanks from\nMr./Mrs. vivek. Kadam.\nThe sum of ₹ 300).\ntowards consultation & treatment.\n(in Word) Three Hundred only\nDR. S. K.\nINDULKIN\nB.A.M.\nRegn. No. For For Indulkar Polyclinic",
+  "gold": {
+    "invoice_number": "402",
+    "patient_name": "vivek Kadam",
+    "services": [
+      {
+        "service": "consultation & treatment",
+        "amount": 300,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 300,
+    "doctor_name": "DR. S. K. INDULKIN",
+    "facility": "Dr. INDULKAR'S POLYCLINIC, Care for life as always, Shop No. 4, Ganesh Krupa, Near Tilak College, M.I.D.C. Dombivli (E), Mob. 91-9324342730, 91-9773153069",
+    "invoice_date": "09/12/24",
+    "payment_mode": "Cash",
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

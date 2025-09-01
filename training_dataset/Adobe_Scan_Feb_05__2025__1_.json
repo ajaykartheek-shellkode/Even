@@ -1,0 +1,83 @@
+{
+  "file_id": "Adobe_Scan_Feb_05__2025__1_",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient :: SANVIKA\nPatient :: SANVIKA\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDiscount :: 0.00 Date:: 05-02-2025 No.: 135954 Total :: 375.68 Gst :: 6.68 Total:: 375.68 Grand Total :: 382.36 Bill Amt :: 382.00 TOTAL: (Rupees Three hundred and Eighty Two Only) Pharmacist: Have\nPharmacist\nANIL K THA\nMBB sl\nNO: 1 Product Name: CONSULTING EEES Batch\nNo: CF250 Exp\nDt.: 01-30 Qty: 1 Rate: 250.0000 Disc.\nAmt: 0.00 Gst%: 0.0 Gst.\nAmt: 0.00 Total\nAmount: 250.00  | sl\nNO: 2 Product Name: SUPPOSITRY Qty: 1 Rate: 70.0000 Disc.\nAmt: 0.00 Gst%: 0.0 Gst.\nAmt: 0.00 Total\nAmount: 70.00  | sl\nNO: 3 Product Name: BABYGESIC DROPS Mfr: MEYER Batch\nNo: 099P2401 Exp\nDt.: 02-26 Qty: 1 Rate: 22.1071 Disc.\nAmt: 0.00 Gst%: 12.0 Gst.\nAmt: 2.65 Total\nAmount: 24.76  | sl\nNO: 4 Product Name: MFLOCID P SUSP 60ML Mfr: FLORE Batch\nNo: BL04E401 Exp\nDt.: 07-26 Qty: 1 Rate: 33.5714 Disc.\nAmt: 0.00 Gst%: 12.0 Gst.\nAmt: 4.03 Total\nAmount: 37.60  | \n\nRaw Text Content:\nTAX INVOICE\nNo. 135954\nDate: 05-02-2025 8:55:42 AM\nDr. DR-ANIL\nPatient : SANVIKA\nsl\nProduct Name\nMfr\nBatch\nExp\nQty\nRate\nDisc.\nGst%\nGst.\nTotal\nNO\nNo\nDt.\nAmt\nAmt\nAmount\n1\nCONSULTING EEES\nCF250\n01-30\n1\n250.0000\n0.00\n0.0\n0.00\n250.00\n2\nSUPPOSITRY\n1\n70.0000\n0.00\n0.0\n0.00\n70.00\n3\nBABYGESIC DROPS\nMEYER\n099P2401\n02-26\n1\n22.1071\n0.00\n12.0\n2.65\n24.76\n4\nMFLOCID P SUSP 60ML\nFLORE\nBL04E401\n07-26\n1\n33.5714\n0.00\n12.0\n4.03\n37.60\nTotal : 375.68\nDiscount\n:0.00\nGst\n: 6.68\nGrand Total\n:\n382.36\nBill Amt :\n382.00\n(Rupees Three hundred and Eighty Two Only)\nGST COLLECTION SUMMARY\nRate\nsale Amt\nCGST\nSGST\n0\n320.00\n0.00\n0.00\n12\n55.68\n3.34\n3.34\nTotal: 375.68\n3.34\n3.34\nHave\nPharmacist\nDr. ANIL K THA\nMBB\nConsultant Paedia\nKottarakara",
+  "gold": {
+    "invoice_number": "135954",
+    "patient_name": "SANVIKA",
+    "services": [
+      {
+        "service": "CONSULTING EEES",
+        "amount": 250,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 250,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "SUPPOSITRY",
+        "amount": 70,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 70,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "BABYGESIC DROPS",
+        "amount": 24.76,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 22.1071,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 12,
+        "gst_type": "PERCENT"
+      },
+      {
+        "service": "MFLOCID P SUSP 60ML",
+        "amount": 37.6,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "60ML",
+        "mrp": 33.5714,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 12,
+        "gst_type": "PERCENT"
+      }
+    ],
+    "total_amount": 382,
+    "doctor_name": "Dr. ANIL K THA",
+    "facility": null,
+    "invoice_date": "05-02-2025 8:55:42 AM",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 3.34,
+    "cgst_type": "AMOUNT",
+    "sgst": 3.34,
+    "sgst_type": "AMOUNT",
+    "gst": 6.68,
+    "gst_type": "AMOUNT",
+    "discount": 0,
+    "mrp": 375.68,
+    "round_off": -0.36
+  }
+}

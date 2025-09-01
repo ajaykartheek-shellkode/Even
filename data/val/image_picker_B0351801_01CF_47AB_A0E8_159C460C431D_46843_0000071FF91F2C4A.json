@@ -1,0 +1,41 @@
+{
+  "file_id": "image_picker_B0351801_01CF_47AB_A0E8_159C460C431D_46843_0000071FF91F2C4A",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nAddress :: Sobha Iris, NULL, Bangalore, Karnataka, India\nSTREET: Sobha Iris, NULL,\nCITY: Bangalore,\nSTATE: Karnataka,\nCOUNTRY: India\nADDRESS_BLOCK: Sobha Iris, NULL, Bangalore, Karnataka, India\nPatient Name :: Mr.Omkar Sardessai\nAddress :: Sobha Iris, NULL, Bangalore, Karnataka, India\nPatient Name :: Mr.Omkar Sardessai\nMobile No :: 91-8197953558\n\n=== SUPPLIER INFORMATION ===\nADDRESS: SAKRA WORLD HOSPITAL\n52/2 & 52/3, Deverabeesanahalli,Opposite INTEL Outer Ring\nRoad,Bengaluru,Karnataka,India\nSTREET: 52/2 & 52/3, Deverabeesanahalli,Opposite INTEL Outer Ring\nSTATE: Road,Bengaluru,Karnataka,India\nNAME: SAKRA WORLD HOSPITAL\nADDRESS_BLOCK: 52/2 & 52/3, Deverabeesanahalli,Opposite INTEL Outer Ring\nRoad,Bengaluru,Karnataka,India\nNAME: SSARRA\nGRLD HOSPITAL\nGSTIN\n-: 29AAECT2952P1ZN\nVENDOR_ADDRESS: SAKRA WORLD HOSPITAL\n52/2 & 52/3, Deverabeesanahalli,Opposite INTEL Outer Ring\nRoad,Bengaluru,Karnataka,India\nVENDOR_NAME: SAKRA WORLD HOSPITAL\nVENDOR_NAME: SSARRA\nGRLD HOSPITAL\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nPaid by Patient: 450.00 Bill Date :: 21 Feb 2025 Print Date:: 21 Feb 2025 Bill No. :: SWH24OPCS155547 GSTIN\n-: 29AAECT2952P1ZN Total: 450.00 Gross Amount: 450.00 Amount in Words:: INR Four Hundred Fifty only Net Amount: 450.00 Net Patient Payable: 450.00 Net Patient Payable: 450.00 GST State Code\n-: 29 UHID :: SW01.0578236 Payor :: CASH (Base Tariff) Practitioner :: Dr. VIJAYA GOWRI BANDARU I DERMATOLOGY Age/Gender :: 35 Yrs/M SAC Code :: 9993 Receipt/Refund No.: RSWH24OPCS155547 Date: 21 Feb 2025 Adjusted Amount: 450.00 Mode: Credit Card Trx Reference No.: 324477271 Username:: Animesh Karmakar Bill Remarks: Kin Name:\nPrepared By Animesh Karmakar Prepared By: Animesh Karmakar Printed By: Animash Karmakar S.No.: 1 Service Name: FOLLOW UP VISIT Il Dr. VIJAYA GOWRI BANDARU (CON009) Rate: 450.00 Qty.: 1 Gross Amt: 450.00 Net Amnt: 450.00  | \n\nRaw Text Content:\nSAKRA WORLD HOSPITAL\n52/2 & 52/3, Deverabeesanahalli,Opposite INTEL Outer Ring\nSSARRA\nRoad,Bengaluru,Karnataka,India\nGRLD HOSPITAL\n(STORE 156540 JUST\nGSTIN - 29AAECT2952P1ZN I GST State Code - 29\nOI-SWH24OPCS155547\nOP Invoice - Cash\nBill No.\n: SWH24OPCS155547\nUHID\n: SW01.0578236\nBill Date\n: 21 Feb 2025 I 09:49 AM\nPatient Name\n: Mr.Omkar Sardessai\nPayor\n: CASH (Base Tariff)\nPractitioner\n: Dr. VIJAYA GOWRI BANDARU I DERMATOLOGY\nAge/Gender\n: 35 Yrs/M\nSAC Code\n: 9993\nAddress\n: Sobha Iris, NULL, Bangalore, Karnataka, India\nReferred By\n:\nMobile No\n: 91-8197953558\nS.No.\nService Name\nRate\nQty.\nGross Amt\nNet Amnt\n450.00\n1\nFOLLOW UP VISIT Il Dr. VIJAYA GOWRI BANDARU (CON009)\n450.00\n1\n450.00\nTotal\n450.00\n450.00\nAmount in Words: INR Four Hundred Fifty only\nGross Amount\n450.00\nReceipt/Refund No.\nDate\nAdjusted Amount\nMode\nPaid By\nTrx Reference No.\nNet Amount\n450.00\nRSWH24OPCS155547\n21 Feb 2025\n450.00\nCredit Card\nPatient\n324477271\nNet Patient Payable\n450.00\nPaid by Patient\n450.00\nUsername: Animesh Karmakar\nBill Remarks\nKin Contact:\nKin Name:\nKin Relation:\nPrepared By Animesh Karmakar\nPrinted By Animash Karmakar\nPrint Date: 21 Feb 2025 I 09:49 AM",
+  "gold": {
+    "invoice_number": "SWH24OPCS155547",
+    "patient_name": "Mr.Omkar Sardessai",
+    "services": [
+      {
+        "service": "FOLLOW UP VISIT II Dr. VIJAYA GOWRI BANDARU (CON009)",
+        "amount": 450,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 450,
+    "doctor_name": "Dr. VIJAYA GOWRI BANDARU",
+    "facility": "SAKRA WORLD HOSPITAL 52/2 & 52/3, Deverabeesanahalli,Opposite INTEL Outer Ring Road,Bengaluru,Karnataka,India",
+    "invoice_date": "21 Feb 2025 I 09:49 AM",
+    "payment_mode": "Credit Card",
+    "patient_age": "35 Yrs",
+    "patient_gender": "Male",
+    "patient_contact": "91-8197953558",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

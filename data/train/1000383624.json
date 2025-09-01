@@ -1,0 +1,69 @@
+{
+  "file_id": "1000383624",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nAddress\n:: Town/Vill- BELTOLA,\nCITY: BELTOLA,\nADDRESS_BLOCK: Town/Vill- BELTOLA,\nName\n: MRS.: MRS. LANUMONI DAS\nAddress\n:: Town/Vill- BELTOLA,\nName\n: MRS.: MRS. LANUMONI DAS\nPhone\n:: 9706664379\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Medicity Guwahati\nDispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam\nSTREET: Dispur, Hatigaon Main Road (Opp Sankar Path),\nCITY: Guwahati,\nSTATE: Assam\nNAME: Medicity Guwahati\nADDRESS_BLOCK: Dispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam\nNAME: M EDICITY\nGUWAHATI\nVENDOR_ADDRESS: Medicity Guwahati\nDispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam\nVENDOR_NAME: Medicity Guwahati\nVENDOR_NAME: M EDICITY\nGUWAHATI\nPhone:: 8486483479,6901224848\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nPaid: 1,000.00 INVOICE_RECEIPT_DATE: 21-06-2025 12:23:0 Bill No\n:: 4147/0625 Total: 1,000.00 TOTAL: Indian Rupees One Thousand Only UHID\n:: 208273 Reg Date :: 21-Jun-25 Ref By\n:: SELF Age / Sex :: 38 Years / Female Balance: 0.00 22: Registration Fee 22: 100.00  | 22: Maintenance Fee 22: 100.00  | 22: Consultation Fee (Dr. P. N. UZIR ,) 22: 800.00  | \n\nRaw Text Content:\npeton\nM\nEDICITY\nGUWAHATI\nMedicity Guwahati\nDispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam\nPhone: 8486483479,6901224848\n4147/0625\nUHID\n: 208273\n21-06-2025 12:23:0 PM\nName\nBill No\n: 4147/0625\n: MRS. LANUMONI DAS\nReg Date : 21-Jun-25 12:22 PM\nRef By\nAge / Sex : 38 Years / Female\nPhone\n: SELF\n: 9706664379\nAddress\nAppointment No\n: Town/Vill- BELTOLA,\n:\nOPD Consultation Receipt\nRegistration Fee\n100.00\nMaintenance Fee\n100.00\nConsultation Fee (Dr. P. N. UZIR ,)\n800.00\nTotal\n1,000.00\nPaid\n1,000.00\nBalance\n0.00\nIndian Rupees One Thousand Only\nPAME Medicity\nFOR PTANUSHREE Guwahati H)",
+  "gold": {
+    "invoice_number": "4147/0625",
+    "patient_name": "MRS. LANUMONI DAS",
+    "services": [
+      {
+        "service": "Registration Fee",
+        "amount": 100,
+        "quantity": 1,
+        "department": "OPD consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Maintenance Fee",
+        "amount": 100,
+        "quantity": 1,
+        "department": "OPD consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Consultation Fee (Dr. P. N. UZIR)",
+        "amount": 800,
+        "quantity": 1,
+        "department": "OPD consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 1000,
+    "doctor_name": "Dr. P. N. UZIR",
+    "facility": "Medicity Guwahati, Dispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam, Phone: 8486483479,6901224848",
+    "invoice_date": "21-06-2025 12:22:0 PM",
+    "payment_mode": null,
+    "patient_age": "38 Years",
+    "patient_gender": "Female",
+    "patient_contact": "9706664379",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

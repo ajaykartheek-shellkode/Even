@@ -1,0 +1,41 @@
+{
+  "file_id": "1000035491",
+  "raw_text": "=== SUPPLIER INFORMATION ===\nADDRESS: ASHWINI CLINICAL LABORATORY\nS.N.Pet, 5th Cross, BELLARI-583 103. Tel.: 08392-231453\nSTREET: S.N.Pet, 5th Cross,\nZIP_CODE: BELLARI-583 103.\nNAME: ASHWINI CLINICAL LABORATORY\nADDRESS_BLOCK: S.N.Pet, 5th Cross, BELLARI-583 103.\nVENDOR_ADDRESS: ASHWINI CLINICAL LABORATORY\nS.N.Pet, 5th Cross, BELLARI-583 103. Tel.: 08392-231453\nVENDOR_NAME: ASHWINI CLINICAL LABORATORY\nTel.:: 08392-231453\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 15.02.25 No.: 357 TOTAL: 500 too Total in words :: Fine hundred Zanack Sl.No.: 1. Particulars: LAB Amount: 500\ntoo  | \n\nRaw Text Content:\nASHWINI CLINICAL LABORATORY\nS.N.Pet, 5th Cross, BELLARI-583 103. Tel.: 08392-231453\nNo.\n357\nDate : 15.02.25\nPt.-Name\nSl.No.\nc.m.veugopal Particulars\nAmount\n1.\nLAB\n500\ntoo\n2.\nECG\n3.\nBRBS\n4.\nX-Ray\n5.\nOthers\nTOTAL\n500 too\nTotal in words : Fine hundred\nonly\nZanack",
+  "gold": {
+    "invoice_number": "357",
+    "patient_name": "c.m.veugopal",
+    "services": [
+      {
+        "service": "LAB",
+        "amount": 500,
+        "quantity": 1,
+        "department": "laboratory",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 500,
+    "doctor_name": null,
+    "facility": "ASHWINI CLINICAL LABORATORY S.N.Pet, 5th Cross, BELLARI-583 103. Tel.: 08392-231453",
+    "invoice_date": "15.02.25",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

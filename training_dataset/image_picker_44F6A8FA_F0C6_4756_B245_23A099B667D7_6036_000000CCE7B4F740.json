@@ -1,0 +1,55 @@
+{
+  "file_id": "image_picker_44F6A8FA_F0C6_4756_B245_23A099B667D7_6036_000000CCE7B4F740",
+  "raw_text": "=== SUPPLIER INFORMATION ===\nADDRESS: SRI RAMA MEDICALS AND GENERAL STORES\nD.No. 2-24-8.SRI NAGAR,\nKAKINADA. ph: 9666679548\nSTREET: D.No. 2-24-8.SRI NAGAR,\nCITY: KAKINADA.\nNAME: SRI RAMA MEDICALS AND GENERAL STORES\nADDRESS_BLOCK: D.No. 2-24-8.SRI NAGAR,\nKAKINADA. ph: 9666679548\nNAME: SRI RAMA MEDICAL & GENERAL STORES\nGBSTIN:: 37AALPI7902E2ZP\nVENDOR_ADDRESS: SRI RAMA MEDICALS AND GENERAL STORES\nD.No. 2-24-8.SRI NAGAR,\nKAKINADA. ph: 9666679548\nVENDOR_NAME: SRI RAMA MEDICALS AND GENERAL STORES\nVENDOR_NAME: SRI RAMA MEDICAL & GENERAL STORES\nph:: 9666679548\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: :: 09/07/2025 Invoice :: SR03246 GBSTIN:: 37AALPI7902E2ZP 2)Net Payable:: 800.00 2)Net Payable:: 800.00 TOTAL: Eight Hundred Rupees Only Name: GGOVINDHURAJU Doctor :: NUNNA NARASIMHA RAO No Items:: ( Prod Name Mfq: PEXEXP PLU IT Batch: K250 Sch Exp: 01/27 Qty: 30 Rate: 20.90 Amount: 627.00  | Prod Name Mfq: MECOPLEX SK Batch: Y250 Sch Exp: 07/26 Qty: 15 Rate: 11.50 Amount: 172.50  | \n\nRaw Text Content:\nSRI RAMA MEDICALS AND GENERAL STORES\nD.No. 2-24-8.SRI NAGAR,\nKAKINADA. ph:9666679548\nGBSTIN:37AALPI7902E2ZP DL No:1327/AP/EG/K/2010/1\nName GGOVINDHURAJU\nInvoice : SR03246\nDoctor : NUNNA NARASIMHA RAO\nDate: : 09/07/2025\nProd Name Mfq Batch Sch Exp Qty\nRate\nAmount\nPEXEXP PLU IT\nK250\n01/27\n30 20.90\n627.00\nMECOPLEX\nSK Y250\n07/26\n15 11.50\n172.50\nNo Items: (\n2)Net Payable:\n800.00\nEight Hundred Rupees Only\nfor SRI RAMA MEDICAL & GENERAL STORES",
+  "gold": {
+    "invoice_number": "SR03246",
+    "patient_name": "GOVINDHURAJU",
+    "services": [
+      {
+        "service": "PEXEXP PLU IT",
+        "amount": 627.0,
+        "quantity": 30,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 20.9,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "MECOPLEX",
+        "amount": 172.5,
+        "quantity": 15,
+        "department": "pharmacy",
+        "unit": "tablets",
+        "mrp": 11.5,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 800.0,
+    "doctor_name": "NUNNA NARASIMHA RAO",
+    "facility": "SRI RAMA MEDICALS AND GENERAL STORES D.No. 2-24-8.SRI NAGAR, KAKINADA. ph:9666679548 GBSTIN:37AALPI7902E2ZP DL No:1327/AP/EG/K/2010/1",
+    "invoice_date": "09/07/2025",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

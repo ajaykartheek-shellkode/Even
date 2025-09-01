@@ -1,0 +1,84 @@
+{
+  "file_id": "446754f3_fdd1_4c36_af0d_4bc56cc886002046025770091523343",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nSold To: Bhavys.\nSold To: Bhavys.\n\n=== SUPPLIER INFORMATION ===\nADDRESS: S-9/B, Vijay Vihar, Binda Pur Road, Uttam Nagar, New Delhi-59\nSTREET: S-9/B, Vijay Vihar, Binda Pur Road,\nCITY: New Delhi-59\nADDRESS_BLOCK: S-9/B, Vijay Vihar, Binda Pur Road, Uttam Nagar, New Delhi-59\nNAME: GOYAL CHEMIST\nVENDOR_ADDRESS: S-9/B, Vijay Vihar, Binda Pur Road, Uttam Nagar, New Delhi-59\nVENDOR_NAME: GOYAL CHEMIST\nM:: 9818758120,\nVENDOR_PHONE: 9818409196\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: 17/05/25 Serial No.: 6880 D.L. No.: 33(451) TERMS & CONDITION OF SALE: 1. Goods once sold will not be taken back or exchange.\n2. All Disputes are subject to Delhi Jurisdiction. Authorised Signatory: 887-00\nAuthorised\nW Qty.: 2 Description of Goods: DOL 250m sur Batch No.: N122 Expiry: Norx M.R.P.\nRs.: 90\n- P.: of  | Qty.: 2 Description of Goods: clamp Kid Fork Batch No.: A2+7 Expiry: 01/2 M.R.P.\nRs.: 47200  | Qty.: 2 Description of Goods: maxine 5m Batch No.: 2010/24.14 Expiry: Sep th M.R.P.\nRs.: 232-0  | Qty.: 2 Description of Goods: Nasiland P N/BPM, Batch No.: X001 Expiry: 06/26 M.R.P.\nRs.: 93-00  | \n\nRaw Text Content:\nD.L. No. 33(451)\n(JAI SHRI SHYAM)\nM: 9818758120, 9818409196\nGOYAL CHEMIST\nSerial No.\n6880\nRetailer, Chemists & Druggists\nS-9/B, Vijay Vihar, Binda Pur Road, Uttam Nagar, New Delhi-59\nDate 17/05/25\nSold To\nBhavys.\nPres. By Dr.\nAmil Arona.\nQty.\nDescription of Goods\nBatch No.\nExpiry\nRs. M.R.P. P.\n2\nPc DOL 250m sur\nN122\nNorx\n90 - of\n2\nPc clamp Kid Fork\nA2+7\n01/2\n47200\n2\nPc\nmaxine 5m\n2010/24.14\nSep th\n232-0\n2\nPs\nNasiland P N/BPM,\nX001\n06/26\n93-00\nget\nE.&O.E.\nTERMS & CONDITION OF SALE\nFor GOYAL CHEMIST\n1. Goods once sold will not be taken back or exchange.\n2. All Disputes are subject to Delhi Jurisdiction.\nW\n887-00\nAuthorised Signatory",
+  "gold":  {
+    "invoice_number": "6880",
+    "patient_name": "Bhavys.",
+    "services": [
+      {
+        "service": "DOL 250m sur",
+        "amount": 90,
+        "quantity": 2,
+        "department": "pharmacy",
+        "unit": "Pc",
+        "mrp": 90,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "clamp Kid Fork",
+        "amount": 472,
+        "quantity": 2,
+        "department": "pharmacy",
+        "unit": "Pc",
+        "mrp": 472,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "maxine 5m",
+        "amount": 232,
+        "quantity": 2,
+        "department": "pharmacy",
+        "unit": "Pc",
+        "mrp": 232,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Nasiland P N/BPM",
+        "amount": 93,
+        "quantity": 2,
+        "department": "pharmacy",
+        "unit": "Ps",
+        "mrp": 93,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 887,
+    "doctor_name": "Amil Arona.",
+    "facility": "GOYAL CHEMIST,Retailer Chemists &  Druggists S-9/B, Vijay Vihar, Binda Pur Road, Uttam Nagar, New Delhi-59, M: 9818758120, 9818409196",
+    "invoice_date": "17/05/25",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 887,
+    "round_off": 0
+  }
+
+}

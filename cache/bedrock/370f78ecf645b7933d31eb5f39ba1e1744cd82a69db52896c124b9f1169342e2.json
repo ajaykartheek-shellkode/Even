@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"ER000019\",\n    \"patient_name\": \"SYED HUSSAIN\",\n    \"services\": [\n      {\n        \"service\": \"ABTELMI-H TAB\",\n        \"amount\": 471.90,\n        \"quantity\": 3,\n        \"department\": \"pharmacy\",\n        \"unit\": \"10;S\",\n        \"mrp\": 157.30,\n        \"cgst\": 6.00,\n        \"cgst_type\": \"%\",\n        \"sgst\": 6.00,\n        \"sgst_type\": \"%\",\n        \"gst\": 0,\n        \"gst_type\": null\n      },\n      {\n        \"service\": \"GLYCOMET GP1\",\n        \"amount\": 0,\n        \"quantity\": 0,\n        \"department\": \"pharmacy\",\n        \"unit\": null,\n        \"mrp\": 0,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      },\n      {\n        \"service\": \"CALCIGEN D3 NANO SML\",\n        \"amount\": 488.00,\n        \"quantity\": 4,\n        \"department\": \"pharmacy\",\n        \"unit\": \"15,S\",\n        \"mrp\": 122.00,\n        \"cgst\": 6.00,\n        \"cgst_type\": \"%\",\n        \"sgst\": 6.00,\n        \"sgst_type\": \"%\",\n        \"gst\": 0,\n        \"gst_type\": null\n      },\n      {\n        \"service\": \"OMEE CAP\",\n        \"amount\": 604.29,\n        \"quantity\": 7,\n        \"department\": \"pharmacy\",\n        \"unit\": \"EACH\",\n        \"mrp\": 67.36,\n        \"cgst\": 6.00,\n        \"cgst_type\": \"%\",\n        \"sgst\": 6.00,\n        \"sgst_type\": \"%\",\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 1564.00,\n    \"doctor_name\": \"DR.VENKATESH MALI PATIL\",\n    \"facility\": \"PRABHU ENTERPRISES OPP GEETA MANDIR. RAICHUR-584101 Phone: 9538015666\",\n    \"invoice_date\": \"15-10-2024\",\n    \"payment_mode\": null,\n    \"patient_age\": null,\n    \"patient_gender\": null,\n    \"patient_contact\": null,\n    \"cgst\": 83.79,\n    \"cgst_type\": \"%\",\n    \"sgst\": 83.79,\n    \"sgst_type\": \"%\",\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 0,\n    \"mrp\": 0,\n    \"round_off\": 0.19\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.05,
+    "max_tokens": 2000,
+    "call_duration": 43.48813605308533,
+    "timestamp": 1756703688.344043,
+    "cache_key": "370f78ecf645b7933d31eb5f39ba1e1744cd82a69db52896c124b9f1169342e2",
+    "prompt_length": 10281,
+    "output_length": 1884
+  }
+}

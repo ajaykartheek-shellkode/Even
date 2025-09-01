@@ -1,0 +1,26 @@
+{
+  "file_id": "97477010_b47c_4f86_863b_fc6987f606e41981270647459924357",
+  "raw_text": "Printed by: Kooshmandini Offset dinters \n\nRaw Text Content:\n=\n6th\na\nQ.P.\nE&O.E.\nPrinted by Kooshmandini Offset dinters : 9845264416",
+  "gold": {
+    "invoice_number": null,
+    "patient_name": null,
+    "services": [],
+    "total_amount": 0,
+    "doctor_name": null,
+    "facility": "Kooshmandini Offset Printers",
+    "invoice_date": null,
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

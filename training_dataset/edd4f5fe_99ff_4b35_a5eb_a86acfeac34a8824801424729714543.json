@@ -1,0 +1,41 @@
+{
+  "file_id": "edd4f5fe_99ff_4b35_a5eb_a86acfeac34a8824801424729714543",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nNAME:: SATYA RANGA.A\nNAME:: SATYA RANGA.A\n\n=== SUPPLIER INFORMATION ===\nADDRESS: STAR PHARMACY\n3/151,GROUND FLOOR.\nNALLUR NALLUR CHECKPOST.REGALU\nSTREET: 3/151,GROUND FLOOR.\nSTREET: NALLUR NALLUR\nNAME: STAR PHARMACY\nADDRESS_BLOCK: 3/151,GROUND FLOOR.\nNALLUR NALLUR CHECKPOST.REGALU\nNAME: STAR PHARMACY\nGSTIN.NO.:: 33AYUPS0260N1ZU\nVENDOR_ADDRESS: STAR PHARMACY\n3/151,GROUND FLOOR.\nNALLUR NALLUR CHECKPOST.REGALU\nVENDOR_NAME: STAR PHARMACY\nVENDOR_NAME: STAR PHARMACY\nPhone :: 9585583111\nVENDOR_PHONE: ,9095338111\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDISC AMT :: 13.76 DATE:: 13-02-2025 No. :: A025269 GSTIN.NO.:: 33AYUPS0260N1ZU AMOUNT :: 137.54 PAY :: 124.80 TOTAL: Rs. One Hundred Twenty Four Only CODE:: 1334 E-Mail :: starpharmacyhosur@gmail.com DR. :: SABHARI E/C R.OFF :: 0.12 D.L.NO.:: TA/DPL/20/21/00447 PRINT BY :: MUJAFFAR.M TIME: :11:20 SIGN: SISH&\nSIGN QTY. PACK : DESCRIPTION :: 1 MRP :: 137.6 BATCH : EXP :: GTF3037A AMOUNT: 137.64  | \n\nRaw Text Content:\nGST INVOICE\nSTAR PHARMACY\nNo. : A025269\n3/151,GROUND FLOOR.\nDATE:13-02-2025\nNALLUR NALLUR CHECKPOST.REGALU\nCODE:1334\nPhone : 9585583111 ,9095338111\nNAME:SATYA RANGA.A\nE-Mail : starpharmacyhosur@gmail.com\nDR. :SABHARI E/C\nGstin :\nQTY. PACK : DESCRIPTION\n: MRP : BATCH : EXP :\nAMOUNT\n1 PCS:10ML :TEAR DROPS\n: 137.6 : GTF3037A : 9/26:\n137.64\nRs. One Hundred Twenty Four Only\nAMOUNT\n:\n137.54\nDISC AMT\n:\n13.76\n* CHECK Qty .& Exp. BEFORE LEAVING COUNTER\nR.OFF\n:\n0.12\n$ 10% DISCOUNT ON MEDICINES\nPAY\n:\n124.80\n* NO REPLACEMENT WITHOUT BILL\n* RETURN MEDICINES WILL BE TAKEN BACK ON 12%\nD.L.NO.: TA/DPL/20/21/00447\nFOR STAR PHARMACY\nGSTIN.NO.: 33AYUPS0260N1ZU\nPRINT BY :MUJAFFAR.M\nTIME\n:11:20\n**GET WELL SOON**\nSISH&\nSIGN",
+  "gold": {
+    "invoice_number": "A025269",
+    "patient_name": "SATYA RANGA.A",
+    "services": [
+      {
+        "service": "TEAR DROPS 10ML",
+        "amount": 137.64,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "PCS",
+        "mrp": 137.6,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 124.8,
+    "doctor_name": "SABHARI E/C",
+    "facility": "STAR PHARMACY, 3/151,GROUND FLOOR. NALLUR NALLUR CHECKPOST.BEGALU, Phone : 9585583111, 9095338111, E-Mail : starpharmacyhosur@gmail.com, GSTIN.NO.: 33AYUPS0260N1ZU, D.L.NO.: TN/DPI/20/21/00447",
+    "invoice_date": "13-02-2025",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 13.76,
+    "mrp": 137.6,
+    "round_off": 0.12
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "file_id": "1000170508",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName: McKRISHNA KUMAR SAH\nParty Name :: Standard\nName: McKRISHNA KUMAR SAH\nParty Name :: Standard\nMobile No. :: 9934478218\n\n=== SUPPLIER INFORMATION ===\nADDRESS: 285/1 S K Deb Road | Manasaban I Lake Town I Kolkata 700 048\n.\nSTREET: 285/1 S K Deb Road\nCITY: Kolkata\nZIP_CODE: 700 048\nADDRESS_BLOCK: 285/1 S K Deb Road | Manasaban I Lake Town I Kolkata 700 048\n.\nNAME: EASTERN CLINICAL COMPLEX\nVENDOR_ADDRESS: 285/1 S K Deb Road | Manasaban I Lake Town I Kolkata 700 048\n.\nVENDOR_NAME: EASTERN CLINICAL COMPLEX\nMobileNo.:: 7003709274\nTel.: 1(033)25215043/25347426\nM.: 99030\nVENDOR_PHONE: 7439837504\nVENDOR_PHONE: 96801,70037 09274\nDownload Report from:: WWW.ECCLAKETOWN.COM,\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nAmount Paid: 1720.00 Cash:: (1720.00) Discount: 190.00 Reg. Date :: 18-Apr-2025 Invoice No. :: 012504180003 Total :: 1910.00 Due Amount:: 0.00 Due Amount:: 0.00 Received with thanks an amount of (Rupees)One Thousand: (Rupees)One Thousand Seven Hundred Twenty Only Lab No. :: 012504180003 Age/Gender :: 65YOMOD / Male Reg No. :: 421939 Refered By :: Dr. Arun Kumar Chowdhury MS(Orth),DNE Address. :: KAHALGAO BIHAR Kolkata UserName:: LSHHI421939 WhatsApp no.:: 9903096801 Print Date Time :: 07: 04 Created By :: TUMPA SARKAR Page: 1 of 1 Sr No: 1 Particulars: URIC ACID Department: BIOCHEMISTRY DeliveryData: 18-Apr-2025 Amt Rs.: 220.00  | Sr No: 3 Particulars: VITAMIN D25 HYDROXY Department: IMMUNOLOGY DeliveryData: 18-Apr-2025 Amt Rs.: 1590.00  | \n\nRaw Text Content:\nEASTERN CLINICAL COMPLEX\nINVOICE CUM RECEIPT\nName\nMcKRISHNA KUMAR SAH\nLab No. :\n012504180003\nAge/Gender :\n65YOMOD / Male\nInvoice No. :\n012504180003\nMobile No. :\n9934478218\nReg. Date :\n18-Apr-2025 07:37:02\nReg No. :\n421939\nParty Name :\nStandard\nRefered By :\nDr. Arun Kumar Chowdhury MS(Orth),DNE\nAddress. :\nKAHALGAO BIHAR Kolkata\nSr No Code\nParticulars\nDepartment\nDeliveryData\nAmt Rs.\n1\nURIC ACID\nBIOCHEMISTRY\n18-Apr-2025\n220.00\n100.00\n2\nFASTING BLOOD GLUCOSE\nBIOCHEMISTRY\n18-Apr-2025\n3\nVITAMIN D25 HYDROXY\nIMMUNOLOGY\n18-Apr-2025\n1590.00\nTotal :\n1910.00\nDiscount\n190.00\nAmount Paid\n1720.00\nCash:(1720.00)\nReceived with thanks an amount of (Rupees)One Thousand Seven Hundred Twenty Only\nDue Amount:\n0.00\n(Full Payment Before Investigation)\nDownload Report from:WWW.ECCLAKETOWN.COM, UserName:LSHHI421939 and Password 012504180003\nMobileNo.: 7003709274\nWhatsApp no.: 9903096801\nPrint Date Time :\n07:04\nCreated By :\nTUMPA SARKAR\nInvestigation report(s) must be collected within 30 days from the assigned date of report delivery\nPage 1 of 1\n285/1 S K Deb Road | Manasaban I Lake Town I Kolkata . 700 048 Tel. 1(033)25215043/25347426 M. 99030 96801,70037 09274\nOUR\nBD-5, Seel Salt Lake M 8240729686 AG 316 Sardarpara, Kestopur, Kol. 102, M. 9163942437-27/1 Shyamnagar Road (Dumdum Park), Kol-55 M 7439837504",
+  "gold": {
+    "invoice_number": "012504180003",
+    "patient_name": "Mr KRISHNA KUMAR SAH",
+    "services": [
+      {
+        "service": "URIC ACID",
+        "amount": 220,
+        "quantity": null,
+        "department": "BIOCHEMISTRY",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "FASTING BLOOD GLUCOSE",
+        "amount": 100,
+        "quantity": null,
+        "department": "BIOCHEMISTRY",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "VITAMIN D25 HYDROXY",
+        "amount": 1590,
+        "quantity": null,
+        "department": "IMMUNOLOGY",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 1720,
+    "doctor_name": "Dr. Arun Kumar Chowdhury MS(Orth),DNE",
+    "facility": "EASTERN CLINICAL COMPLEX, 285/1 S K Deb Road | Manasaban I Lake Town I Kolkata 700 048, Tel. 1(033)25215043/25347426, M. 99030 96801,70037 09274",
+    "invoice_date": "18-Apr-2025 07:37:02",
+    "payment_mode": "Cash",
+    "patient_age": "65YOMOD",
+    "patient_gender": "Male",
+    "patient_contact": "9934478218",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 190,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "file_id": "1000494933",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient Name :: Mrs. SNEHA LATA C/O AMARDEEP\nNURSING HOME\nAddress :: India\nPatient Name :: Mrs. SNEHA LATA C/O AMARDEEP\nNURSING HOME\nMobile No. :: 9958463690\n\n=== SUPPLIER INFORMATION ===\nADDRESS: S.R. LIVER & GASTRO CLINIC\nKG-I/415, Vikash Puri, New Delhi -110018\nSTREET: KG-I/415, Vikash Puri,\nCITY: New Delhi\nZIP_CODE: -110018\nNAME: S.R. LIVER & GASTRO CLINIC\nADDRESS_BLOCK: KG-I/415, Vikash Puri, New Delhi -110018\nNAME: NON\nSURGICL\nCARE\nWE\nSECURITY\nVENDOR_ADDRESS: S.R. LIVER & GASTRO CLINIC\nKG-I/415, Vikash Puri, New Delhi -110018\nVENDOR_NAME: S.R. LIVER & GASTRO CLINIC\nVENDOR_NAME: NON\nSURGICL\nCARE\nWE\nSECURITY\nPhone No. (s) : (m)-: 9810996640,47021658,25507710,25612118\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nReceived :: 7000.00 AMOUNT_PAID: Rs. 7000.00 Patient Reg. No. :: SR0015074 Discount :: 500.00 Billing Date:: 05-07-2025 Receipt No.:: SR0017618 Total:: 7000.00 Email ID. :: : drrajneeshgulati@gmail.com Gender/Age :: F/38 Y Payment Mode :: PHONE PE Balance :: 0.00 Signature: Charli DMO No.: 5380 Sr. No.: 1 Particulars: colonoscopy1 Quantity: 1 Charges: 7500.00  | \n\nRaw Text Content:\n3\nS.R. LIVER & GASTRO CLINIC\nWE NON SURGICL CARE\nKG-I/415, Vikash Puri, New Delhi -110018\nPhone No. (s) :(m)- 9810996640,47021658,25507710,25612118\nEmail ID. :drrajneeshgulati@gmail.com\n4 GASTRO SECURITY\nCash Receipt\nPatient Reg. No. :\nSR0015074\nBilling Date:\n05-07-2025\nPatient Name :\nMrs. SNEHA LATA C/O AMARDEEP\nReceipt No.:\nSR0017618\nNURSING HOME\nMobile No. :\n9958463690\nGender/Age :\nF/38 Y\nAddress :\n, India\nPanel :\nReceived with Thanks a sum of Rs. 7000.00 from Mrs. SNEHA LATA C/O AMARDEEP NURSING HOME\nSr. No.\nParticulars\nQuantity\nCharges\n1\ncolonoscopy1\n1\n7500.00\nTotal:\n7000.00\nDiscount :\n500.00\nReceived :\n7000.00\nPayment Mode :\nPHONE PE\nBalance :\n0.00\nSignature\nCharli\nD.RAUNFESH Senior astroenterologist GULATI\nMENDS.\nMD, DM\nDMO No. 5380",
+  "gold": {
+    "invoice_number": "SR0017618",
+    "patient_name": "Mrs. SNEHA LATA C/O AMARDEEP NURSING HOME",
+    "services": [
+      {
+        "service": "colonoscopy1",
+        "amount": 7500,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 7000,
+    "doctor_name": "D.RAUNFESH GULATI",
+    "facility": "S.R. LIVER & GASTRO CLINIC KG-I/415, Vikash Puri, New Delhi -110018 Phone No. (s) :(m)- 9810996640,47021658,25507710,25612118",
+    "invoice_date": "05-07-2025",
+    "payment_mode": "PHONE PE",
+    "patient_age": "38 Y",
+    "patient_gender": "Female",
+    "patient_contact": "9958463690",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 500,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

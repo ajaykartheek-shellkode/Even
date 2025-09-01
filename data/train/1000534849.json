@@ -1,0 +1,41 @@
+{
+  "file_id": "1000534849",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName: nrs Shwlitha\nName: nrs Shwlitha\n\n=== SUPPLIER INFORMATION ===\nADDRESS: A.M. HOSPITAL\nNo. 20/1, 2nd Cross, Widia Layout, Chandra Layout Main Road,\nVijayanagar, Bangalore - 560 040. Ph. : 23392851, 23390125\nSTREET: No. 20/1, 2nd Cross, Widia Layout, Chandra Layout Main Road,\nCITY: Bangalore\nZIP_CODE: 560 040.\nNAME: A.M. HOSPITAL\nADDRESS_BLOCK: No. 20/1, 2nd Cross, Widia Layout, Chandra Layout Main Road,\nVijayanagar, Bangalore - 560 040. Ph. : 23392851, 23390125\nNAME: A.M. HOSPITAL\nVENDOR_ADDRESS: A.M. HOSPITAL\nNo. 20/1, 2nd Cross, Widia Layout, Chandra Layout Main Road,\nVijayanagar, Bangalore - 560 040. Ph. : 23392851, 23390125\nVENDOR_NAME: A.M. HOSPITAL\nVENDOR_NAME: A.M. HOSPITAL\nPh. :: 23392851,\nVENDOR_PHONE: 23390125\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: 30/6/25 No.: 3424 TOTAL: 1000 Received Rupees: one thousand\nRS only Sex :: M/F Age: 27yea Consultant: Drsowmya SI.\nNo.: 1.\n2.\n3. PARTICULARS: Consultation\nLaboratory Investigations\nDressing AMOUNT\nRs.: 1\n1000  | SI.\nNo.: 5. PARTICULARS: Scanning AMOUNT\nRs.: 1000  | \n\nRaw Text Content:\nCASH BILL\nA.M. HOSPITAL\nNo. 20/1, 2nd Cross, Widia Layout, Chandra Layout Main Road,\nVijayanagar, Bangalore - 560 040. Ph. : 23392851, 23390125\nNo.\n3424\nSex : M/F\nName nrs Shwlitha Age 27yea\nConsultant Drsowmya Date 30/6/25\nSI.\nPARTICULARS\nAMOUNT\nNo.\nRs.\nPs.\n1.\nConsultation\n2.\nLaboratory Investigations\n3.\nDressing\n1\n4.\nECG\n5.\nScanning\n1000\n6.\nX-Ray\n7.\nInj. + Medicine\n8.\nOthers\n\\\nTOTAL\n1000\nReceived Rupees one thousand\nRS only\nfor A.M. HOSPITAL",
+  "gold": {
+    "invoice_number": "3424",
+    "patient_name": "Mrs Shwlitha",
+    "services": [
+      {
+        "service": "Scanning",
+        "amount": 1000,
+        "quantity": 1,
+        "department": "radiology",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 1000,
+    "doctor_name": "Dr Sowmya",
+    "facility": "A.M. HOSPITAL, No. 20/1, 2nd Cross, Widia Layout, Chandra Layout Main Road, Vijayanagar, Bangalore - 560 040. Ph. : 23392851, 23390125",
+    "invoice_date": "30/6/25",
+    "payment_mode": "Cash",
+    "patient_age": "27 years",
+    "patient_gender": "Female",
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

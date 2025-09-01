@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"CHL2B/25-26/00006752\",\n    \"patient_name\": \"Mr.Subhash Nath\",\n    \"services\": [\n      {\n        \"service\": \"X-Ray Digital Cervical Spine Ap & Lat View\",\n        \"amount\": 750,\n        \"quantity\": 1,\n        \"department\": \"radiology\",\n        \"unit\": \"test\",\n        \"mrp\": 750,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 750,\n    \"doctor_name\": \"Dr. Self\",\n    \"facility\": \"CHANDAN DIAGNOSTIC CENTRE (Unit Of Chandan Healthcare Ltd.), Godavari Complex, Near KVM Public School, Heera Nagar, Haldwani, Distt. Nainital, Ph: 7705023379,4, Email: care@chandandiagnostic.com\",\n    \"invoice_date\": \"21-May-2025\",\n    \"payment_mode\": \"Debit Card\",\n    \"patient_age\": \"25 YOMOI D\",\n    \"patient_gender\": \"Male\",\n    \"patient_contact\": \"8813845967\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 0,\n    \"mrp\": 750,\n    \"round_off\": 0\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "call_duration": 16.549044132232666,
+    "timestamp": 1756702227.865037,
+    "cache_key": "f4d517e41a7d378c0a66a97e04422f1d46a6151d916b2ca5f1c90f81f0185f26",
+    "prompt_length": 9754,
+    "output_length": 1095
+  }
+}

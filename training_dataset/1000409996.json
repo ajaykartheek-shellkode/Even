@@ -1,0 +1,41 @@
+{
+  "file_id": "1000409996",
+  "raw_text": "=== SUPPLIER INFORMATION ===\nADDRESS: Shop No- 11 & 12, Fusionhomez, Noida Ext. U.P.\nSTREET: Shop No- 11 & 12, Fusionhomez,\nCITY: Noida\nADDRESS_BLOCK: Shop No- 11 & 12, Fusionhomez, Noida\nADDRESS: DIAGNOTREE\nShop No. 11,12,\nZone-IV\nTech\n(U.P.)-20: 009\nNoida Ext.\nSTREET: Shop No. 11,12,\nZone-IV\nTech\nNAME: DIAGNOTREE\nADDRESS_BLOCK: Shop No. 11,12,\nZone-IV\nTech\n(U.P.)-20:\nNoida Ext.\nNAME: DIAGNOTREE\nVENDOR_ADDRESS: Shop No- 11 & 12, Fusionhomez, Noida Ext. U.P.\nVENDOR_ADDRESS: DIAGNOTREE\nShop No. 11,12,\nZone-IV\nTech\n(U.P.)-20: 009\nNoida Ext.\nVENDOR_NAME: DIAGNOTREE\nVENDOR_NAME: DIAGNOTREE\nVENDOR_PHONE: +919717561168\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDated:: 10/05/24 Sr. No.:: 7683 Total: 1400/- Age/Sex:: 29y/n Investigation Done: USU- WIA Amount: 1400/-  | \n\nRaw Text Content:\nDIAGNOTREE\nIMAGING & DIAGNOSTICS\nShop No- 11 & 12, Fusionhomez, Noida Ext. U.P.\n+919717561168\ninfo@diagnotree.com\nPatient\nMr Name: Samarpit Arya\nAge/Sex: 29y/n\nUHID No\nSr. No.:\n7683\nRef. Dr Sheetal Reddi Desdi Dated: 10/05/24\nInvestigation Done\nAmount\nUSU- WIA\n1400/-\nDIAGNOTREE\nShop No. 11,12,\nTech Zone-IV\nNoida Ext. (U.P.)-20:009\nTotal\n1400/-",
+  "gold": {
+    "invoice_number": "7683",
+    "patient_name": "Samarpit Arya",
+    "services": [
+      {
+        "service": "USU- WIA",
+        "amount": 1400,
+        "quantity": 1,
+        "department": "radiology",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 1400,
+    "doctor_name": "Dr Sheetal Reddi Desdi",
+    "facility": "DIAGNOTREE IMAGING & DIAGNOSTICS Shop No- 11 & 12, Fusionhomez, Noida Ext. U.P. +919717561168 info@diagnotree.com",
+    "invoice_date": "10/05/24",
+    "payment_mode": null,
+    "patient_age": "29y/n",
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

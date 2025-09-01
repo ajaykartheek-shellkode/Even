@@ -1,0 +1,41 @@
+{
+  "file_id": "image_picker_C409F650_62D8_4C97_A5EF_18CF970C6DFF_49431_00001360793EA9D3",
+  "raw_text": "=== SUPPLIER INFORMATION ===\nNAME: Apollo Clinic\nVENDOR_NAME: Apollo Clinic\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nAmount: 3,185.00 Net Payments:: 3,185.00 Received with thanks:: Three Thousand One Hundred Eighty Five Rupees only Less Net Payments: 3,185.00 Less Discount: 0.00 Bill Date:: 03-01-2025 Bill No:: FMAH-OCS-108677 Receipt No: FMAHRCA99597 Net Amount:: 3,185.00 Total Bill Amount: 3,185.00 Balance Due: 0.00 Net Amt.: 3,185.00 Balance Due: 0.00 Name:: 1H.00000353697 Age/Gender:: Mrs. SHIVAMMA MR No:: 34 Years / Female Department:: FMAH.0000035369 Visit ID:: FMAHOPV117237 Address:: Gynaecology\nMAHADEVAPURA Referred By:: Dr. PADMINI M Payments: Settlement Date: 03-01-2025 Mode: UPI Payments Reference No: T2501031155565659956329 56: VAGINAL SWAB FOR C/S 56: 3,185.00 56: 1.00 56: 3,185.00  | \n\nRaw Text Content:\n+91\nLab 6364179919\nApollo Clinic\nExpertise Closer to you\nBill Cum Receipt\nlan\nName:\n1H.00000353697\nAge/Gender:\nMrs. SHIVAMMA\nBill No:\nFMAH-OCS-108677\nR\nMR No:\n34 Years / Female\nBill Date:\n03-01-2025 11:56\nDepartment:\nFMAH.0000035369\nVisit ID:\nFMAHOPV117237\nAddress:\nGynaecology\nReferred By:\nDr. PADMINI M\nn\nMAHADEVAPURA\nDoctor Name:\nSno\nDate\nCharge Head\n1\nDescription\nRate\nQty\nDisc\nAmount\n03-01-2025\nLab Tests\nVAGINAL SWAB FOR C/S\n3,185.00 1.00\n0.00\n3,185.00\nNet Amount:\n3,185.00\nPayments\nDate\nReceipt No\nMode\nBank\nReference No\nAmount\nSettlement\n03-01-2025\nFMAHRCA99597 UPI Payments\nT2501031155565659956329\n3,185.00\nNet Payments: 3,185.00\nReceived with thanks: Three Thousand One Hundred Eighty Five Rupees only\nBill Summary\nTotal Bill Amount\n3,185.00\nLess Discount\n0.00\nLess Net Payments\n3,185.00\nBalance Due\n0.00\nNet Amt.\n3,185.00\nSignature\n(SHPL114)",
+  "gold": {
+    "invoice_number": "FMAH-OCS-108677",
+    "patient_name": "Mrs. SHIVAMMA",
+    "services": [
+      {
+        "service": "VAGINAL SWAB FOR C/S",
+        "amount": 3185,
+        "quantity": 1,
+        "department": "laboratory",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 3185,
+    "doctor_name": "Dr. PADMINI M",
+    "facility": "Apollo Clinic, MAHADEVAPURA",
+    "invoice_date": "03-01-2025 11:56",
+    "payment_mode": "UPI Payments",
+    "patient_age": "34 Years",
+    "patient_gender": "Female",
+    "patient_contact": "+91 6364179919",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

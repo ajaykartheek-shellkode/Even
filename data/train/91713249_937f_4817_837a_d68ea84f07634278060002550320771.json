@@ -1,0 +1,41 @@
+{
+  "file_id": "91713249_937f_4817_837a_d68ea84f07634278060002550320771",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient Name :: Mrs. RADHIKA AGARWAL\nPatient Name :: Mrs. RADHIKA AGARWAL\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Maa Saraswati Hospital\nJaisinghpura, Vrindavan Road\nMathura\nSTREET: Jaisinghpura, Vrindavan Road\nCITY: Mathura\nNAME: Maa Saraswati Hospital\nADDRESS_BLOCK: Jaisinghpura, Vrindavan Road\nMathura\nNAME: PHACO\nVENDOR_ADDRESS: Maa Saraswati Hospital\nJaisinghpura, Vrindavan Road\nMathura\nVENDOR_NAME: Maa Saraswati Hospital\nVENDOR_NAME: PHACO\nTel No. :: 8532879847\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nReceipt No. :: 12986 UHID No. :: 218630 OPD No. :: 11772 Age :: 54 Years / Female Cons. Doctor :: Dr. Ankit Agrawal Valid Upto :: 01/Aug/2025 Payment Mode :: Cash Serial No. :: 10 Prepared By :: YOGENDRA \n\nRaw Text Content:\nPHACO\nLaparotomy ( alco\nN.C. T.\nadidas\n24\nTel No. : 8532879847\nMaa Saraswati Hospital\nJaisinghpura, Vrindavan Road\nMathura\nOPD Receipt\nReceipt No.\n: 12986\nDate & Time\n: 27/Jul/2025 13:02\nUHID No.\n: 218630\nOPD No.\n: 11772\nPatient Name\n: Mrs. RADHIKA AGARWAL\nAge\n: 54 Years / Female\nCons. Doctor\n: Dr. Ankit Agrawal\nValid Upto\n: 01/Aug/2025\nPayment Mode\n: Cash\nSerial No.\n: 10\nRs.\n300.00\nPrepared By : YOGENDRA\nAuthorized Signatory\nNot Valid For Medicolegal Purposes",
+  "gold": {
+    "invoice_number": "12986",
+    "patient_name": "Mrs. RADHIKA AGARWAL",
+    "services": [
+      {
+        "service": "OPD Receipt",
+        "amount": 300.0,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 300.0,
+    "doctor_name": "Dr. Ankit Agrawal",
+    "facility": "Maa Saraswati Hospital Jaisinghpura, Vrindavan Road Mathura Tel No. : 8532879847",
+    "invoice_date": "27/Jul/2025 13:02",
+    "payment_mode": "Cash",
+    "patient_age": "54 Years",
+    "patient_gender": "Female",
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "file_id": "1000038003",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nBill To: RAVI GUPTA\nBill To: RAVI GUPTA\n\n=== SUPPLIER INFORMATION ===\nADDRESS: ART\nDENTAL\nC-194 Shakur Pur Anand Vas Delhi 110034 ON PANNEL\nSTREET: C-194 Shakur Pur Anand Vas\nCITY: Delhi\nZIP_CODE: 110034\nNAME: DENTAL ART\nADDRESS_BLOCK: C-194 Shakur Pur Anand Vas Delhi 110034\nNAME: DENTALA\nVENDOR_ADDRESS: ART\nDENTAL\nC-194 Shakur Pur Anand Vas Delhi 110034 ON PANNEL\nVENDOR_NAME: DENTAL ART\nVENDOR_NAME: DENTALA\nPhone no.:: 9312616760\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate: 20-11-2023, Invoice No.: 313 Sub Total: ₹ 500.00 Total: ₹ 500.00 Invoice Amount In Words: Five Hundred Rupees only Total: ₹ 500.00 Email:: dratulrohilla@gmail.com Amounts:: Sub Total\n₹ 500.00\nTotal\n₹ 500.00 No.\nReg.: A-7821 TREATMENT: CONSULTATION unit: 1 Price: 500.00 Total Amount: ₹ 500.00  | \n\nRaw Text Content:\nINVOICE\nInvoice No.\nDate\nDENTAL ART\n313\n20-11-2023, 07:28 PM\nC-194 Shakur Pur Anand Vas Delhi 110034 ON PANNEL\nC.G.H.S., D.G.E.H.S, M.C.D. D.J.B, T.P.D.D.L\nDENTALA\nPhone no.: 9312616760\nEmail: dratulrohilla@gmail.com\nBill To\nRAVI GUPTA\nunit\nTREATMENT\nPrice\nCGHS code\nTotal Amount\nCONSULTATION\n1\n500.00\n₹ 500.00\nTotal\n₹ 500.00\nInvoice Amount In Words\nAmounts:\nFive Hundred Rupees only\nSub Total\n₹ 500.00\nTotal\n₹ 500.00\nDENTAL ART ART\nFor, : DENTAL\nReg. No. A-7821\nAuthorized Signatory",
+  "gold": {
+    "invoice_number": "313",
+    "patient_name": "RAVI GUPTA",
+    "services": [
+      {
+        "service": "CONSULTATION",
+        "amount": 500,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 500,
+    "doctor_name": null,
+    "facility": "DENTAL ART C-194 Shakur Pur Anand Vas Delhi 110034 ON PANNEL C.G.H.S., D.G.E.H.S, M.C.D. D.J.B, T.P.D.D.L Phone no.: 9312616760 Email: dratulrohilla@gmail.com",
+    "invoice_date": "20-11-2023, 07:28 PM",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

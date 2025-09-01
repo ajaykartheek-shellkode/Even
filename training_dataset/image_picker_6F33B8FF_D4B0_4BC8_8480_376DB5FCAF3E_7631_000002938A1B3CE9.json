@@ -1,0 +1,41 @@
+{
+  "file_id": "image_picker_6F33B8FF_D4B0_4BC8_8480_376DB5FCAF3E_7631_000002938A1B3CE9",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nReceived with Thanks from: MR. KETANBHAI J PATEL\nReceived with Thanks from: MR. KETANBHAI J PATEL\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Dr. Shripal Bhaththiwala\nD.O.M.S.,M.S. (ophth\nCONSULTING EYE SURGEON\n5, Kalpana Society -2, Adajan Road, Surat-S\nSTREET: 5, Kalpana Society -2, Adajan Road,\nCITY: Surat-S\nADDRESS_BLOCK: 5, Kalpana Society -2, Adajan Road, Surat-S\nNAME: Bhadra Eye Hospital\nNAME: Bhadra Eye Hospital\nVENDOR_ADDRESS: Dr. Shripal Bhaththiwala\nD.O.M.S.,M.S. (ophth\nCONSULTING EYE SURGEON\n5, Kalpana Society -2, Adajan Road, Surat-S\nVENDOR_NAME: Bhadra Eye Hospital\nVENDOR_NAME: Bhadra Eye Hospital\nPh. :: (0261) 2785904,\nVENDOR_PHONE: 2913355\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 26/02/2025 OPD Rec. No. :: I1925 Total Amount: 500.00 TOTAL: (THE SUM OF RUPEE FIVE HUNDRED Only.) Time: Mor.10.30 to 1 Eve.3.30 to 7.30 Particular: CONSULTATION CHARGE Qty: 1 Rate: 500.00 Amount: 500.00  | \n\nRaw Text Content:\nBhadra Eye Hospital\nDr. Shripal Bhaththiwala\nD.O.M.S.,M.S. (ophth\nCONSULTING EYE SURGEON\n5, Kalpana Society -2, Adajan Road, Surat-S\nPh. : (0261) 2785904, 2913355 Time Mor.10.30 to 1 Eve.3.30 to 7.30\nOPD Rec. No. : I1925\nDate : 26/02/2025\nReceived with Thanks from MR. KETANBHAI J PATEL\nParticular\nQty\nRate\nAmount\nCONSULTATION CHARGE\n1\n500.00\n500.00\nTotal Amount\n500.00\n(THE SUM OF RUPEE FIVE HUNDRED Only.)\nDR. SHRIPAL BHATHTAWWALA For\nBhadra Eye Hospital\n(M.S. Opthal)\nBHADRA EYE HOSPITAL\n5, Kalpana Society-2,\nAdajan Road, SURAT\nMialli",
+  "gold": {
+    "invoice_number": "I1925",
+    "patient_name": "MR. KETANBHAI J PATEL",
+    "services": [
+      {
+        "service": "CONSULTATION CHARGE",
+        "amount": 500.0,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 500.0,
+    "doctor_name": "Dr. Shripal Bhaththiwala",
+    "facility": "Bhadra Eye Hospital, 5, Kalpana Society -2, Adajan Road, Surat-S, Ph. : (0261) 2785904, 2913355",
+    "invoice_date": "26/02/2025",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "file_id": "image_picker_9F039A0E_9B7B_4068_908E_9B4E78F29D8C_23654_0000081D9DFB29D2",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName: MOUNESH\nName: MOUNESH\n\n=== SUPPLIER INFORMATION ===\nRegistered Office:: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennah- 600028\nSTREET: No. 19 Bishop Gardens, Raja Annamalaipuram,\nCITY: Chennah-\nZIP_CODE: 600028\nADDRESS_BLOCK: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennah- 600028\nAdmin Office:: (For all correspondence) All Towers, III rd Floor, No. 55, Greams Road, Chennai 600006.\nSTREET: III rd Floor, No. 55, Greams Road,\nCITY: Chennai\nZIP_CODE: 600006.\nADDRESS_BLOCK: III rd Floor, No. 55, Greams Road, Chennai 600006.\nNAME: Apollo Pharmacy-Pharmacist\nNAME: (Apollo Pharmacies Limited)\nNAME: Apollo Pharmacy\nNAME: Apollo\nPHARMACY\nGSTIN: 9AAPCA5954P1ZN\nRegistered Office:: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennah- 600028\nAdmin Office:: (For all correspondence) All Towers, III rd Floor, No. 55, Greams Road, Chennai 600006.\nVENDOR_NAME: Apollo Pharmacy-Pharmacist\nVENDOR_NAME: (Apollo Pharmacies Limited)\nVENDOR_NAME: Apollo Pharmacy\nVENDOR_NAME: Apollo\nPHARMACY\nTel. No: 800\nToll No:: 1860 500 0101\nWebsite:: www.apollopharmacy.in\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDiscount:: 410.87 Date / Time :: 2024-Oct-25 Bill No.: 18816MS0012648 GSTIN: 9AAPCA5954P1ZN FSSAI: 1274302000501 CIN:: /U52500TN2016PLC111328 Net Total:: 0.00 Branch: BARJAPUR ROAD 2 ATTIBELE\nNO 31,PID NO 150200100200301 Cont. No: 9509070863 Terminal No. :: 001 DL. No: No RA-B62-20-248697. KA-B62-21-248698 Ref. No. :: 9509070863 Dr. :: DR ARUN ST:: 22.01 QTY.: 1 ITEM NAME: HAJMOLA REGULAR HSN CODE: 30049011 MFRS: DABU BATCH NO: TQ0004 EXPIRY: Jun-26. MRP: 70.00 CGST%: 6.00 6.00 TAXABLE: 62.50 TOTAL AMOUNT: 70.00  | QTY.: 1 ITEM NAME: T-BACT 2%W/W OINT: 15G HSN CODE: 30042099 MFRS: BLAX BATCH NO: 4HX30 EXPIRY: Seo-25 SCH: on MRP: 340.87 CGST%: 6.00 6.00 TAXABLE: 004.35 TOTAL AMOUNT: $40.87  | \n\nRaw Text Content:\nBill No.\nBranch\nA-23\n18816MS0012648 102-APOLLO ADVANTAGE CC\nApollo Pharmacy\nBARJAPUR ROAD 2 ATTIBELE\nDate / Time\n:\nAddress\n2024-Oct-25 10:53:00 PM\n51\nNO 31,PID NO 150200100200301\nCont. No\nApollo\n(Apollo Pharmacies Limited)\nTerminal No. :\nTel. No\n001\n9509070863\nPHARMACY\nToll No: 1860 500 0101\n800\nName\nWebsite: www.apollopharmacy.in\nDL. No\nMOUNESH\nRA-B62-20-248697. KA-B62-21-248698\nRef. No.\n:\nC.GSTIN:\nGSTIN\n9509070863\n9AAPCA5954P1ZN\nDr.\n:\nINVOICE\nFSSAI\nDR ARUN\n1274302000501\nQTY.\nITEM NAME\nHSN CODE\nMFRS\nBATCH NO\nEXPIRY\nSCH\nMRP\nCGST%\nSGST%\nTAXABLE\nTOTAL AMOUNT\n1\n* HAJMOLA REGULAR\n30049011\nDABU\nTQ0004\nJun-26.\n70.00\n6.00\n6.00\n62.50\n70.00\n1\nT-BACT 2%W/W OINT: 15G\n30042099\nBLAX\n4HX30\nSeo-25\non\n340.87\n6.00\n6.00\n004.35\n$40.87\nTotal\nCIN:/U52500TN2016PLC111328\nRegistered Office: No. 19 Bishop Gardens, Raja Annamalaipuram, Chennah- 600028 ST:22.01\nDiscount:\n410.87\nAdmin Office: (For all correspondence) All Towers, III rd Floor, No. 55, Greams Road, Chennai 600006.\nNet Total:\n0.00\nDPCO Items\nNo Tax is Payable on reverse Charges basis\nDonation\nAPL78918\nFor Apollo Pharmacy-Pharmacist\nQR Code was digitally displayed to the Customer at the time of transaction",
+  "gold": {
+    "invoice_number": "18816MS0012648",
+    "patient_name": "MOUNESH",
+    "services": [
+      {
+        "service": "HAJMOLA REGULAR",
+        "amount": 70.0,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": null,
+        "mrp": 70.0,
+        "cgst": 6.0,
+        "cgst_type": "PERCENT",
+        "sgst": 6.0,
+        "sgst_type": "PERCENT",
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "T-BACT 2%W/W OINT: 15G",
+        "amount": 340.87,
+        "quantity": 1,
+        "department": "pharmacy",
+        "unit": "15G",
+        "mrp": 340.87,
+        "cgst": 6.0,
+        "cgst_type": "PERCENT",
+        "sgst": 6.0,
+        "sgst_type": "PERCENT",
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 410.87,
+    "doctor_name": "DR ARUN",
+    "facility": "Apollo Pharmacy (Apollo Pharmacies Limited) BARJAPUR ROAD 2 ATTIBELE NO 31,PID NO 150200100200301 Cont. No: 9509070863 Tel. No: 800 Toll No: 1860 500 0101 Website: www.apollopharmacy.in",
+    "invoice_date": "2024-Oct-25 10:53:00 PM",
+    "payment_mode": null,
+    "patient_age": null,
+    "patient_gender": null,
+    "patient_contact": "9509070863",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 410.87,
+    "mrp": 410.87,
+    "round_off": 0
+  }
+}

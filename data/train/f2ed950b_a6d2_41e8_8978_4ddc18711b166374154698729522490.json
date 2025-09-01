@@ -1,0 +1,55 @@
+{
+  "file_id": "f2ed950b_a6d2_41e8_8978_4ddc18711b166374154698729522490",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName :: Ms. Myra Methre\nName :: Ms. Myra Methre\n\n=== SUPPLIER INFORMATION ===\nADDRESS: PURNAM DIAGNOSTICS\n# B185, 3rd Floor,\nS.F.S Colony, (208 Phase),\nYelahanka New Town,\nBangalore - 560 064\nSTREET: # B185, 3rd Floor,\nS.F.S Colony, (208 Phase),\nCITY: Bangalore\nZIP_CODE: 560 064\nNAME: PURNAM DIAGNOSTICS\nADDRESS_BLOCK: # B185, 3rd Floor,\nS.F.S Colony, (208 Phase),\nYelahanka New Town,\nBangalore - 560 064\nNAME: Purnam\nDIAGNOSTICS\nVENDOR_ADDRESS: PURNAM DIAGNOSTICS\n# B185, 3rd Floor,\nS.F.S Colony, (208 Phase),\nYelahanka New Town,\nBangalore - 560 064\nVENDOR_NAME: PURNAM DIAGNOSTICS\nVENDOR_NAME: Purnam\nDIAGNOSTICS\nVENDOR_PHONE: +91 1 6366118803\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nTotal Paid :: 850.00 Receipt No. :: I 2653\n- Payable Amount (in words) :: Eight Hundred Fifty only Total :: 850.00 Payable Amount :: 850.00 Payable Amount (in words) :: Eight Hundred Fifty only Payable Amount :: 850.00 Sex / Age :: Female / 6.2 years Payment Mode :: UPI Referral :: Dr. Vyshak A P Cashier's Signature: for Sr.: 1 Test Name: Urine Routine Examination Test Price: 200.00  | Sr.: 2 Test Name: Culture & Sensitivity - Urine (Auto) Test Price: 650.00  | \n\nRaw Text Content:\nPurnam\nDIAGNOSTICS\nRECEIPT\nReceipt No. : I - 2653\nName : Ms. Myra Methre (ID: 1924)\nSex / Age : Female / 6.2 years\nPayment Mode : UPI\nReferral : Dr. Vyshak A P\nDate & Time : 11/07/24, 07:34 PM\nSr.\nTest Name\nTest Price\n1\nUrine Routine Examination\n200.00\n2\nCulture & Sensitivity - Urine (Auto)\n650.00\nPayable Amount (in words) : Eight Hundred Fifty only\nTotal :\n850.00\nPayable Amount :\n850.00\nTotal Paid :\n850.00\nfor\nCashier's Signature\nPURNAM DIAGNOSTICS\n# B185, 3rd Floor,\nS.F.S Colony, (208 Phase),\nYelahanka New Town,\nBangalore - 560 064\n+91 1 6366118803\npurnamylk@gmail.com",
+  "gold": {
+    "invoice_number": "I - 2653",
+    "patient_name": "Ms. Myra Methre",
+    "services": [
+      {
+        "service": "Urine Routine Examination",
+        "amount": 200.0,
+        "quantity": 1,
+        "department": "laboratory",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      },
+      {
+        "service": "Culture & Sensitivity - Urine (Auto)",
+        "amount": 650.0,
+        "quantity": 1,
+        "department": "laboratory",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 850.0,
+    "doctor_name": "Dr. Vyshak A P",
+    "facility": "PURNAM DIAGNOSTICS # B185, 3rd Floor, S.F.S Colony, (208 Phase), Yelahanka New Town, Bangalore - 560 064 +91 1 6366118803 purnamylk@gmail.com",
+    "invoice_date": "11/07/24, 07:34 PM",
+    "payment_mode": "UPI",
+    "patient_age": "6.2 years",
+    "patient_gender": "Female",
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

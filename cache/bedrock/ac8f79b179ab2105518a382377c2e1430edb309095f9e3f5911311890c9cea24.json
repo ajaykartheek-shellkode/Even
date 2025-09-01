@@ -1,0 +1,13 @@
+{
+  "output": "{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"OCS27-00041446\",\n    \"patient_name\": \"Baby B/O MAYA KILPADI\",\n    \"services\": [\n      {\n        \"service\": \"BLOOD GROUPING\",\n        \"amount\": 400.00,\n        \"quantity\": 1,\n        \"department\": \"Internal\",\n        \"unit\": \"\",\n        \"mrp\": 400.00,\n        \"cgst\": 0,\n        \"cgst_type\": \"\",\n        \"sgst\": 0,\n        \"sgst_type\": \"\",\n        \"gst\": 0,\n        \"gst_type\": \"\"\n      },\n      {\n        \"service\": \"NEONATAL SCREENING ADVANCED\",\n        \"amount\": 4700.00,\n        \"quantity\": 1,\n        \"department\": \"Internal\",\n        \"unit\": \"\",\n        \"mrp\": 4700.00,\n        \"cgst\": 0,\n        \"cgst_type\": \"\",\n        \"sgst\": 0,\n        \"sgst_type\": \"\",\n        \"gst\": 0,\n        \"gst_type\": \"\"\n      }\n    ],\n    \"total_amount\": 5100.00,\n    \"doctor_name\": \"Dr. RAJATH ATHREYA\",\n    \"facility\": \"Rainbow Children's Hospital Sarjapur, 3/2, 2nd floor, Sarjapur Marathahalli Rd, opp. to 3m car care, Bellandur, Bengaluru, Karnataka 560102\",\n    \"invoice_date\": \"05-09-2024\",\n    \"payment_mode\": \"DC/CC Card\",\n    \"patient_age\": \"2 Days\",\n    \"patient_gender\": \"Male\",\n    \"patient_contact\": \"8008553242\",\n    \"cgst\": 0,\n    \"cgst_type\": \"\",\n    \"sgst\": 0,\n    \"sgst_type\": \"\",\n    \"gst\": 0,\n    \"gst_type\": \"\",\n    \"discount\": 0,\n    \"mrp\": 5100.00,\n    \"round_off\": 0\n  }\n}",
+  "meta": {
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "temperature": 0.05,
+    "max_tokens": 2000,
+    "call_duration": 7.8273890018463135,
+    "timestamp": 1756702943.3700402,
+    "cache_key": "ac8f79b179ab2105518a382377c2e1430edb309095f9e3f5911311890c9cea24",
+    "prompt_length": 8736,
+    "output_length": 1338
+  }
+}

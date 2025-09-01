@@ -1,0 +1,41 @@
+{
+  "file_id": "image_picker_39A08C91_A130_401C_ABFF_7C4B129855AF_5646_000000E2191695B2",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nName\n:: RESHMA JI\nName\n:: RESHMA JI\nMob :: 8209751397\n\n=== SUPPLIER INFORMATION ===\nADDRESS: SHREENATH HOSPITAL & RESEARCH CENTRE\n3, NAVRATNA COMPLEX,\n,\nSTREET: 3, NAVRATNA COMPLEX,\nNAME: SHREENATH HOSPITAL & RESEARCH CENTRE\nADDRESS_BLOCK: 3, NAVRATNA COMPLEX,\nNAME: SHREENATH HOSPITAL & RESEARCH CENTRE\nNAME: Applint\nR eccipt No :\nVENDOR_ADDRESS: SHREENATH HOSPITAL & RESEARCH CENTRE\n3, NAVRATNA COMPLEX,\n,\nVENDOR_NAME: SHREENATH HOSPITAL & RESEARCH CENTRE\nVENDOR_NAME: SHREENATH HOSPITAL & RESEARCH CENTRE\nVENDOR_NAME: Applint\nR eccipt No :\nContact No: :: 9414162139,\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nDate :: 26/05/2025 R eccipt No :: 4380 R No: 105443 Total Amt :: 200.00 Reed Amt :: 200.00 Rs TWO HUNDRED: Rs TWO HUNDRED ONLY OPD No: 3863 Time :: 17: 32 AgeSex :: 50Yrs Female\n, Doctor\n:: DR. MS PARIHAR Ref.By: SELF- Valid Upto :: 01/06/2025  | \n\nRaw Text Content:\nSHREENATH HOSPITAL & RESEARCH CENTRE\nApplint\n3, NAVRATNA COMPLEX, ,\nContact No: :9414162139,\nGENERAL CASH RECEIPT\nR\neccipt No : 4380\nOPD No\n3863\nDate : 26/05/2025 Time : 17:32\nName\n: RESHMA JI\nR No\n105443\nAgeSex : 50Yrs , Female\nAddress\n: UDAIPUR Mob : 8209751397\nDoctor\n: DR. MS PARIHAR\nRef.By SELF-\nSNo Service Rendered\nAmount\n1\nCONSULTATION CHARGES\n200.00\nTotal Amt\n:\n200.00\nReed Amt :\n200.00\nRs TWO HUNDRED ONLY\nValid Upto : 01/06/2025\nThanks for Visit J SUTHAR\nFor SHREENATH HOSPITAL & RESEARCH CENTRE",
+  "gold": {
+    "invoice_number": "4380",
+    "patient_name": "RESHMA JI",
+    "services": [
+      {
+        "service": "CONSULTATION CHARGES",
+        "amount": 200.0,
+        "quantity": 1,
+        "department": "consultation",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 200.0,
+    "doctor_name": "DR. MS PARIHAR",
+    "facility": "SHREENATH HOSPITAL & RESEARCH CENTRE, 3, NAVRATNA COMPLEX, , Contact No: 9414162139",
+    "invoice_date": "26/05/2025",
+    "payment_mode": "Cash",
+    "patient_age": "50Yrs",
+    "patient_gender": "Female",
+    "patient_contact": "8209751397",
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "file_id": "image_picker_A922DE33_2B35_4F5C_9BF0_8A27969144A1_37448_00000C32BA80ACA2",
+  "raw_text": "=== CUSTOMER INFORMATION ===\nPatient Name: RAZIA NAAZ\nPatient Name: RAZIA NAAZ\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Royd Nursing Home & Health Care Ltd.\n5B, Royd Street, Kolkata - 700 016\nSTREET: 5B, Royd Street,\nCITY: Kolkata\nZIP_CODE: 700 016\nNAME: Royd Nursing Home & Health Care Ltd.\nADDRESS_BLOCK: 5B, Royd Street, Kolkata 700 016\n-\nVENDOR_ADDRESS: Royd Nursing Home & Health Care Ltd.\n5B, Royd Street, Kolkata - 700 016\nVENDOR_NAME: Royd Nursing Home & Health Care Ltd.\nPhone ::  033 2227-1666/7\nVENDOR_PHONE: 033-4601-6536/7\nWebsite: www.roydnursinghome.com\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nPatient ID: 04022025L66 Report Date: 6 Feb 2025 CIN: U85100WB1986PLC098553 E-mail :: roydnursinghome@hotmail.com BED NO.: OPD Age: 48 YRS Referrer Dr: J.IQBAL Sex: Female Study Date: 4 Feb 2025 Time: 6: 08pm Time: 10: 23pm IMPRESSION : -: No significant abnormality detected. : -\nSuggest: clinical correlation and follow up. Dr. Nitin Tahaliyani\nDNB (Radio-Diagnosis): And \n\nRaw Text Content:\nRoyd Nursing Home & Health Care Ltd.\n5B, Royd Street, Kolkata - 700 016\nPhone : 033 2227-1666/7 033-4601-6536/7\nE-mail : roydnursinghome@hotmail.com\n®\nLove Life Live Longer\nWebsite www.roydnursinghome.com\nHASH\nA\nCIN U85100WB1986PLC098553\nCERTIFIED\nPatient Name\nRAZIA NAAZ\nBED NO.\nOPD\nPatient ID\n04022025L66\nAge\n48 YRS\nReferrer Dr\nJ.IQBAL\nSex\nFemale\nStudy Date\n4 Feb 2025\nReport Date\n6 Feb 2025\nTime\n6:08pm\nTime\n10:23pm\nX-RAY PELVIS WITH BOTH HIP JOINTS AP VIEW.\nOBSERVATIONS :-\nThe bones of pelvis and both hip joints show normal architecture and normal\nalignment.\nThe hip joint space is normal.\nThe articular margins are normal\nNo soft tissue mass or calcification is seen.\nNegative for fracture.\nNegative for dislocation.\nNo evidence of sclerotic lesion is seen.\nNo evidence of lytic lesion is seen.\nNo evidence of loose bodies or joint effusion is noted.\nThe sacroiliac joints are normal.\nIMPRESSION :-\nNo significant abnormality detected.\nSuggest :- clinical correlation and follow up.\nAnd\nDr. Nitin Tahaliyani\nDNB (Radio-Diagnosis)\n6540/2016 CGMC\nSERVICES\nPATHOLOGY RADIOLOGY OPD IPD ICCU & ITU DIALYSIS O.T PHARMACY & 24 HOURS AMBULANCE",
+  "gold": {
+    "invoice_number": null,
+    "patient_name": "RAZIA NAAZ",
+    "services": [
+      {
+        "service": "X-RAY PELVIS WITH BOTH HIP JOINTS AP VIEW",
+        "amount": 0,
+        "quantity": 1,
+        "department": "radiology",
+        "unit": null,
+        "mrp": 0,
+        "cgst": 0,
+        "cgst_type": null,
+        "sgst": 0,
+        "sgst_type": null,
+        "gst": 0,
+        "gst_type": null
+      }
+    ],
+    "total_amount": 0,
+    "doctor_name": "Dr. Nitin Tahaliyani",
+    "facility": "Royd Nursing Home & Health Care Ltd. 5B, Royd Street, Kolkata - 700 016 Phone : 033 2227-1666/7 033-4601-6536/7 E-mail : roydnursinghome@hotmail.com Website: www.roydnursinghome.com",
+    "invoice_date": "4 Feb 2025",
+    "payment_mode": null,
+    "patient_age": "48 YRS",
+    "patient_gender": "Female",
+    "patient_contact": null,
+    "cgst": 0,
+    "cgst_type": null,
+    "sgst": 0,
+    "sgst_type": null,
+    "gst": 0,
+    "gst_type": null,
+    "discount": 0,
+    "mrp": 0,
+    "round_off": 0
+  }
+}

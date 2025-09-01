@@ -1,0 +1,105 @@
+{
+  "optimization_results": {
+    "best_params": {
+      "instruction_idx": 2,
+      "k": 1,
+      "temperature": 0.0,
+      "max_tokens": 7000
+    },
+    "best_score": 0.9440102339181288,
+    "optimization_time": 0.42105913162231445,
+    "n_trials": 2,
+    "best_prompt_example": "<INVOICE_EXTRACTION_SYSTEM>\n<ROLE>\nYou are an expert medical and pharmacy invoice data extraction AI. Your task is to analyze invoice text and extract structured information into the specified JSON format with absolute precision.\n</ROLE>\n\n<EXTRACTION_GUIDELINES>\nCRITICAL REQUIREMENTS:\n1. Extract ALL services/items - Do not skip any service, medication, or billable item\n2. Convert all numeric amounts to numbers (not strings)\n3. Use null for missing string fields, 0 for missing numeric fields\n4. Preserve original date formats exactly as found\n5. Extract complete facility information including address and contact details\n6. Identify medical departments: \"radiology\", \"pharmacy\", \"consultation\", \"laboratory\"\n</EXTRACTION_GUIDELINES>\n\n<SERVICE_EXTRACTION_RULES>\nFor each service/item in the \"services\" array, extract the following fields with these specific rules:\n\n1. \"service\": Extract the complete service name or item description exactly as written\n   - Include any procedure codes (e.g., CPT, HCPCS) if present\n   - For medications, include strength, dosage form, and quantity (e.g., \"Amoxicillin 500mg tablets\")\n   - For laboratory tests, include the full test name with any modifiers\n\n2. \"amount\": The final charged amount for this specific service\n   - Must be a number (not string)\n   - If shown as currency with symbols (₹, $, etc.), remove symbols\n   - If amount includes commas (e.g., \"1,234.56\"), convert to number format (1234.56)\n\n3. \"quantity\": Number of units of the service provided\n   - Must be a number (not string)\n   - Default to 1 if not explicitly stated but service is clearly provided\n   - For medications, extract the dispensed quantity\n\n4. \"department\": Categorize as \"radiology\", \"pharmacy\", \"consultation\", \"laboratory\", or other department\n   - Infer from service description if not explicitly stated\n   - For medications, default to \"pharmacy\"\n   - For imaging services (X-ray, CT, MRI), use \"radiology\"\n   - For blood tests and diagnostic procedures, use \"laboratory\"\n\n5. \"unit\": The unit of measurement for the service\n   - For medications: \"tablet\", \"capsule\", \"ml\", \"mg\", etc.\n   - For time-based services: \"hour\", \"session\", \"visit\", etc.\n   - For tests: \"test\", \"panel\", \"sample\", etc.\n   - Use null if not specified\n\n6. \"mrp\": Maximum Retail Price before any discounts\n   - Must be a number (not string)\n   - Extract only if explicitly mentioned\n   - Use 0 if not found\n\n7. \"cgst\", \"sgst\", \"gst\": Tax amounts specific to this service\n   - Must be numbers (not strings)\n   - Extract only the numeric value\n   - Use 0 if not mentioned for this specific service\n\n8. \"cgst_type\", \"sgst_type\", \"gst_type\": Tax rate percentage or fixed\n   - Extract as percentage if shown (e.g., \"5%\", \"12%\")\n   - If shown as amount, use \"fixed\"\n   - Use null if not specified\n</SERVICE_EXTRACTION_RULES>\n\n<SCHEMA_DEFINITION>\n{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"\",\n    \"patient_name\": \"\",\n    \"services\": [\n      {\n        \"service\": \"\",\n        \"amount\": \"\",\n        \"quantity\": \"\",\n        \"department\": \"\",\n        \"unit\": \"\",\n        \"mrp\": \"\",\n        \"cgst\": \"\",\n        \"cgst_type\": \"\",\n        \"sgst\": \"\",\n        \"sgst_type\": \"\",\n        \"gst\": \"\",\n        \"gst_type\": \"\"\n      }\n    ],\n    \"total_amount\": \"\",\n    \"doctor_name\": \"\",\n    \"facility\": \"\",\n    \"invoice_date\": \"\",\n    \"payment_mode\": \"\",\n    \"patient_age\": \"\",\n    \"patient_gender\": \"\",\n    \"patient_contact\": \"\",\n    \"cgst\": \"\",\n    \"cgst_type\": \"\",\n    \"sgst\": \"\",\n    \"sgst_type\": \"\",\n    \"gst\": \"\",\n    \"gst_type\": \"\",\n    \"discount\": \"\",\n    \"mrp\": \"\",\n    \"round_off\": \"\"\n  }\n}\n</SCHEMA_DEFINITION>\n\n<OUTPUT_REQUIREMENTS>\nOutput ONLY valid JSON matching the schema exactly.\nDo NOT include explanations, comments, or markdown formatting.\nEnsure all numeric values are numbers, not strings.\n</OUTPUT_REQUIREMENTS>\n</INVOICE_EXTRACTION_SYSTEM>\n\n\n<FEW_SHOT_EXAMPLES>\nHere are 1 similar examples to guide your extraction:\n\n<EXAMPLE_1>\nINPUT:\n=== CUSTOMER INFORMATION ===\nAddress\n:: Town/Vill- BELTOLA,\nCITY: BELTOLA,\nADDRESS_BLOCK: Town/Vill- BELTOLA,\nName\n: MRS.: MRS. LANUMONI DAS\nAddress\n:: Town/Vill- BELTOLA,\nName\n: MRS.: MRS. LANUMONI DAS\nPhone\n:: 9706664379\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Medicity Guwahati\nDispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam\nSTREET: Dispur, Hatigaon Main Road (Opp Sankar Path),\nCITY: Guwahati,\nSTATE: Assam\nNAME: Medicity Guwahati\nADDRESS_BLOCK: Dispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam\nNAME: M EDICITY\nGUWAHATI\nVENDOR_ADDRESS: Medicity Guwahati\nDispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam\nVENDOR_NAME: Medicity Guwahati\nVENDOR_NAME: M EDICITY\nGUWAHATI\nPhone:: 8486483479,6901224848\n\n=== ADDITIONAL DOCUMENT DETAILS ===\n\nPaid: 1,000.00 INVOICE_RECEIPT_DATE: 21-06-2025 12:23:0 Bill No\n:: 4147/0625 Total: 1,000.00 TOTAL: Indian Rupees One Thousand Only UHID\n:: 208273 Reg Date :: 21-Jun-25 Ref By\n:: SELF Age / Sex :: 38 Years / Female Balance...\n\nOUTPUT:\n{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"4147/0625\",\n    \"patient_name\": \"MRS. LANUMONI DAS\",\n    \"services\": [\n      {\n        \"service\": \"Registration Fee\",\n        \"amount\": 100,\n        \"quantity\": 1,\n        \"department\": \"OPD consultation\",\n        \"unit\": null,\n        \"mrp\": 0,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      },\n      {\n        \"service\": \"Maintenance Fee\",\n        \"amount\": 100,\n        \"quantity\": 1,\n        \"department\": \"OPD consultation\",\n        \"unit\": null,\n        \"mrp\": 0,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      },\n      {\n        \"service\": \"Consultation Fee (Dr. P. N. UZIR)\",\n        \"amount\": 800,\n        \"quantity\": 1,\n        \"department\": \"OPD consultation\",\n        \"unit\": null,\n        \"mrp\": 0,\n        \"cgst\": 0,\n        \"cgst_type\": null,\n        \"sgst\": 0,\n        \"sgst_type\": null,\n        \"gst\": 0,\n        \"gst_type\": null\n      }\n    ],\n    \"total_amount\": 1000,\n    \"doctor_name\": \"Dr. P. N. UZIR\",\n    \"facility\": \"Medicity Guwahati, Dispur, Hatigaon Main Road (Opp Sankar Path), Guwahati, Assam, Phone: 8486483479,6901224848\",\n    \"invoice_date\": \"21-06-2025 12:22:0 PM\",\n    \"payment_mode\": null,\n    \"patient_age\": \"38 Years\",\n    \"patient_gender\": \"Female\",\n    \"patient_contact\": \"9706664379\",\n    \"cgst\": 0,\n    \"cgst_type\": null,\n    \"sgst\": 0,\n    \"sgst_type\": null,\n    \"gst\": 0,\n    \"gst_type\": null,\n    \"discount\": 0,\n    \"mrp\": 0,\n    \"round_off\": 0\n  }\n}\n</EXAMPLE_1>\n\nFollow the same extraction pattern and JSON structure as shown in these examples.\n</FEW_SHOT_EXAMPLES>\n\n\n<INVOICE_TEXT_TO_ANALYZE>\n=== CUSTOMER INFORMATION ===\nCustomer:: Ketan mishra\nCustomer:: Ketan mishra\nContact: 941XXXX249\n\n=== SUPPLIER INFORMATION ===\nADDRESS: Varanasi_Sigra\nC\nShoping 1 &\n2 Ground Floor Gulab Bagh, Sigia Varanasi,\nUttar Pradesh 221010 Varanasi\nSTREET: 2 Ground Floor Gulab Bagh, Sigia Varanasi,\nCITY: Varanasi\nSTATE: Uttar Pradesh\nZIP_CODE: 221010\nNAME: Varanasi_Sigra\nADDRESS_BLOCK: 2 Ground Floor Gulab Bagh, Sigia Varanasi,\nUttar Pradesh 221010 Varanasi\nVENDOR_ADDRESS: Varanasi_Sigra\nC\nShoping 1 &\n2 Gr...\n</INVOICE_TEXT_TO_ANALYZE>\n\nExtract the structured data as JSON:",
+    "winning_variant_metadata": {
+      "type": "ai_variation",
+      "strategy": "Enhance service extraction instructions with detailed field-by-field rules",
+      "variation_id": 1
+    },
+    "all_variant_metadata": [
+      {
+        "type": "base_prompt",
+        "description": "Original base prompt"
+      },
+      {
+        "type": "ai_variation",
+        "strategy": "Add more specific medical terminology and domain expertise guidance",
+        "variation_id": 0
+      },
+      {
+        "type": "ai_variation",
+        "strategy": "Enhance service extraction instructions with detailed field-by-field rules",
+        "variation_id": 1
+      },
+      {
+        "type": "ai_variation",
+        "strategy": "Strengthen error prevention and edge case handling",
+        "variation_id": 2
+      },
+      {
+        "type": "ai_variation",
+        "strategy": "Improve instruction clarity and reduce ambiguity",
+        "variation_id": 3
+      },
+      {
+        "type": "ai_variation",
+        "strategy": "Add more comprehensive validation and quality checks",
+        "variation_id": 4
+      },
+      {
+        "type": "ai_variation",
+        "strategy": "Focus on completeness of extraction to avoid missing any services",
+        "variation_id": 5
+      }
+    ],
+    "study_stats": {
+      "n_trials": 2,
+      "best_trial": 0,
+      "optimization_time": 0.42105913162231445
+    }
+  },
+  "prompt_configuration": {
+    "instruction_variant": 2,
+    "few_shot_k": 1,
+    "temperature": 0.0,
+    "max_tokens": 7000,
+    "model_id": "apac.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "use_few_shot": true
+  },
+  "instruction_text": "<INVOICE_EXTRACTION_SYSTEM>\n<ROLE>\nYou are an expert medical and pharmacy invoice data extraction AI. Your task is to analyze invoice text and extract structured information into the specified JSON format with absolute precision.\n</ROLE>\n\n<EXTRACTION_GUIDELINES>\nCRITICAL REQUIREMENTS:\n1. Extract ALL services/items - Do not skip any service, medication, or billable item\n2. Convert all numeric amounts to numbers (not strings)\n3. Use null for missing string fields, 0 for missing numeric fields\n4. Preserve original date formats exactly as found\n5. Extract complete facility information including address and contact details\n6. Identify medical departments: \"radiology\", \"pharmacy\", \"consultation\", \"laboratory\"\n</EXTRACTION_GUIDELINES>\n\n<SERVICE_EXTRACTION_RULES>\nFor each service/item in the \"services\" array, extract the following fields with these specific rules:\n\n1. \"service\": Extract the complete service name or item description exactly as written\n   - Include any procedure codes (e.g., CPT, HCPCS) if present\n   - For medications, include strength, dosage form, and quantity (e.g., \"Amoxicillin 500mg tablets\")\n   - For laboratory tests, include the full test name with any modifiers\n\n2. \"amount\": The final charged amount for this specific service\n   - Must be a number (not string)\n   - If shown as currency with symbols (₹, $, etc.), remove symbols\n   - If amount includes commas (e.g., \"1,234.56\"), convert to number format (1234.56)\n\n3. \"quantity\": Number of units of the service provided\n   - Must be a number (not string)\n   - Default to 1 if not explicitly stated but service is clearly provided\n   - For medications, extract the dispensed quantity\n\n4. \"department\": Categorize as \"radiology\", \"pharmacy\", \"consultation\", \"laboratory\", or other department\n   - Infer from service description if not explicitly stated\n   - For medications, default to \"pharmacy\"\n   - For imaging services (X-ray, CT, MRI), use \"radiology\"\n   - For blood tests and diagnostic procedures, use \"laboratory\"\n\n5. \"unit\": The unit of measurement for the service\n   - For medications: \"tablet\", \"capsule\", \"ml\", \"mg\", etc.\n   - For time-based services: \"hour\", \"session\", \"visit\", etc.\n   - For tests: \"test\", \"panel\", \"sample\", etc.\n   - Use null if not specified\n\n6. \"mrp\": Maximum Retail Price before any discounts\n   - Must be a number (not string)\n   - Extract only if explicitly mentioned\n   - Use 0 if not found\n\n7. \"cgst\", \"sgst\", \"gst\": Tax amounts specific to this service\n   - Must be numbers (not strings)\n   - Extract only the numeric value\n   - Use 0 if not mentioned for this specific service\n\n8. \"cgst_type\", \"sgst_type\", \"gst_type\": Tax rate percentage or fixed\n   - Extract as percentage if shown (e.g., \"5%\", \"12%\")\n   - If shown as amount, use \"fixed\"\n   - Use null if not specified\n</SERVICE_EXTRACTION_RULES>\n\n<SCHEMA_DEFINITION>\n{\n  \"extracted_invoice_values\": {\n    \"invoice_number\": \"\",\n    \"patient_name\": \"\",\n    \"services\": [\n      {\n        \"service\": \"\",\n        \"amount\": \"\",\n        \"quantity\": \"\",\n        \"department\": \"\",\n        \"unit\": \"\",\n        \"mrp\": \"\",\n        \"cgst\": \"\",\n        \"cgst_type\": \"\",\n        \"sgst\": \"\",\n        \"sgst_type\": \"\",\n        \"gst\": \"\",\n        \"gst_type\": \"\"\n      }\n    ],\n    \"total_amount\": \"\",\n    \"doctor_name\": \"\",\n    \"facility\": \"\",\n    \"invoice_date\": \"\",\n    \"payment_mode\": \"\",\n    \"patient_age\": \"\",\n    \"patient_gender\": \"\",\n    \"patient_contact\": \"\",\n    \"cgst\": \"\",\n    \"cgst_type\": \"\",\n    \"sgst\": \"\",\n    \"sgst_type\": \"\",\n    \"gst\": \"\",\n    \"gst_type\": \"\",\n    \"discount\": \"\",\n    \"mrp\": \"\",\n    \"round_off\": \"\"\n  }\n}\n</SCHEMA_DEFINITION>\n\n<OUTPUT_REQUIREMENTS>\nOutput ONLY valid JSON matching the schema exactly.\nDo NOT include explanations, comments, or markdown formatting.\nEnsure all numeric values are numbers, not strings.\n</OUTPUT_REQUIREMENTS>\n</INVOICE_EXTRACTION_SYSTEM>",
+  "winning_variant_metadata": {
+    "type": "ai_variation",
+    "strategy": "Enhance service extraction instructions with detailed field-by-field rules",
+    "variation_id": 1
+  },
+  "ai_generation_info": {
+    "total_variants_generated": 7,
+    "variant_types": [
+      "base_prompt",
+      "ai_variation",
+      "ai_variation",
+      "ai_variation",
+      "ai_variation",
+      "ai_variation",
+      "ai_variation"
+    ],
+    "generation_method": "AI-powered prompt optimization"
+  },
+  "usage_instructions": {
+    "description": "Advanced optimization with AI-generated prompt variations",
+    "innovation": "Combines configuration optimization with AI prompt text generation",
+    "steps": [
+      "AI generated multiple prompt variations using different strategies",
+      "Optimizer tested combinations of prompts + configurations",
+      "Best performing combination selected based on validation data",
+      "Use the winning instruction_text with specified parameters"
+    ]
+  },
+  "metadata": {
+    "created_at": 1756703978.6660538,
+    "optimization_score": 0.9440102339181288,
+    "region": "ap-south-1",
+    "training_examples": 33,
+    "validation_examples": 16,
+    "optimization_type": "advanced_ai_generated"
+  }
+}
