@@ -1,0 +1,148 @@
+# ===========================
+# Universal .gitignore (base)
+# ===========================
+
+# --- OS cruft ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Linux
+*~
+
+# --- General build + temp ---
+*.log
+*.log.*
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.orig
+*.bak
+*.backup
+*.cache
+.cache/
+!.keep
+*.pid
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+
+# --- Env & secrets (keep examples) ---
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+*.p12
+*.cer
+*.der
+id_rsa*
+id_dsa*
+*.crt
+
+# --- Git merge/patch leftovers ---
+*.rej
+*.patch
+*.un~
+*.orig
+
+# ===========================
+# Editors / IDEs
+# ===========================
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, Android Studio, Rider)
+.idea/
+*.iml
+
+# Xcode
+*.xccheckout
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcscmblueprint
+DerivedData/
+build/
+
+# Others
+.vs/
+.history/
+.fleet/
+.c9/
+.repl_history
+
+# ===========================
+# JavaScript / TypeScript / Frontend
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+dist/
+build/
+out/
+coverage/
+lib/
+# Bundlers / frameworks
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.turbo/
+.turbo/*
+.storybook-out/
+storybook-static/
+# Yarn PnP
+.pnp.*
+# Expo / React Native
+.expo/
+.expo-shared/
+# Gatsby
+.cache/
+public/
+# Angular
+.angular/
+# Docusaurus
+.docusaurus/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.tox
